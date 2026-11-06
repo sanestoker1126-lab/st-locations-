@@ -1,0 +1,710 @@
+{
+  "version": 1,
+  "country_or_territory_codes": [
+    "US",
+    "CA",
+    "PR",
+    "MX"
+  ],
+  "include_chains": true,
+  "classification": "Categorías comerciales y grupo de cadena separados; no inferir propiedad latina.",
+  "selection_status": "Operativa. Rankings demográficos pendientes de fuente; el orden no representa una clasificación estadística.",
+  "us_secondary_regions_from_prior_user_requests": [
+    "NC",
+    "GA"
+  ],
+  "comparable_cross_country_demographic_rank": false,
+  "phone_requirement": "Teléfono comercial publicado con fuente y fecha. Estructura por país; vigencia actual no demostrada.",
+  "geography_note": "Cuadrículas iniciales pequeñas, no cobertura completa de cada ciudad. Extracción por área administrativa y revisión de conflictos.",
+  "countries": [
+    {
+      "code": "US",
+      "name": "Estados Unidos",
+      "calling_code": "+1",
+      "metric": "Proporción de población Hispanic or Latino / población total (ACS B03003). Contrastar porcentaje y volumen por separado.",
+      "demographic_source": "https://api.census.gov/data/2024/acs/acs5?get=NAME%2CB03003_001E%2CB03003_003E&for=state%3A%2A",
+      "ranking_status": "pending_source_access",
+      "regions": [
+        {
+          "code": "NM",
+          "name": "Nuevo México",
+          "iso3166_2": "US-NM",
+          "cities": [
+            {
+              "name": "Albuquerque",
+              "bbox": [
+                35.055,
+                -106.675,
+                35.105,
+                -106.625
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "name": "California",
+          "iso3166_2": "US-CA",
+          "cities": [
+            {
+              "name": "Los Angeles",
+              "bbox": [
+                34.025,
+                -118.275,
+                34.075,
+                -118.225
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "San Diego",
+              "bbox": [
+                32.695,
+                -117.185,
+                32.745,
+                -117.135
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "TX",
+          "name": "Texas",
+          "iso3166_2": "US-TX",
+          "cities": [
+            {
+              "name": "Houston",
+              "bbox": [
+                29.735,
+                -95.395,
+                29.785,
+                -95.345
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "El Paso",
+              "bbox": [
+                31.735,
+                -106.515,
+                31.785,
+                -106.465
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "AZ",
+          "name": "Arizona",
+          "iso3166_2": "US-AZ",
+          "cities": [
+            {
+              "name": "Phoenix",
+              "bbox": [
+                33.425,
+                -112.095,
+                33.475,
+                -112.045
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Tucson",
+              "bbox": [
+                32.195,
+                -110.995,
+                32.245,
+                -110.945
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "NV",
+          "name": "Nevada",
+          "iso3166_2": "US-NV",
+          "cities": [
+            {
+              "name": "Las Vegas",
+              "bbox": [
+                36.145,
+                -115.165,
+                36.195,
+                -115.115
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "FL",
+          "name": "Florida",
+          "iso3166_2": "US-FL",
+          "cities": [
+            {
+              "name": "Miami",
+              "bbox": [
+                25.745,
+                -80.215,
+                25.795,
+                -80.165
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Orlando",
+              "bbox": [
+                28.515,
+                -81.405,
+                28.565,
+                -81.355
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "CO",
+          "name": "Colorado",
+          "iso3166_2": "US-CO",
+          "cities": [
+            {
+              "name": "Denver",
+              "bbox": [
+                39.715,
+                -105.015,
+                39.765,
+                -104.965
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "NJ",
+          "name": "Nueva Jersey",
+          "iso3166_2": "US-NJ",
+          "cities": [
+            {
+              "name": "Newark",
+              "bbox": [
+                40.715,
+                -74.195,
+                40.765,
+                -74.145
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "NY",
+          "name": "Nueva York",
+          "iso3166_2": "US-NY",
+          "cities": [
+            {
+              "name": "New York",
+              "bbox": [
+                40.695,
+                -74.015,
+                40.745,
+                -73.965
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "CT",
+          "name": "Connecticut",
+          "iso3166_2": "US-CT",
+          "cities": [
+            {
+              "name": "Hartford",
+              "bbox": [
+                41.735,
+                -72.705,
+                41.785,
+                -72.655
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "RI",
+          "name": "Rhode Island",
+          "iso3166_2": "US-RI",
+          "cities": [
+            {
+              "name": "Providence",
+              "bbox": [
+                41.795,
+                -71.435,
+                41.845,
+                -71.385
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "IL",
+          "name": "Illinois",
+          "iso3166_2": "US-IL",
+          "cities": [
+            {
+              "name": "Chicago",
+              "bbox": [
+                41.855,
+                -87.655,
+                41.905,
+                -87.605
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "NC",
+          "name": "Carolina del Norte",
+          "iso3166_2": "US-NC",
+          "cities": [
+            {
+              "name": "Charlotte",
+              "bbox": [
+                35.205,
+                -80.865,
+                35.255,
+                -80.815
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Raleigh",
+              "bbox": [
+                35.755,
+                -78.665,
+                35.805,
+                -78.615
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Durham",
+              "bbox": [
+                35.965,
+                -78.925,
+                36.015,
+                -78.875
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "GA",
+          "name": "Georgia",
+          "iso3166_2": "US-GA",
+          "cities": [
+            {
+              "name": "Atlanta",
+              "bbox": [
+                33.725,
+                -84.415,
+                33.775,
+                -84.365
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        }
+      ],
+      "obtained_contacts": 8437
+    },
+    {
+      "code": "CA",
+      "name": "Canadá",
+      "calling_code": "+1",
+      "metric": "Categoría Latin American del Censo 2021; definición y denominador propios. No se equipara automáticamente con Hispanic or Latino de EE. UU.",
+      "demographic_source": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E",
+      "ranking_status": "pending_source_access",
+      "regions": [
+        {
+          "code": "ON",
+          "name": "Ontario",
+          "iso3166_2": "CA-ON",
+          "cities": [
+            {
+              "name": "Toronto",
+              "bbox": [
+                43.625,
+                -79.405,
+                43.675,
+                -79.355
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Ottawa",
+              "bbox": [
+                45.395,
+                -75.725,
+                45.445,
+                -75.675
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "QC",
+          "name": "Québec",
+          "iso3166_2": "CA-QC",
+          "cities": [
+            {
+              "name": "Montréal",
+              "bbox": [
+                45.475,
+                -73.595,
+                45.525,
+                -73.545
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "BC",
+          "name": "British Columbia",
+          "iso3166_2": "CA-BC",
+          "cities": [
+            {
+              "name": "Vancouver",
+              "bbox": [
+                49.255,
+                -123.145,
+                49.305,
+                -123.095
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "AB",
+          "name": "Alberta",
+          "iso3166_2": "CA-AB",
+          "cities": [
+            {
+              "name": "Calgary",
+              "bbox": [
+                51.025,
+                -114.095,
+                51.075,
+                -114.045
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Edmonton",
+              "bbox": [
+                53.525,
+                -113.515,
+                53.575,
+                -113.465
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        }
+      ],
+      "obtained_contacts": 365
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico (territorio de EE. UU.)",
+      "calling_code": "+1",
+      "metric": "Cobertura municipal de comercios; no usar el porcentaje latino como criterio equivalente para clasificar negocios.",
+      "demographic_source": "https://www.census.gov/programs-surveys/acs",
+      "ranking_status": "not_used_as_cross_country_rank",
+      "regions": [
+        {
+          "code": "PR",
+          "name": "Puerto Rico",
+          "iso3166_2": "US-PR",
+          "cities": [
+            {
+              "name": "San Juan",
+              "bbox": [
+                18.425,
+                -66.105,
+                18.475,
+                -66.055
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Bayamón",
+              "bbox": [
+                18.375,
+                -66.185,
+                18.425,
+                -66.135
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Carolina",
+              "bbox": [
+                18.355,
+                -65.985,
+                18.405,
+                -65.935
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Ponce",
+              "bbox": [
+                17.985,
+                -66.635,
+                18.035,
+                -66.585
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Mayagüez",
+              "bbox": [
+                18.175,
+                -67.165,
+                18.225,
+                -67.115
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Caguas",
+              "bbox": [
+                18.205,
+                -66.065,
+                18.255,
+                -66.015
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        }
+      ],
+      "obtained_contacts": 91
+    },
+    {
+      "code": "MX",
+      "name": "México: estados fronterizos con EE. UU.",
+      "calling_code": "+52",
+      "metric": "Cobertura comercial y remesas en los seis estados con frontera terrestre con EE. UU.; no ranking de identidad latina.",
+      "business_source": "https://www.inegi.org.mx/app/mapa/denue/",
+      "ranking_status": "not_used_as_cross_country_rank",
+      "regions": [
+        {
+          "code": "BCN",
+          "name": "Baja California",
+          "iso3166_2": "MX-BCN",
+          "cities": [
+            {
+              "name": "Tijuana",
+              "bbox": [
+                32.475,
+                -117.025,
+                32.525,
+                -116.975
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Mexicali",
+              "bbox": [
+                32.595,
+                -115.475,
+                32.645,
+                -115.425
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Ensenada",
+              "bbox": [
+                31.835,
+                -116.635,
+                31.885,
+                -116.585
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "SON",
+          "name": "Sonora",
+          "iso3166_2": "MX-SON",
+          "cities": [
+            {
+              "name": "Nogales",
+              "bbox": [
+                31.275,
+                -110.965,
+                31.325,
+                -110.915
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Hermosillo",
+              "bbox": [
+                29.065,
+                -110.985,
+                29.115,
+                -110.935
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "CHH",
+          "name": "Chihuahua",
+          "iso3166_2": "MX-CHH",
+          "cities": [
+            {
+              "name": "Ciudad Juárez",
+              "bbox": [
+                31.665,
+                -106.455,
+                31.715,
+                -106.405
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Chihuahua",
+              "bbox": [
+                28.605,
+                -106.095,
+                28.655,
+                -106.045
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "COA",
+          "name": "Coahuila",
+          "iso3166_2": "MX-COA",
+          "cities": [
+            {
+              "name": "Piedras Negras",
+              "bbox": [
+                28.675,
+                -100.545,
+                28.725,
+                -100.495
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Ciudad Acuña",
+              "bbox": [
+                29.275,
+                -100.965,
+                29.325,
+                -100.915
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Saltillo",
+              "bbox": [
+                25.395,
+                -101.025,
+                25.445,
+                -100.975
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "NLE",
+          "name": "Nuevo León",
+          "iso3166_2": "MX-NLE",
+          "cities": [
+            {
+              "name": "Monterrey",
+              "bbox": [
+                25.645,
+                -100.335,
+                25.695,
+                -100.285
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Anáhuac",
+              "bbox": [
+                27.215,
+                -100.155,
+                27.265,
+                -100.105
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        },
+        {
+          "code": "TAM",
+          "name": "Tamaulipas",
+          "iso3166_2": "MX-TAM",
+          "cities": [
+            {
+              "name": "Nuevo Laredo",
+              "bbox": [
+                27.435,
+                -99.545,
+                27.485,
+                -99.495
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Reynosa",
+              "bbox": [
+                26.045,
+                -98.325,
+                26.095,
+                -98.275
+              ],
+              "status": "moneygram_public_locator_queried"
+            },
+            {
+              "name": "Matamoros",
+              "bbox": [
+                25.835,
+                -97.525,
+                25.885,
+                -97.475
+              ],
+              "status": "moneygram_public_locator_queried"
+            }
+          ]
+        }
+      ],
+      "obtained_contacts": 408603
+    }
+  ]
+}

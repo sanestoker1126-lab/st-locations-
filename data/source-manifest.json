@@ -1,0 +1,31 @@
+{
+  "prepared_on": "2026-11-04",
+  "sources": [
+    {
+      "file_name": "Negocios_latinos_remesas_USA.xlsx_0.ods",
+      "bytes": 845870,
+      "sha256": "692985a34b8c0f39f1a80e7d1f8bd1a8d48fbeba46e2b53b954c72634f458735",
+      "role": "Fuente de ubicaciones/evidencias; observación declarada 2026-09-16"
+    },
+    {
+      "file_name": "march-2026-alliance-list_0.csv.xlsx",
+      "bytes": 84863,
+      "sha256": "a31748e91bca25bec39312ef9711a5c7980d6047bf8df4c5c48968a115be077c",
+      "role": "Solo contexto; educación financiera Money Smart, excluido"
+    },
+    {
+      "file_name": "MEXICO_VF_ElRegistroPublicodeComercioenMexico_2.pdf",
+      "bytes": 763699,
+      "sha256": "69696542d685aeb2d1b7f3da9a6f84098c33cfaf4c8228aa2fae5feedb073359",
+      "role": "Solo contexto; RPC/SIGER México, excluido"
+    }
+  ],
+  "extracted_sheets": [
+    "Prospectos",
+    "Otros agentes",
+    "Evidencias"
+  ],
+  "header_row": 8,
+  "first_data_row": 9,
+  "live_validation": false
+}

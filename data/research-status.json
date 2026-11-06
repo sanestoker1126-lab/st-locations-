@@ -1,0 +1,99 @@
+{
+  "status": "public_research_round_completed",
+  "runtime_access": "unrestricted",
+  "source_registry": "data/platform-sources.json",
+  "global_counts": {
+    "records": 417496,
+    "distinct_phones": 393511,
+    "countries": {
+      "CA": 365,
+      "MX": 408603,
+      "PR": 91,
+      "US": 8437
+    }
+  },
+  "social_public_profiles_corroborated": 2,
+  "social_phone_contacts_extracted": 0,
+  "current_line_activity_checks": 0,
+  "historical_collection": "data/historical-document-contacts.json",
+  "previous_access_snapshot": {
+    "updated_at": "2026-11-04T18:39:11.818284+00:00",
+    "live_crosschecks_completed": 0,
+    "new_public_records_verified": 0,
+    "runtime_access": "restricted",
+    "observed_error": "HTTPS CONNECT returned 403 Forbidden through inherited proxy; no credentials requested and no proxy bypass attempted.",
+    "attempts": [
+      {
+        "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Raleigh%2C+NC%2C+USA&limit=5000",
+        "source": "MoneyGram public locator",
+        "status": "network_policy_denied",
+        "records_retrieved": 0
+      },
+      {
+        "url": "https://overpass-api.de/api/status",
+        "source": "OpenStreetMap Overpass public status",
+        "status": "network_policy_denied",
+        "records_retrieved": 0
+      },
+      {
+        "url": "https://www.barri.com",
+        "source": "Barri official site",
+        "status": "network_policy_denied",
+        "records_retrieved": 0
+      },
+      {
+        "url": "https://www.google.com/search?q=tienda+mexicana+money+transfer",
+        "source": "Google public search",
+        "status": "network_policy_denied",
+        "records_retrieved": 0
+      },
+      {
+        "url": "https://api.census.gov/data/2020/dec/pl?get=NAME%2CP2_002N&for=state%3A%2A",
+        "source": "U.S. Census Bureau historical reference",
+        "status": "network_policy_denied",
+        "records_retrieved": 0
+      }
+    ],
+    "pending_sources": [
+      "Google Maps",
+      "OpenStreetMap / Overpass",
+      "Apify",
+      "Manta",
+      "OpenCorporates",
+      "public official business websites",
+      "Facebook",
+      "Instagram",
+      "Firecrawl",
+      "Tavily",
+      "Google Drive"
+    ],
+    "caveat": "Generated search URLs are discovery shortcuts, not completed crosschecks. Attached ODS records retain their original source date and do not become live-verified by import.",
+    "next_step": "Apply the saved destination access settings before retrying only the affected queries; API integrations additionally need their own service access. Use tools/fetch_osm.py for bounded, inspectable OSM proposals; review before importing.",
+    "geographic_focus": {
+      "primary_state": "NC",
+      "secondary_states": [
+        "CA",
+        "FL",
+        "GA"
+      ],
+      "state_codes": [
+        "NC",
+        "CA",
+        "FL",
+        "GA"
+      ],
+      "criterion": "user_selected_states",
+      "reference": "Carolina del Norte primero; California, Florida y Georgia como zonas secundarias, por indicación del usuario",
+      "existing_directory_records": 1060,
+      "search_plan": "data/search-plan.json"
+    },
+    "latest_source_review": {
+      "new_directory_inclusions_from_uploaded_ods": 30,
+      "new_nc_locations": 0,
+      "nc_existing_locations_with_public_phones": 179,
+      "additional_chain_records_excluded": 32,
+      "historical_source_date": "2026-09-16",
+      "live_crosschecks_completed": 0
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-11-06T01:14:20.383817+00:00",
+  "edition": "ST Locations · Marketing Services — oscuro compacto",
+  "brand": "ST Locations",
+  "brand_subtitle": "Marketing Services",
+  "theme": "dark",
+  "compact": true,
+  "dataset_changed": false,
+  "dataset_counts": {
+    "total_records": 417496,
+    "distinct_phone_numbers": 393511,
+    "categories": 53,
+    "countries": {
+      "CA": 365,
+      "MX": 408603,
+      "PR": 91,
+      "US": 8437
+    }
+  },
+  "dataset_sha256": {
+    "base-maestra-contactos.sqlite": {
+      "sha256": "04149ef2b0b1094446e934a5c1b68a5eac48d4bd8618d7466858d7128968b822",
+      "bytes": 869556224
+    },
+    "base-maestra-global.csv": {
+      "sha256": "c92acbe5efa12eb772c1dc53e2f31c7a8b7d0f9f941fd3385c94b7428fc72c24",
+      "bytes": 168748885
+    }
+  },
+  "base_browser_checks": 24,
+  "interface_browser_checks": 59,
+  "total_browser_checks": 83,
+  "javascript_errors": [],
+  "historical_contacts_separate": 494,
+  "active_phone_line_checks": 0,
+  "validation_files": [
+    "compacto-oscuro-base-validacion.json",
+    "compacto-oscuro-interacciones-validacion.json"
+  ],
+  "features": [
+    "compact_header_and_inline_totals",
+    "search_and_results_at_start",
+    "dark_graphite_panels",
+    "country_shortcuts",
+    "mobile_collapsible_filters",
+    "list_card_views",
+    "phone_copy_with_permission_recovery",
+    "source_evidence_and_full_filtered_csv"
+  ]
+}

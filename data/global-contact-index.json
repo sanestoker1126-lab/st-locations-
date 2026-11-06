@@ -1,0 +1,445 @@
+{
+  "generated_at": "2026-11-04T21:05:47.206685+00:00",
+  "updated_at": "2026-11-04T21:05:47.206685+00:00",
+  "total": 417496,
+  "total_locations": 417496,
+  "countries": {
+    "CA": 365,
+    "MX": 408603,
+    "PR": 91,
+    "US": 8437
+  },
+  "categories": {
+    "Abarrotes/minorista": 46533,
+    "Administración pública": 4057,
+    "Agencia de remesas": 1568,
+    "Agencia de viajes": 53,
+    "Agente de remesas / giro por confirmar": 2915,
+    "Agricultura, ganadería, pesca y servicios relacionados": 1338,
+    "Agua y variedades": 1,
+    "Alojamiento y alimentos": 3388,
+    "Apoyo a negocios y manejo de residuos": 3956,
+    "Artículos deportivos": 1,
+    "Belleza": 31,
+    "Cafetería": 5997,
+    "Carnicería": 2764,
+    "Carnicería y frutas/verduras": 1,
+    "Comercio local / giro por confirmar": 2015,
+    "Comercio mayorista": 11677,
+    "Comercio minorista": 74965,
+    "Computación y electrónica": 2,
+    "Construcción": 2259,
+    "Corporativos": 21,
+    "Cultura, entretenimiento y recreación": 4839,
+    "Dulcería": 2567,
+    "Educación": 12671,
+    "Electricidad, agua y gas": 268,
+    "Farmacia": 4317,
+    "Frutas y verduras": 2200,
+    "Heladería/paletería": 1545,
+    "Información y medios": 1186,
+    "Inmobiliarias y alquiler": 8950,
+    "Joyería": 24,
+    "Lavandería": 4,
+    "Manufactura": 29052,
+    "Minería": 180,
+    "Muebles y decoración": 1,
+    "Otros servicios": 92695,
+    "Panadería": 3502,
+    "Pescadería": 872,
+    "Pollería": 659,
+    "Regalos y variedades": 63,
+    "Restaurante": 43463,
+    "Ropa y accesorios": 6,
+    "Salud y asistencia social": 23507,
+    "Servicios financieros y seguros": 2861,
+    "Servicios postales y paquetería": 4,
+    "Servicios profesionales y técnicos": 9901,
+    "Supermercado": 216,
+    "Telefonía y electrónica": 92,
+    "Tienda de conveniencia/minisúper": 427,
+    "Tienda de descuentos y variedades": 8,
+    "Tienda mexicana/latina": 441,
+    "Tortillería": 3423,
+    "Transporte y almacenamiento": 4007,
+    "Video y variedades": 3
+  },
+  "chain_groups": {
+    "7-Eleven (marca en nombre; operador por confirmar)": 27,
+    "BBVA (marca en nombre; operador por confirmar)": 5,
+    "Banamex (marca en nombre; operador por confirmar)": 3,
+    "Banco Azteca (marca en nombre; operador por confirmar)": 9,
+    "Banorte (marca en nombre; operador por confirmar)": 42,
+    "Bodega Aurrera (marca en nombre; operador por confirmar)": 7,
+    "Burger King (marca en nombre; operador por confirmar)": 3,
+    "Cadena/red o marca identificada en las reglas": 3005,
+    "Calimax (marca en nombre; operador por confirmar)": 83,
+    "Casa Ley (marca en nombre; operador por confirmar)": 3,
+    "Chedraui (marca en nombre; operador por confirmar)": 1,
+    "Circle K (marca en nombre; operador por confirmar)": 9,
+    "Coppel (marca en nombre; operador por confirmar)": 6,
+    "Costco (marca en nombre; operador por confirmar)": 14,
+    "Domino's (marca en nombre; operador por confirmar)": 21,
+    "Elektra (marca en nombre; operador por confirmar)": 2,
+    "Farmacias Benavides (marca en nombre; operador por confirmar)": 43,
+    "Farmacias Guadalajara (marca en nombre; operador por confirmar)": 188,
+    "Farmacias Similares (marca en nombre; operador por confirmar)": 422,
+    "Farmacias del Ahorro (marca en nombre; operador por confirmar)": 5,
+    "Food Mart/Foodmart: cadena no acreditada por el nombre": 55,
+    "H-E-B (marca en nombre; operador por confirmar)": 14,
+    "KFC (marca en nombre; operador por confirmar)": 3,
+    "Marca con varias sucursales publicadas": 3,
+    "Marca de estaciones; operador por confirmar": 21,
+    "McDonald's (marca en nombre; operador por confirmar)": 1,
+    "OXXO (marca en nombre; operador por confirmar)": 5,
+    "S-Mart (marca en nombre; operador por confirmar)": 4,
+    "Sam's Club (marca en nombre; operador por confirmar)": 7,
+    "Santander (marca en nombre; operador por confirmar)": 24,
+    "Sin cadena identificada en las reglas": 413328,
+    "Soriana (marca en nombre; operador por confirmar)": 49,
+    "Starbucks (marca en nombre; operador por confirmar)": 2,
+    "Subway (marca en nombre; operador por confirmar)": 55,
+    "The Home Depot (marca en nombre; operador por confirmar)": 11,
+    "Tiendas Extra (marca en nombre; operador por confirmar)": 8,
+    "Walmart (marca en nombre; operador por confirmar)": 8
+  },
+  "regions": [
+    {
+      "country": "CA",
+      "region": "AB",
+      "count": 71
+    },
+    {
+      "country": "CA",
+      "region": "BC",
+      "count": 51
+    },
+    {
+      "country": "CA",
+      "region": "ON",
+      "count": 165
+    },
+    {
+      "country": "CA",
+      "region": "QC",
+      "count": 78
+    },
+    {
+      "country": "MX",
+      "region": "BCN",
+      "count": 57851
+    },
+    {
+      "country": "MX",
+      "region": "CHH",
+      "count": 72488
+    },
+    {
+      "country": "MX",
+      "region": "COA",
+      "count": 55897
+    },
+    {
+      "country": "MX",
+      "region": "NLE",
+      "count": 95298
+    },
+    {
+      "country": "MX",
+      "region": "SON",
+      "count": 68620
+    },
+    {
+      "country": "MX",
+      "region": "TAM",
+      "count": 58449
+    },
+    {
+      "country": "PR",
+      "region": "PR",
+      "count": 91
+    },
+    {
+      "country": "US",
+      "region": "AL",
+      "count": 96
+    },
+    {
+      "country": "US",
+      "region": "AR",
+      "count": 99
+    },
+    {
+      "country": "US",
+      "region": "AZ",
+      "count": 668
+    },
+    {
+      "country": "US",
+      "region": "CA",
+      "count": 1240
+    },
+    {
+      "country": "US",
+      "region": "CO",
+      "count": 155
+    },
+    {
+      "country": "US",
+      "region": "CT",
+      "count": 102
+    },
+    {
+      "country": "US",
+      "region": "DE",
+      "count": 2
+    },
+    {
+      "country": "US",
+      "region": "FL",
+      "count": 637
+    },
+    {
+      "country": "US",
+      "region": "GA",
+      "count": 295
+    },
+    {
+      "country": "US",
+      "region": "HI",
+      "count": 2
+    },
+    {
+      "country": "US",
+      "region": "IA",
+      "count": 34
+    },
+    {
+      "country": "US",
+      "region": "ID",
+      "count": 15
+    },
+    {
+      "country": "US",
+      "region": "IL",
+      "count": 324
+    },
+    {
+      "country": "US",
+      "region": "IN",
+      "count": 32
+    },
+    {
+      "country": "US",
+      "region": "KS",
+      "count": 106
+    },
+    {
+      "country": "US",
+      "region": "KY",
+      "count": 34
+    },
+    {
+      "country": "US",
+      "region": "LA",
+      "count": 198
+    },
+    {
+      "country": "US",
+      "region": "MA",
+      "count": 113
+    },
+    {
+      "country": "US",
+      "region": "MD",
+      "count": 47
+    },
+    {
+      "country": "US",
+      "region": "ME",
+      "count": 2
+    },
+    {
+      "country": "US",
+      "region": "MI",
+      "count": 108
+    },
+    {
+      "country": "US",
+      "region": "MN",
+      "count": 60
+    },
+    {
+      "country": "US",
+      "region": "MO",
+      "count": 65
+    },
+    {
+      "country": "US",
+      "region": "MS",
+      "count": 90
+    },
+    {
+      "country": "US",
+      "region": "MT",
+      "count": 1
+    },
+    {
+      "country": "US",
+      "region": "NC",
+      "count": 463
+    },
+    {
+      "country": "US",
+      "region": "ND",
+      "count": 5
+    },
+    {
+      "country": "US",
+      "region": "NE",
+      "count": 25
+    },
+    {
+      "country": "US",
+      "region": "NH",
+      "count": 2
+    },
+    {
+      "country": "US",
+      "region": "NJ",
+      "count": 351
+    },
+    {
+      "country": "US",
+      "region": "NM",
+      "count": 105
+    },
+    {
+      "country": "US",
+      "region": "NV",
+      "count": 143
+    },
+    {
+      "country": "US",
+      "region": "NY",
+      "count": 713
+    },
+    {
+      "country": "US",
+      "region": "OH",
+      "count": 106
+    },
+    {
+      "country": "US",
+      "region": "OK",
+      "count": 93
+    },
+    {
+      "country": "US",
+      "region": "OR",
+      "count": 16
+    },
+    {
+      "country": "US",
+      "region": "PA",
+      "count": 78
+    },
+    {
+      "country": "US",
+      "region": "RI",
+      "count": 58
+    },
+    {
+      "country": "US",
+      "region": "SC",
+      "count": 122
+    },
+    {
+      "country": "US",
+      "region": "SD",
+      "count": 6
+    },
+    {
+      "country": "US",
+      "region": "TN",
+      "count": 134
+    },
+    {
+      "country": "US",
+      "region": "TX",
+      "count": 1222
+    },
+    {
+      "country": "US",
+      "region": "UT",
+      "count": 81
+    },
+    {
+      "country": "US",
+      "region": "VA",
+      "count": 96
+    },
+    {
+      "country": "US",
+      "region": "WA",
+      "count": 33
+    },
+    {
+      "country": "US",
+      "region": "WI",
+      "count": 51
+    },
+    {
+      "country": "US",
+      "region": "WY",
+      "count": 9
+    }
+  ],
+  "unique_phone_numbers": 393511,
+  "current_verified": 0,
+  "source_dates": {
+    "2026-09-16": 10851,
+    "2026-11-04": 413321
+  },
+  "document_dates": {
+    "2026-05-20": 403308,
+    "2026-09-16": 10799
+  },
+  "source_date_meaning": "Dates of source observation/publication, not telephone activity checks.",
+  "dataset_tiers": {
+    "core_public": 8862,
+    "core_public_and_uploaded": 1148,
+    "core_uploaded": 4178,
+    "denue_public": 403308
+  },
+  "counts": {
+    "core_locations": 14188,
+    "core_unique_phone_numbers": 8029,
+    "denue_input_locations": 403308,
+    "denue_inserted_locations": 403308,
+    "denue_exact_matches_merged": 0,
+    "ambiguous_exact_identity_not_merged": 0,
+    "same_address_phone_different_name_candidates": 0,
+    "total_locations": 417496,
+    "unique_phone_numbers": 393511,
+    "phone_associations": 417521,
+    "publications": 424172,
+    "current_verified_phones": 0,
+    "denue_regions": {
+      "BCN": 56194,
+      "CHH": 71734,
+      "COA": 55492,
+      "NLE": 94001,
+      "SON": 68251,
+      "TAM": 57636
+    },
+    "deduplication_rule": "Exact country/region/name/full address including units/postal; Unicode canonicalization, case and repeated whitespace only; nonempty fields; activity-name fallbacks never auto-merge."
+  },
+  "source_count": 58,
+  "platforms": {
+    "Archivo aportado": 5326,
+    "INEGI DENUE": 403308,
+    "MoneyGram": 10005,
+    "Sitios oficiales de negocios": 5
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "built_at": "2026-11-06T01:23:44.520490+00:00",
+  "site_url": "https://sanestoker1126-lab.github.io/st-locations-/",
+  "public_records": 417496,
+  "dataset_id": "1a7a3091335aaefd56665aff33f0548d5dcbd47fd1356ece36948a3beb48ec5a",
+  "source_sha256": "04149ef2b0b1094446e934a5c1b68a5eac48d4bd8618d7466858d7128968b822",
+  "shards": 84,
+  "files": 204,
+  "bytes": 381211526,
+  "private_files_copied": false,
+  "local_database_published": false,
+  "indexing": "allowed; search-engine inclusion is independent"
+}

@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "criterion": "user_selected_states",
+  "selection_type": "operational_focus",
+  "reference": "Carolina del Norte primero; California, Florida y Georgia como zonas secundarias, por indicación del usuario",
+  "priority_meaning": "Orden de trabajo solicitado; no es un ranking demográfico",
+  "source": {
+    "type": "user_request",
+    "captured_on": "2026-11-04"
+  },
+  "city_selection_note": "Carolina del Norte fue solicitada expresamente. Charlotte, Raleigh y Durham se toman como puntos de partida operativos, sin excluir otras localidades del estado.",
+  "notes": [
+    "Se conservan todos los registros de otros estados mediante el alcance nacional.",
+    "La ubicación, el nombre o el idioma no acreditan propiedad latina o minoritaria.",
+    "Se mantienen las exclusiones de cadenas y Food Mart/Foodmart.",
+    "Las fechas y evidencias históricas del archivo no se convierten en verificaciones actuales."
+  ],
+  "states": [
+    {
+      "code": "NC",
+      "name": "Carolina del Norte",
+      "cities": [
+        "Charlotte",
+        "Raleigh",
+        "Durham",
+        "Greensboro",
+        "Winston-Salem"
+      ],
+      "priority": 1
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "priority": 2,
+      "cities": [
+        "Los Angeles",
+        "Santa Ana",
+        "San Diego",
+        "San Jose",
+        "Fresno",
+        "Bakersfield",
+        "Sacramento"
+      ]
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "priority": 3,
+      "cities": [
+        "Miami",
+        "Hialeah",
+        "Orlando",
+        "Kissimmee",
+        "Tampa",
+        "Jacksonville"
+      ]
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "priority": 4,
+      "cities": [
+        "Atlanta",
+        "Norcross",
+        "Doraville",
+        "Gainesville",
+        "Dalton",
+        "Marietta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "current_runtime_access": "unrestricted",
+  "previous_access_failures": [
+    {
+      "source": "Statistics Canada",
+      "url": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E",
+      "method": "GET",
+      "retrieved_records": 0,
+      "attempted_at": "2026-11-04T19:26:58.280821+00:00",
+      "status": "access_failed",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "INEGI DENUE Baja California",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_02_csv.zip",
+      "method": "HEAD",
+      "retrieved_records": 0,
+      "attempted_at": "2026-11-04T19:26:58.297555+00:00",
+      "status": "access_failed",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "OpenStreetMap Toronto",
+      "url": "https://overpass-api.de/api/interpreter",
+      "method": "POST",
+      "retrieved_records": 0,
+      "attempted_at": "2026-11-04T19:26:58.302217+00:00",
+      "status": "access_failed",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "status": "public_sources_retrieved",
+  "coverage": {
+    "CA": 365,
+    "MX": 408603,
+    "PR": 91,
+    "US": 8437
+  },
+  "total_records": 417496,
+  "unique_phone_numbers": 393511,
+  "live_phone_activity_checks": 0,
+  "source_registry": "data/platform-sources.json",
+  "historical_collection": "data/historical-document-contacts.json",
+  "note": "Los errores de acceso anteriores son históricos. MoneyGram, sitios comerciales y DENUE se consultaron en esta ronda; algunos documentos y redes aún no permiten extracción.",
+  "attempts": [
+    {
+      "source": "MoneyGram · San Diego, CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=San+Diego%2C+CA%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 136,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Albuquerque, NM",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Albuquerque%2C+NM%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 73,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Los Angeles, CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Los+Angeles%2C+CA%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 571,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · El Paso, TX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=El+Paso%2C+TX%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 133,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Houston, TX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Houston%2C+TX%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 339,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Phoenix, AZ",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Phoenix%2C+AZ%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 467,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Tucson, AZ",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Tucson%2C+AZ%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 132,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Las Vegas, NV",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Las+Vegas%2C+NV%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 135,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Miami, FL",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Miami%2C+FL%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 210,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Denver, CO",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Denver%2C+CO%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 109,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Newark, NJ",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Newark%2C+NJ%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 748,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · New York, NY",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=New+York%2C+NY%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 790,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Hartford, CT",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Hartford%2C+CT%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 76,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Providence, RI",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Providence%2C+RI%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 90,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Chicago, IL",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Chicago%2C+IL%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 206,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Charlotte, NC",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Charlotte%2C+NC%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 202,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Orlando, FL",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Orlando%2C+FL%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 218,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Raleigh, NC",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Raleigh%2C+NC%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 115,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Durham, NC",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Durham%2C+NC%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 103,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Toronto, ON",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Toronto%2C+ON%2C+Canada&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 151,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Atlanta, GA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Atlanta%2C+GA%2C+USA&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 218,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Ottawa, ON",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Ottawa%2C+ON%2C+Canada&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 19,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Vancouver, BC",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Vancouver%2C+BC%2C+Canada&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 51,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Montréal, QC",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Montr%C3%A9al%2C+QC%2C+Canada&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 70,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Calgary, AB",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Calgary%2C+AB%2C+Canada&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 36,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Edmonton, AB",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Edmonton%2C+AB%2C+Canada&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 33,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · San Juan, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=San+Juan%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 37,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Bayamón, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Bayam%C3%B3n%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 39,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Carolina, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Carolina%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 36,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Ponce, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Ponce%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 28,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Mayagüez, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Mayag%C3%BCez%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 29,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Caguas, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Caguas%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 44,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Ensenada, BCN",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Ensenada%2C+Baja+California%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 195,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Mexicali, BCN",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Mexicali%2C+Baja+California%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 458,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Tijuana, BCN",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Tijuana%2C+Baja+California%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 1005,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Nogales, SON",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Nogales%2C+Sonora%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 116,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Hermosillo, SON",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Hermosillo%2C+Sonora%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 252,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Ciudad Juárez, CHH",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Ciudad+Ju%C3%A1rez%2C+Chihuahua%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 447,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Piedras Negras, COA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Piedras+Negras%2C+Coahuila%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 129,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Chihuahua, CHH",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Chihuahua%2C+Chihuahua%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 314,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Ciudad Acuña, COA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Ciudad+Acu%C3%B1a%2C+Coahuila%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 77,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Saltillo, COA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Saltillo%2C+Coahuila%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 188,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Anáhuac, NLE",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=An%C3%A1huac%2C+Nuevo+Le%C3%B3n%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 6,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Nuevo Laredo, TAM",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Nuevo+Laredo%2C+Tamaulipas%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 218,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Monterrey, NLE",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Monterrey%2C+Nuevo+Le%C3%B3n%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 1298,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Reynosa, TAM",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Reynosa%2C+Tamaulipas%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 313,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Arecibo, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Arecibo%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 18,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Matamoros, TAM",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Matamoros%2C+Tamaulipas%2C+Mexico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 279,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Humacao, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Humacao%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 25,
+      "error": ""
+    },
+    {
+      "source": "MoneyGram · Fajardo, PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Fajardo%2C+PR%2C+Puerto+Rico&limit=5000",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 14,
+      "error": ""
+    },
+    {
+      "source": "INEGI DENUE — Baja California",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_02_csv.zip",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 56194,
+      "error": ""
+    },
+    {
+      "source": "INEGI DENUE — Sonora",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_26_csv.zip",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 68251,
+      "error": ""
+    },
+    {
+      "source": "INEGI DENUE — Chihuahua",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_08_csv.zip",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 71734,
+      "error": ""
+    },
+    {
+      "source": "INEGI DENUE — Coahuila",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_05_csv.zip",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 55492,
+      "error": ""
+    },
+    {
+      "source": "INEGI DENUE — Nuevo León",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_19_csv.zip",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 94001,
+      "error": ""
+    },
+    {
+      "source": "INEGI DENUE — Tamaulipas",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_28_csv.zip",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 57636,
+      "error": ""
+    },
+    {
+      "source": "BDO Remit Canada Remittance Agents Directory",
+      "url": "https://www.bdo.com.ph/content/dam/bdounibank/en-ph/remittance/bdo-remit-canada/bdo-remit-canada-remittance-agents-directory-apr-30.pdf",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 0,
+      "error": ""
+    },
+    {
+      "source": "Directorio de Cooperativas de Tipos Diversos 2021",
+      "url": "https://liga.coop/wp-content/uploads/2021/11/Directorio-de-Cooperativas-de-Tipos-Diversos-2021-2.pdf",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 31,
+      "error": ""
+    },
+    {
+      "source": "NC A&T Contractor Database 2006",
+      "url": "https://hub.ncat.edu/_files/administrative/minority-contractor-database.pdf",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 463,
+      "error": ""
+    },
+    {
+      "source": "Directorio de Empresas Operando Noviembre 2021",
+      "url": "https://estadisticas.pr/files/Inventario/publicaciones/Directorio%20de%20Empresas%20Operando%20Noviembre%202021%20%28Nov%2030%2C%202021%29%20Pub.xlsx",
+      "method": "consulta pública",
+      "status": "error",
+      "retrieved_records": 0,
+      "error": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP Error 503: Service Unavailable. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados."
+    },
+    {
+      "source": "Peruvian Grocery Stores Toronto 2022",
+      "url": "https://www.consulado.pe/es/Toronto/Documents/Peruvian%20Grocery%20Stores%20V.8a%20-%2003%20de%20mayo%20de%202022.pptx.pdf",
+      "method": "consulta pública",
+      "status": "error",
+      "retrieved_records": 0,
+      "error": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP Error 503: Service Unavailable. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados."
+    },
+    {
+      "source": "BDO Remit Offices and Partners Directory",
+      "url": "https://www.bdo.com.ph/content/dam/bdounibank/en-ph/mcg-digital-marketing/pdfs/BDO-Remit-Offices-and-Partners-Directory-as-of-October-22.pdf",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 0,
+      "error": ""
+    },
+    {
+      "source": "Money Services Business Registry XLSX",
+      "url": "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.xlsx",
+      "method": "consulta pública",
+      "status": "error",
+      "retrieved_records": 0,
+      "error": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP Error 503: Service Unavailable. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados."
+    },
+    {
+      "source": "Money Services Business Registry CSV",
+      "url": "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv",
+      "method": "consulta pública",
+      "status": "error",
+      "retrieved_records": 0,
+      "error": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP403. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados."
+    },
+    {
+      "source": "Búsquedas públicas de documentos · Yahoo",
+      "url": "https://search.yahoo.com/search?p=%22Money%20transfer%22%20%22Toronto%22%20filetype%3Acsv",
+      "method": "consulta pública",
+      "status": "response",
+      "retrieved_records": 0,
+      "error": "Respondió HTML con enlaces públicos; se usó para descubrir directorios. El buscador no aporta altas actuales."
+    },
+    {
+      "source": "Búsquedas públicas de documentos · Bing",
+      "url": "https://www.bing.com/search?q=%22money%20transfer%22%20%22Canada%22%20filetype%3Apdf",
+      "method": "consulta pública",
+      "status": "response",
+      "retrieved_records": 0,
+      "error": "Respondió HTML pero presentó resultados genéricos poco útiles. No se extrajeron contactos del buscador."
+    },
+    {
+      "source": "Búsquedas públicas de documentos · Google",
+      "url": "https://www.google.com/search?q=%22money%20transfer%22%20locations%20filetype%3Apdf%20phone",
+      "method": "consulta pública",
+      "status": "response",
+      "retrieved_records": 0,
+      "error": "Respuesta HTML que requiere JavaScript. No se extrajeron contactos del buscador ni se sortearon controles."
+    },
+    {
+      "source": "Búsquedas públicas de documentos · DuckDuckGo",
+      "url": "https://html.duckduckgo.com/html/?q=%22money%20transfer%22%20%22Canada%22%20filetype%3Apdf",
+      "method": "consulta pública",
+      "status": "error",
+      "retrieved_records": 0,
+      "error": "Respuesta de desafío/captcha. No se completó ni se sorteó el desafío; no se extrajeron contactos."
+    },
+    {
+      "source": "Google · búsqueda pública de directorios PDF",
+      "url": "https://www.google.com/search?q=%22money%20transfer%22%20locations%20filetype%3Apdf%20phone",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 0,
+      "error": ""
+    },
+    {
+      "source": "Bing · búsqueda pública de directorios PDF",
+      "url": "https://www.bing.com/search?q=%22moneygram%22%20%22locations%22%20filetype%3Apdf",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 0,
+      "error": ""
+    },
+    {
+      "source": "Sabor Latino sitio oficial",
+      "url": "https://saborlatino.ca/",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 3,
+      "error": ""
+    },
+    {
+      "source": "Sombrero Latin Foods sitio oficial",
+      "url": "https://sombrerolatinfoods.ca/pages/about-us",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 1,
+      "error": ""
+    },
+    {
+      "source": "Fresh Is Best on Broadway sitio oficial",
+      "url": "https://freshisbestonbroadway.ca",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 1,
+      "error": ""
+    },
+    {
+      "source": "Facebook · Sabor Latino",
+      "url": "https://www.facebook.com/SaborLatino.PlazaStHubert",
+      "method": "consulta pública",
+      "status": "login_required",
+      "retrieved_records": 0,
+      "error": "No se obtuvo contacto de esta red: acceso requerido o página de error. Sin evasión de acceso. Enlace de relación desde sitio oficial: https://saborlatino.ca/"
+    },
+    {
+      "source": "Instagram · Sabor Latino",
+      "url": "https://www.instagram.com/saborlatino.plazasthubert/",
+      "method": "consulta pública",
+      "status": "error",
+      "retrieved_records": 0,
+      "error": "No se obtuvo contacto de esta red: acceso requerido o página de error. Sin evasión de acceso. Enlace de relación desde sitio oficial: https://saborlatino.ca/"
+    },
+    {
+      "source": "Facebook · Sombrero Latin Foods",
+      "url": "https://www.facebook.com/SombreroLatinFoods/",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 1,
+      "error": ""
+    },
+    {
+      "source": "Instagram · Sombrero Latin Foods",
+      "url": "https://www.instagram.com/sombrerolatinfoods/",
+      "method": "consulta pública",
+      "status": "retrieved",
+      "retrieved_records": 1,
+      "error": ""
+    }
+  ],
+  "source_registry_count": 77
+}

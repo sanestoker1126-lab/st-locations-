@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Busca tiendas mexicanas, comercios latinos y minoristas en Estados Unidos. Consulta las fuentes y confirma el servicio de remesas antes de visitar." />
+    
+    <meta name="theme-color" content="#123e35" />
+    <title>Buscador de negocios y remesas | Punto Envíos</title>
+    <link rel="icon" href="/st-locations-/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/st-locations-/buscador.css" />
+    <script src="/st-locations-/buscador.js" defer></script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'"><link rel="canonical" href="https://sanestoker1126-lab.github.io/st-locations-/buscador.html"></head>
+  <body>
+    <a class="skip-link" href="#buscador">Saltar al buscador</a>
+    <header class="header">
+      <div class="shell header-inner">
+        <a class="brand" href="/st-locations-/buscador.html" aria-label="Punto Envíos, inicio del buscador"><span class="brand-icon" aria-hidden="true">P<span>↗</span></span><span>Punto Envíos<small>DIRECTORIO DE NEGOCIOS</small></span></a>
+        <nav aria-label="Navegación principal"><a href="/st-locations-/base.html">Base completa</a><a href="#fuentes">Fuentes y criterios</a><a href="/st-locations-/index.html">Nuestra sucursal <span aria-hidden="true">↗</span></a></nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="shell hero-inner">
+          <div>
+            <p class="eyebrow"><span aria-hidden="true"></span> NEGOCIOS LOCALES · ESTADOS UNIDOS</p>
+            <h1>Encuentra un negocio.<br /><em>Conecta con tu comunidad.</em></h1>
+            <p class="hero-copy">Tiendas mexicanas, comercios latinos y minoristas. Empezamos por Carolina del Norte y seguimos con California, Florida y Georgia; conservamos las fuentes de remesas y excluimos las grandes cadenas identificadas.</p>
+            <a class="hero-link" href="#buscador">Explorar el directorio <span aria-hidden="true">↓</span></a>
+          </div>
+          <aside class="hero-card" aria-label="Cómo usar el directorio">
+            <span class="hero-card-icon" aria-hidden="true">⌖</span>
+            <p class="eyebrow">DE LA BÚSQUEDA A LA VISITA</p>
+            <h2>El dato es un punto de partida.</h2>
+            <p>Revisa la fuente, cruza la dirección y confirma con el negocio que el servicio de remesas esté disponible.</p>
+            <span class="hero-card-line">Dirección + evidencia + consulta</span>
+          </aside>
+        </div>
+      </section>
+
+      <div class="shell">
+        <section class="directory" id="buscador" aria-labelledby="directory-title">
+          <div class="section-heading"><div><p class="eyebrow">EXPLORA CERCA DE TI</p><h2 id="directory-title">Buscador de negocios</h2></div><p class="directory-meta" id="dataset-meta">Cargando el directorio…</p></div>
+          <section class="priority-focus" aria-labelledby="priority-title"><h3 id="priority-title">Estados prioritarios para la búsqueda</h3><p id="priority-description">Cargando el enfoque geográfico…</p><div class="priority-state-list" id="priority-state-list" aria-label="Filtrar por estado prioritario"></div><p class="priority-warning" id="priority-warning" role="status" hidden></p><p class="priority-caveat">Este criterio orienta dónde buscar; no acredita la propiedad latina de un negocio.</p></section>
+          <form class="filters" id="search-form" role="search" aria-label="Filtrar negocios">
+            <div class="search-field"><label for="query">Nombre, ciudad, dirección, código postal o teléfono publicado</label><div class="search-input"><span aria-hidden="true">⌕</span><input id="query" name="q" type="search" placeholder="Busca un negocio, ciudad, código postal o teléfono" autocomplete="off" /></div></div>
+            <div class="geographic-field field"><label for="scope">Alcance geográfico</label><select id="scope" name="scope"><option value="priority" selected>Estados prioritarios</option><option value="all">Todo el directorio</option></select></div>
+            <div class="filter-grid">
+              <div class="field"><label for="state">Estado</label><select id="state" name="state"><option value="">Todos los estados</option></select></div>
+              <div class="field"><label for="provider">Compañía de remesas</label><select id="provider" name="provider"><option value="">Todas las compañías</option></select></div>
+              <div class="field"><label for="category">Tipo de negocio</label><select id="category" name="category"><option value="">Todos los tipos</option></select></div>
+              <div class="field"><label for="status">Evidencia de remesas</label><select id="status" name="status"><option value="">Todos los registros</option><option value="source_listed">En el listado aportado</option><option value="pending">Servicio por confirmar</option></select></div>
+            </div>
+            <div class="filter-actions"><p>Los filtros se combinan. El nombre del negocio no acredita quién es su propietario.</p><button class="text-button" id="reset-filters" type="reset">Limpiar filtros <span aria-hidden="true">↺</span></button></div>
+          </form>
+          <div class="results-toolbar"><p id="results-summary" role="status" aria-live="polite">Preparando los registros…</p><button class="outline-button" id="export-csv" type="button" disabled>Descargar resultados CSV <span aria-hidden="true">↓</span></button></div>
+          <p class="evidence-notice"><strong>Antes de visitar:</strong> un registro en la base no confirma que el negocio siga abierto ni que hoy ofrezca remesas. Los enlaces de búsqueda externa son consultas para revisar coincidencias.</p>
+          <div id="load-state" class="empty-state" role="status"><span aria-hidden="true">⌕</span><h3>Cargando los negocios…</h3><p>Estamos preparando el directorio y sus fuentes.</p></div>
+          <div class="results-grid" id="results" aria-label="Resultados de negocios"></div>
+          <nav class="pagination" id="pagination" aria-label="Páginas de resultados" hidden><button class="outline-button" id="previous-page" type="button">← Anterior</button><span id="page-summary" aria-live="polite"></span><button class="outline-button" id="next-page" type="button">Siguiente →</button></nav>
+          <p class="export-status" id="export-status" role="status" aria-live="polite"></p>
+          <noscript><p class="evidence-notice">Activa JavaScript para buscar y filtrar. También puedes descargar <a href="/st-locations-/data/locations.json">los registros en JSON</a>.</p></noscript>
+        </section>
+
+        <section class="sources-section" id="fuentes" aria-labelledby="sources-title">
+          <div class="section-heading"><div><p class="eyebrow">CONOCE EL ORIGEN</p><h2 id="sources-title">Fuentes y criterios</h2></div><a class="inline-link" href="/st-locations-/data/locations.json" download>Base completa en JSON <span aria-hidden="true">↓</span></a></div>
+          <div class="principles-grid">
+            <article><span class="principle-number">01</span><h3>Negocios locales primero</h3><p>El directorio prioriza tiendas mexicanas, comercios de afinidad latina y minoristas. Se excluyen las grandes cadenas identificadas durante la depuración.</p></article>
+            <article><span class="principle-number">02</span><h3>La evidencia a la vista</h3><p>Cada ficha conserva su origen, teléfonos publicados y datos originales cuando están disponibles. «En el listado aportado» describe la fuente de remesas; «Servicio por confirmar» indica que aún falta esa evidencia.</p></article>
+            <article><span class="principle-number">03</span><h3>Cruza antes de confirmar</h3><p>Compara nombre y domicilio en mapas, directorios y redes sociales. Un enlace de búsqueda no representa una coincidencia comprobada ni acredita propiedad latina.</p></article>
+          </div>
+          <details class="source-inspector"><summary>Ver notas de las fuentes y alcance de la base</summary><div class="source-inspector-body"><p id="source-description">La base conserva las referencias originales de cada registro.</p><ul id="source-notes"></ul><p class="source-date" id="source-date"></p><p>Las coincidencias entre fuentes requieren comparar el establecimiento y su domicilio. Una marca de remesas no acredita por sí sola la vigencia de un servicio, la propiedad del negocio o una afiliación comercial.</p><p><a href="/st-locations-/data/comercios.csv" download>Descargar todos los comercios (CSV)</a> · <a href="/st-locations-/data/quality-report.json">Ver depuración y duplicados</a> · <a href="/st-locations-/data/excluded-records.json">Ver exclusiones y motivos</a> · <a href="/st-locations-/data/research-status.json">Estado de los cruces externos</a></p></div></details>
+        </section>
+      </div>
+    </main>
+    <footer class="footer"><div class="shell footer-inner"><p><strong>Punto Envíos</strong><br />Negocios cercanos. Información con contexto.</p><p>Directorio informativo · Estados Unidos<br /><a href="#buscador">Volver al buscador ↑</a></p></div></footer>
+  </body>
+</html>

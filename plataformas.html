@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d12">
+  
+  
+  <title>Fuentes y documentos | ST Locations</title>
+  <link rel="icon" href="/st-locations-/favicon-st.svg">
+  <link rel="stylesheet" href="/st-locations-/buscador.css">
+  <link rel="stylesheet" href="/st-locations-/ui-premium.css">
+  <link rel="stylesheet" href="/st-locations-/plataformas.css">
+  <link rel="stylesheet" href="/st-locations-/ui-compact-dark.css">
+  <script src="/st-locations-/plataformas.js" defer></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'"><link rel="canonical" href="https://sanestoker1126-lab.github.io/st-locations-/plataformas.html"></head>
+<body class="premium-ui platform-page">
+  <a class="skip-link" href="#plataformas">Saltar a las fuentes</a>
+  <header class="header"><div class="shell header-inner"><a class="brand" href="/st-locations-/base.html"><span class="app-mark" aria-hidden="true">ST</span><span class="brand-copy">ST Locations<small>Marketing Services</small></span></a><nav class="desktop-nav" aria-label="Principal"><a href="/st-locations-/base.html">Base</a><a href="/st-locations-/plataformas.html" aria-current="page">Fuentes</a><a href="/st-locations-/buscador.html">Directorio local</a></nav><a class="header-action" href="/st-locations-/base.html">Ver base <svg class="inline-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M5 15 15 5M5 5h10v10"/></svg></a></div></header>
+  <main id="plataformas" class="shell platform-main">
+    <section class="platform-hero" aria-labelledby="platform-title">
+      <div><h1 id="platform-title">Fuentes y documentos</h1><p class="platform-intro">Consulta plataformas, redes públicas y documentos con sus fechas, resultados y evidencia.</p></div>
+      <a class="platform-hero-link" href="/st-locations-/base.html">Abrir base de contactos <svg class="inline-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M5 15 15 5M5 5h10v10"/></svg></a>
+    </section>
+
+    <section class="platform-stats" aria-label="Resumen de las fuentes">
+      <div><strong id="stat-sources">—</strong><span>Fuentes consultadas</span></div>
+      <div><strong id="stat-records">—</strong><span>Registros obtenidos</span></div>
+      <div><strong id="stat-new">—</strong><span>Ubicaciones nuevas</span></div>
+      <div><strong id="stat-searches">—</strong><span>Consultas de búsqueda</span></div>
+    </section>
+    <p id="registry-meta" class="registry-meta" role="status">Cargando el registro de fuentes…</p>
+    <p class="count-note">Los conteos corresponden a cada fuente. Un mismo negocio puede aparecer en varias; los registros obtenidos no son necesariamente ubicaciones únicas.</p>
+    <div class="platform-context"><p class="evidence-notice"><strong>Un teléfono publicado no demuestra que la línea siga activa.</strong> No equivale a una comprobación mediante llamada. Un enlace, una búsqueda o un perfil que requiere sesión aportan <strong>0 registros extraídos</strong>.</p><details class="scope-details"><summary>Alcance de esta colección</summary><p class="scope-note">Esta sección reúne fuentes públicas y muestras de contactos comerciales. No reproduce documentos completos ni incluye datos de filtraciones privadas. La cobertura de internet está en ampliación; no representa una búsqueda exhaustiva terminada.</p></details></div>
+
+    <section class="platform-filter-panel" aria-labelledby="filter-heading">
+      <div class="platform-panel-heading"><h2 id="filter-heading">Filtrar fuentes</h2><p>Plataformas, formato y ubicación.</p></div>
+      <form id="source-filters" role="search">
+        <div class="platform-filter-grid">
+          <div class="platform-field platform-search"><label for="source-query">Buscar fuente o negocio</label><input id="source-query" type="search" placeholder="Nombre, ciudad, teléfono o consulta…" autocomplete="off"></div>
+          <div class="platform-field"><label for="source-platform">Plataforma o motor</label><select id="source-platform"><option value="">Todas las plataformas</option></select></div>
+          <div class="platform-field"><label for="source-type">Tipo de fuente</label><select id="source-type"><option value="">Todos los tipos</option><option value="platform">Plataformas de negocios</option><option value="social">Redes sociales</option><option value="document">Documentos públicos</option><option value="search">Motores de búsqueda</option></select></div>
+          <div class="platform-field"><label for="source-status">Resultado de consulta</label><select id="source-status"><option value="">Todos los resultados</option><option value="retrieved">Obtenida</option><option value="partial">Extracción parcial</option><option value="linked_only">Solo enlace</option><option value="login_required">Requiere sesión</option><option value="error">Error al consultar</option><option value="discovered">Descubierta, sin extracción</option></select></div>
+          <div id="country-field" class="platform-field" hidden><label for="source-country">País observado</label><select id="source-country"><option value="">Todos los países</option></select></div>
+        </div>
+        <div class="platform-filter-actions"><button class="text-button" id="reset-filters" type="reset">Limpiar filtros</button><p>La búsqueda incluye las muestras de negocios publicadas en cada fuente.</p></div>
+      </form>
+    </section>
+
+    <section aria-labelledby="results-heading" class="platform-results">
+      <div class="platform-results-toolbar"><div><h2 id="results-heading">Fuentes y resultados</h2><p id="source-result-count" aria-live="polite" aria-atomic="true"></p></div><button type="button" class="outline-button" id="export-sources" disabled><span aria-hidden="true">↓</span> Descargar fuentes CSV</button></div>
+      <div id="source-error" class="source-message source-error" role="alert" hidden><h3>No se pudo cargar el registro</h3><p id="source-error-detail">Intenta cargar las fuentes otra vez.</p><button type="button" class="outline-button" id="retry-sources">Volver a intentar</button></div>
+      <div id="source-empty" class="source-message" hidden><h3>No hay fuentes para mostrar</h3><p id="source-empty-detail">Prueba con otros filtros.</p></div>
+      <div id="source-list" class="source-list" aria-busy="true"></div>
+      <nav id="source-pagination" class="pagination" aria-label="Páginas de fuentes" hidden><button type="button" class="outline-button" id="previous-page">Anterior</button><span id="source-page-label"></span><button type="button" class="outline-button" id="next-page">Siguiente</button></nav>
+    </section>
+    <aside class="platform-method" aria-labelledby="method-heading"><h2 id="method-heading">Cómo leer este registro</h2><p><strong>Obtenida o parcial:</strong> hubo una descarga o consulta y se informa cuántas filas se extrajeron. <strong>Solo enlace o descubierta:</strong> se encontró una referencia, sin extraer contactos. <strong>Requiere sesión o error:</strong> no se pudieron obtener registros en esa consulta.</p><p>Las fuentes de tipo <strong>motor de búsqueda</strong> documentan el motor y la consulta utilizada; sus resultados no se cuentan como contactos. Las muestras permiten revisar campos concretos sin sustituir el archivo original. La clasificación por giro y la base consolidada se consultan en la <a href="/st-locations-/base.html">base de contactos</a>.</p></aside>
+    <noscript><p class="source-message">Activa JavaScript para consultar y filtrar el registro. También puedes <a href="/st-locations-/data/platform-sources.json">descargar las fuentes en JSON</a>.</p></noscript>
+  </main>
+  <footer class="platform-footer"><div class="shell"><strong>ST Locations</strong><span class="footer-service">Marketing Services</span><p>Fuentes públicas, procedencia visible y límites de verificación.</p><a href="/st-locations-/base.html">Volver a la base de contactos</a></div></footer>
+  <nav class="mobile-dock" aria-label="Navegación móvil"><a class="dock-item" href="/st-locations-/base.html"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="4"/><circle cx="12" cy="9" r="2.4"/><path d="M8 17c0-3.6 8-3.6 8 0"/></svg><span>Base</span></a><a class="dock-item is-active" href="/st-locations-/plataformas.html" aria-current="page"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 7 8-4 8 4-8 4-8-4Zm0 5 8 4 8-4M4 17l8 4 8-4"/></svg><span>Fuentes</span></a><a class="dock-item" href="/st-locations-/buscador.html"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 10V6h16v4M5 10v11h14V10M3 10h18M8 21v-7h8v7M8 6V3h8v3"/></svg><span>Directorio</span></a></nav>
+</body>
+</html>

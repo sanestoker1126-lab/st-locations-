@@ -1,0 +1,4878 @@
+{
+  "updated_at": "2026-11-04T21:24:34.013252+00:00",
+  "summary": {
+    "source_count": 77,
+    "obtained_records": 414805,
+    "candidate_records": 494,
+    "search_queries": 25
+  },
+  "notes": [
+    "Los conteos por fuente pueden solaparse y no se suman como ubicaciones únicas.",
+    "Fuentes históricas se mantienen fuera de la base actual hasta corroboración.",
+    "Los dos perfiles sociales recuperados no publicaron teléfono en el contenido leído.",
+    "Teléfonos publicados no equivalen a líneas activas comprobadas."
+  ],
+  "sources": [
+    {
+      "id": "moneygram-US-CA-san-diego",
+      "title": "MoneyGram · San Diego, CA",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=San+Diego%2C+CA%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:23.598007+00:00",
+      "obtained_records": 136,
+      "new_locations": 81,
+      "existing_matches": 55,
+      "sample_records": [
+        {
+          "id": "US-MG-40960799",
+          "name": "USA CHECKS CASHED - #101",
+          "country": "US",
+          "state": "CA",
+          "city": "SAN DIEGO",
+          "phone": "(619) 702-8110",
+          "source_record_id": "40960799"
+        },
+        {
+          "id": "US-MG-66038281",
+          "name": "CVS - #4768",
+          "country": "US",
+          "state": "CA",
+          "city": "SAN DIEGO",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66038281"
+        },
+        {
+          "id": "US-MG-66042507",
+          "name": "CVS - #6332",
+          "country": "US",
+          "state": "CA",
+          "city": "SAN DIEGO",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66042507"
+        },
+        {
+          "id": "US-MG-71170668",
+          "name": "CVS - #10954",
+          "country": "US",
+          "state": "CA",
+          "city": "SAN DIEGO",
+          "phone": "(800) 746-7287",
+          "source_record_id": "71170668"
+        },
+        {
+          "id": "US-MG-67731503",
+          "name": "PROSPERA GONZALEZ - #31",
+          "country": "US",
+          "state": "CA",
+          "city": "SAN DIEGO",
+          "phone": "(619) 237-8035",
+          "source_record_id": "67731503"
+        },
+        {
+          "id": "US-MG-74631751",
+          "name": "ENVIOS Y VARIEDADES - SAN DIEGO",
+          "country": "US",
+          "state": "CA",
+          "city": "SAN DIEGO",
+          "phone": "(619) 845-0898",
+          "source_record_id": "74631751"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "2e015b768c0f72ad0d7d49303c6feb1bd4bbcd3155a5ac21812186aed543976c",
+      "raw_file": "/workspace/scratch/moneygram-public/US-CA-san-diego.json",
+      "source_location_rows": 136,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NM-albuquerque",
+      "title": "MoneyGram · Albuquerque, NM",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Albuquerque%2C+NM%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:23.576749+00:00",
+      "obtained_records": 73,
+      "new_locations": 71,
+      "existing_matches": 2,
+      "sample_records": [
+        {
+          "id": "US-MG-500160177",
+          "name": "CIRCLE K - #2708943",
+          "country": "US",
+          "state": "NM",
+          "city": "ALBUQUERQUE",
+          "phone": "5052421130",
+          "source_record_id": "500160177"
+        },
+        {
+          "id": "US-MG-72040564",
+          "name": "7-11 - #51719",
+          "country": "US",
+          "state": "NM",
+          "city": "ALBUQUERQUE",
+          "phone": "(505) 243-8373",
+          "source_record_id": "72040564"
+        },
+        {
+          "id": "US-MG-72040551",
+          "name": "7-11 - #51750",
+          "country": "US",
+          "state": "NM",
+          "city": "ALBUQUERQUE",
+          "phone": "(505) 873-2447",
+          "source_record_id": "72040551"
+        },
+        {
+          "id": "US-MG-72040548",
+          "name": "7-11 - #51709",
+          "country": "US",
+          "state": "NM",
+          "city": "ALBUQUERQUE",
+          "phone": "(505) 242-9607",
+          "source_record_id": "72040548"
+        },
+        {
+          "id": "US-MG-72040522",
+          "name": "7-11 - #51700",
+          "country": "US",
+          "state": "NM",
+          "city": "ALBUQUERQUE",
+          "phone": "(505) 265-6098",
+          "source_record_id": "72040522"
+        },
+        {
+          "id": "US-MG-72040535",
+          "name": "7-11 - #51739",
+          "country": "US",
+          "state": "NM",
+          "city": "ALBUQUERQUE",
+          "phone": "(505) 244-3527",
+          "source_record_id": "72040535"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "fe4f22c82f580af2d98c3f26e9c7f9ba4bfcfa4c18a25089d92e4d23209b0197",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NM-albuquerque.json",
+      "source_location_rows": 73,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-CA-los-angeles",
+      "title": "MoneyGram · Los Angeles, CA",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Los+Angeles%2C+CA%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:23.577789+00:00",
+      "obtained_records": 571,
+      "new_locations": 307,
+      "existing_matches": 262,
+      "sample_records": [
+        {
+          "id": "US-MG-500044379",
+          "name": "BIG 1 PHARMACY",
+          "country": "US",
+          "state": "CA",
+          "city": "LOS ANGELES",
+          "phone": "2136177888",
+          "source_record_id": "500044379"
+        },
+        {
+          "id": "US-MG-72690794",
+          "name": "BROADWAY MULTISERVICES",
+          "country": "US",
+          "state": "CA",
+          "city": "LOS ANGELES",
+          "phone": "(213) 624-4818",
+          "source_record_id": "72690794"
+        },
+        {
+          "id": "US-MG-66035297",
+          "name": "CVS - #9674",
+          "country": "US",
+          "state": "CA",
+          "city": "LOS ANGELES",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66035297"
+        },
+        {
+          "id": "US-MG-68899622",
+          "name": "CANTORAL MULTISERVICES",
+          "country": "US",
+          "state": "CA",
+          "city": "LOS ANGELES",
+          "phone": "(213) 627-7178",
+          "source_record_id": "68899622"
+        },
+        {
+          "id": "US-MG-42762584",
+          "name": "MC TELECOM",
+          "country": "US",
+          "state": "CA",
+          "city": "LOS ANGELES",
+          "phone": "(213) 627-8922",
+          "source_record_id": "42762584"
+        },
+        {
+          "id": "US-MG-68872377",
+          "name": "CVS - #10309",
+          "country": "US",
+          "state": "CA",
+          "city": "LOS ANGELES",
+          "phone": "(800) 746-7287",
+          "source_record_id": "68872377"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "bd21cb9671f6d8e058fe1bb2278fd0e014a6832cad3592c0fc91c32847b090b5",
+      "raw_file": "/workspace/scratch/moneygram-public/US-CA-los-angeles.json",
+      "source_location_rows": 571,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-TX-el-paso",
+      "title": "MoneyGram · El Paso, TX",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=El+Paso%2C+TX%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:24.299196+00:00",
+      "obtained_records": 133,
+      "new_locations": 124,
+      "existing_matches": 9,
+      "sample_records": [
+        {
+          "id": "US-MG-72045941",
+          "name": "VALUTA CORPORATION",
+          "country": "US",
+          "state": "TX",
+          "city": "EL PASO",
+          "phone": "(915) 544-1152",
+          "source_record_id": "72045941"
+        },
+        {
+          "id": "US-MG-500149043",
+          "name": "CIRCLE K - #2701227",
+          "country": "US",
+          "state": "TX",
+          "city": "El Paso",
+          "phone": "9155332452",
+          "source_record_id": "500149043"
+        },
+        {
+          "id": "US-MG-72025576",
+          "name": "7-11 - #51606",
+          "country": "US",
+          "state": "TX",
+          "city": "EL PASO",
+          "phone": "(915) 544-1071",
+          "source_record_id": "72025576"
+        },
+        {
+          "id": "US-MG-500262907",
+          "name": "CIRCLE K - #2706130",
+          "country": "US",
+          "state": "TX",
+          "city": "EL PASO",
+          "phone": "9155326257",
+          "source_record_id": "500262907"
+        },
+        {
+          "id": "US-MG-70771602",
+          "name": "MELEK MULTICENTER - #3 - PUENTE LIBRE",
+          "country": "US",
+          "state": "TX",
+          "city": "EL PASO",
+          "phone": "(915) 542-3131",
+          "source_record_id": "70771602"
+        },
+        {
+          "id": "US-MG-74876037",
+          "name": "METRO MONEY FINANCIAL LLC - #1 - EL PAS",
+          "country": "US",
+          "state": "TX",
+          "city": "EL PASO",
+          "phone": "(915) 351-1658",
+          "source_record_id": "74876037"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "6c7b84e5132f570e0df40287921e25c9de50a24e84b544b7c43be9d8f99be518",
+      "raw_file": "/workspace/scratch/moneygram-public/US-TX-el-paso.json",
+      "source_location_rows": 133,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-TX-houston",
+      "title": "MoneyGram · Houston, TX",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Houston%2C+TX%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:24.244251+00:00",
+      "obtained_records": 339,
+      "new_locations": 263,
+      "existing_matches": 76,
+      "sample_records": [
+        {
+          "id": "US-MG-66911997",
+          "name": "CVS - #3156",
+          "country": "US",
+          "state": "TX",
+          "city": "HOUSTON",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66911997"
+        },
+        {
+          "id": "US-MG-71193810",
+          "name": "CVS - #11094",
+          "country": "US",
+          "state": "TX",
+          "city": "HOUSTON",
+          "phone": "(800) 746-7287",
+          "source_record_id": "71193810"
+        },
+        {
+          "id": "US-MG-65984077",
+          "name": "CVS - #5968",
+          "country": "US",
+          "state": "TX",
+          "city": "HOUSTON",
+          "phone": "(800) 746-7287",
+          "source_record_id": "65984077"
+        },
+        {
+          "id": "US-MG-40577250",
+          "name": "ACE CASH EXPRESS - #1434",
+          "country": "US",
+          "state": "TX",
+          "city": "HOUSTON",
+          "phone": "(713) 654-8087",
+          "source_record_id": "40577250"
+        },
+        {
+          "id": "US-MG-41911527",
+          "name": "EL GUERO LLC - #1",
+          "country": "US",
+          "state": "TX",
+          "city": "HOUSTON",
+          "phone": "(713) 227-1114",
+          "source_record_id": "41911527"
+        },
+        {
+          "id": "US-MG-73984771",
+          "name": "CVS - #11202",
+          "country": "US",
+          "state": "TX",
+          "city": "HOUSTON",
+          "phone": "(800) 746-7287",
+          "source_record_id": "73984771"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "198c0c53f8094ea8139d7a6aa08d02b1d8e8fc5101054a8e488c0843ec9abbdb",
+      "raw_file": "/workspace/scratch/moneygram-public/US-TX-houston.json",
+      "source_location_rows": 339,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-AZ-phoenix",
+      "title": "MoneyGram · Phoenix, AZ",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Phoenix%2C+AZ%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:24.533533+00:00",
+      "obtained_records": 467,
+      "new_locations": 441,
+      "existing_matches": 26,
+      "sample_records": [
+        {
+          "id": "US-MG-500152119",
+          "name": "CIRCLE K - #2702872",
+          "country": "US",
+          "state": "AZ",
+          "city": "PHOENIX",
+          "phone": "6022523142",
+          "source_record_id": "500152119"
+        },
+        {
+          "id": "US-MG-500150722",
+          "name": "CIRCLE K - #2701843",
+          "country": "US",
+          "state": "AZ",
+          "city": "PHOENIX",
+          "phone": "6022529720",
+          "source_record_id": "500150722"
+        },
+        {
+          "id": "US-MG-500149785",
+          "name": "CIRCLE K - #2701569",
+          "country": "US",
+          "state": "AZ",
+          "city": "PHOENIX",
+          "phone": "6022523127",
+          "source_record_id": "500149785"
+        },
+        {
+          "id": "US-MG-500160070",
+          "name": "CIRCLE K - #2708841",
+          "country": "US",
+          "state": "AZ",
+          "city": "PHOENIX",
+          "phone": "6022523183",
+          "source_record_id": "500160070"
+        },
+        {
+          "id": "US-MG-500146779",
+          "name": "CIRCLE K - #2700114",
+          "country": "US",
+          "state": "AZ",
+          "city": "PHOENIX",
+          "phone": "6022541201",
+          "source_record_id": "500146779"
+        },
+        {
+          "id": "US-MG-500150802",
+          "name": "CIRCLE K - #2701859",
+          "country": "US",
+          "state": "AZ",
+          "city": "PHOENIX",
+          "phone": "6022524486",
+          "source_record_id": "500150802"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "5f206b6446a2609c2f096f703526295a40a866fd229d96d8b04c0044cb7b18ba",
+      "raw_file": "/workspace/scratch/moneygram-public/US-AZ-phoenix.json",
+      "source_location_rows": 469,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-AZ-tucson",
+      "title": "MoneyGram · Tucson, AZ",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Tucson%2C+AZ%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:24.910794+00:00",
+      "obtained_records": 132,
+      "new_locations": 132,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "US-MG-502593069",
+          "name": "CIRCLE K - #2701946",
+          "country": "US",
+          "state": "AZ",
+          "city": "TUCSON",
+          "phone": "6027284304",
+          "source_record_id": "502593069"
+        },
+        {
+          "id": "US-MG-500261827",
+          "name": "CIRCLE K - #2701848",
+          "country": "US",
+          "state": "AZ",
+          "city": "TUCSON",
+          "phone": "5208877673",
+          "source_record_id": "500261827"
+        },
+        {
+          "id": "US-MG-501075524",
+          "name": "CIRCLE K - #2703401",
+          "country": "US",
+          "state": "AZ",
+          "city": "TUCSON",
+          "phone": "5206222160",
+          "source_record_id": "501075524"
+        },
+        {
+          "id": "US-MG-43208814",
+          "name": "ACE CASH EXPRESS - #1238",
+          "country": "US",
+          "state": "AZ",
+          "city": "TUCSON",
+          "phone": "(520) 628-3643",
+          "source_record_id": "43208814"
+        },
+        {
+          "id": "US-MG-70795662",
+          "name": "WALMART - #5725",
+          "country": "US",
+          "state": "AZ",
+          "city": "TUCSON",
+          "phone": "(520) 719-6349",
+          "source_record_id": "70795662"
+        },
+        {
+          "id": "US-MG-500149824",
+          "name": "CIRCLE K - #2701583",
+          "country": "US",
+          "state": "AZ",
+          "city": "TUCSON",
+          "phone": "5207913512",
+          "source_record_id": "500149824"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "48c958e4f947dceec625252100a5bb719c3a5843cfdfadc39c82a8414263627d",
+      "raw_file": "/workspace/scratch/moneygram-public/US-AZ-tucson.json",
+      "source_location_rows": 132,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NV-las-vegas",
+      "title": "MoneyGram · Las Vegas, NV",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Las+Vegas%2C+NV%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:24.955833+00:00",
+      "obtained_records": 135,
+      "new_locations": 115,
+      "existing_matches": 20,
+      "sample_records": [
+        {
+          "id": "US-MG-500155941",
+          "name": "CIRCLE K - #2705395",
+          "country": "US",
+          "state": "NV",
+          "city": "LAS VEGAS",
+          "phone": "7024711128",
+          "source_record_id": "500155941"
+        },
+        {
+          "id": "US-MG-74806133",
+          "name": "AZTEC BAIL BONDS - BAILS BONDS",
+          "country": "US",
+          "state": "NV",
+          "city": "LAS VEGAS",
+          "phone": "(702) 429-7333",
+          "source_record_id": "74806133"
+        },
+        {
+          "id": "US-MG-76278714",
+          "name": "TORTILLERIA SAN DIEGO - LAS VEGAS",
+          "country": "US",
+          "state": "NV",
+          "city": "LAS VEGAS",
+          "phone": "(702) 388-2838",
+          "source_record_id": "76278714"
+        },
+        {
+          "id": "US-MG-74526015",
+          "name": "BELLS MARKET - #1 - LAS VEGAS - LAS VEGA",
+          "country": "US",
+          "state": "NV",
+          "city": "LAS VEGAS",
+          "phone": "(702) 642-0269",
+          "source_record_id": "74526015"
+        },
+        {
+          "id": "US-MG-75080356",
+          "name": "ENVIOS ESQUIPULAS",
+          "country": "US",
+          "state": "NV",
+          "city": "LAS VEGAS",
+          "phone": "(702) 504-9271",
+          "source_record_id": "75080356"
+        },
+        {
+          "id": "US-MG-500261577",
+          "name": "CIRCLE K - #2701354",
+          "country": "US",
+          "state": "NV",
+          "city": "LAS VEGAS",
+          "phone": "7026490105",
+          "source_record_id": "500261577"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "6f5cf36b9a3b5b9336a4769e8cde3c40e52a05d070d018e613fa2586bd7bfabc",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NV-las-vegas.json",
+      "source_location_rows": 135,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-FL-miami",
+      "title": "MoneyGram · Miami, FL",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Miami%2C+FL%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:25.358434+00:00",
+      "obtained_records": 210,
+      "new_locations": 153,
+      "existing_matches": 57,
+      "sample_records": [
+        {
+          "id": "US-MG-66027991",
+          "name": "CVS - #5147",
+          "country": "US",
+          "state": "FL",
+          "city": "MIAMI",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66027991"
+        },
+        {
+          "id": "US-MG-40038401",
+          "name": "CONTINENTAL RX - #0001",
+          "country": "US",
+          "state": "FL",
+          "city": "MIAMI",
+          "phone": "(305) 856-2211",
+          "source_record_id": "40038401"
+        },
+        {
+          "id": "US-MG-66025647",
+          "name": "CVS - #402",
+          "country": "US",
+          "state": "FL",
+          "city": "MIAMI",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66025647"
+        },
+        {
+          "id": "US-MG-43319486",
+          "name": "INDIAN PREM",
+          "country": "US",
+          "state": "FL",
+          "city": "MIAMI",
+          "phone": "(305) 371-7736",
+          "source_record_id": "43319486"
+        },
+        {
+          "id": "US-MG-44326436",
+          "name": "MERCADO ORIENTAL - #0001",
+          "country": "US",
+          "state": "FL",
+          "city": "MIAMI",
+          "phone": "(305) 545-9131",
+          "source_record_id": "44326436"
+        },
+        {
+          "id": "US-MG-71911416",
+          "name": "MATANZAS GROCERY",
+          "country": "US",
+          "state": "FL",
+          "city": "MIAMI",
+          "phone": "(305) 545-6590",
+          "source_record_id": "71911416"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "e593f19a067e0323ad7bfe79cb370bae2bd460d63d6457be6879fd09b8ea76e9",
+      "raw_file": "/workspace/scratch/moneygram-public/US-FL-miami.json",
+      "source_location_rows": 210,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-CO-denver",
+      "title": "MoneyGram · Denver, CO",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Denver%2C+CO%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:25.550274+00:00",
+      "obtained_records": 109,
+      "new_locations": 102,
+      "existing_matches": 7,
+      "sample_records": [
+        {
+          "id": "US-MG-72023138",
+          "name": "CVS - #10804",
+          "country": "US",
+          "state": "CO",
+          "city": "DENVER",
+          "phone": "(800) 746-7287",
+          "source_record_id": "72023138"
+        },
+        {
+          "id": "US-MG-500323818",
+          "name": "CIRCLE K - #2709900",
+          "country": "US",
+          "state": "CO",
+          "city": "DENVER",
+          "phone": "3035346260",
+          "source_record_id": "500323818"
+        },
+        {
+          "id": "US-MG-43209415",
+          "name": "EL PATRON",
+          "country": "US",
+          "state": "CO",
+          "city": "DENVER",
+          "phone": "(720) 946-0366",
+          "source_record_id": "43209415"
+        },
+        {
+          "id": "US-MG-71161321",
+          "name": "CVS - #10959",
+          "country": "US",
+          "state": "CO",
+          "city": "DENVER",
+          "phone": "(800) 746-7287",
+          "source_record_id": "71161321"
+        },
+        {
+          "id": "US-MG-40319078",
+          "name": "ACE CASH EXPRESS - #25",
+          "country": "US",
+          "state": "CO",
+          "city": "DENVER",
+          "phone": "(303) 733-1486",
+          "source_record_id": "40319078"
+        },
+        {
+          "id": "US-MG-44375267",
+          "name": "ABARROTES LA HERRADURA - #0001",
+          "country": "US",
+          "state": "CO",
+          "city": "DENVER",
+          "phone": "(303) 308-1646",
+          "source_record_id": "44375267"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "c5d1afcec02b22c4b282bed5cb005793403a182305293e51075768bd7bf40c5e",
+      "raw_file": "/workspace/scratch/moneygram-public/US-CO-denver.json",
+      "source_location_rows": 109,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NJ-newark",
+      "title": "MoneyGram · Newark, NJ",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Newark%2C+NJ%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:25.962461+00:00",
+      "obtained_records": 748,
+      "new_locations": 341,
+      "existing_matches": 406,
+      "sample_records": [
+        {
+          "id": "US-MG-71037840",
+          "name": "ABEEBA - NEWARK",
+          "country": "US",
+          "state": "NJ",
+          "city": "NEWARK",
+          "phone": "(973) 353-0808",
+          "source_record_id": "71037840"
+        },
+        {
+          "id": "US-MG-73722519",
+          "name": "EMPORIO WIRELESS - NEWARK",
+          "country": "US",
+          "state": "NJ",
+          "city": "NEWARK",
+          "phone": "(973) 333-1968",
+          "source_record_id": "73722519"
+        },
+        {
+          "id": "US-MG-68396303",
+          "name": "PALACIO GIFTS",
+          "country": "US",
+          "state": "NJ",
+          "city": "NEWARK",
+          "phone": "(973) 522-0044",
+          "source_record_id": "68396303"
+        },
+        {
+          "id": "US-MG-68017585",
+          "name": "EXPRESS CHECK CASHING",
+          "country": "US",
+          "state": "NJ",
+          "city": "NEWARK",
+          "phone": "(973) 624-0127",
+          "source_record_id": "68017585"
+        },
+        {
+          "id": "US-MG-66001027",
+          "name": "CVS - #2261",
+          "country": "US",
+          "state": "NJ",
+          "city": "NEWARK",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66001027"
+        },
+        {
+          "id": "US-MG-69396412",
+          "name": "ACCESS TAX LLC",
+          "country": "US",
+          "state": "NJ",
+          "city": "NEWARK",
+          "phone": "(973) 368-2005",
+          "source_record_id": "69396412"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "93fffde299bef1f44e30a7568e143b318750a9b0d2e45f8f6ca15c61fdb3a5b1",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NJ-newark.json",
+      "source_location_rows": 750,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NY-new-york",
+      "title": "MoneyGram · New York, NY",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=New+York%2C+NY%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:26.182532+00:00",
+      "obtained_records": 790,
+      "new_locations": 36,
+      "existing_matches": 39,
+      "sample_records": [
+        {
+          "id": "US-MG-74363090",
+          "name": "CVS - #11384",
+          "country": "US",
+          "state": "NY",
+          "city": "NEW YORK",
+          "phone": "(800) 746-7287",
+          "source_record_id": "74363090"
+        },
+        {
+          "id": "US-MG-74128578",
+          "name": "CVS - #11408",
+          "country": "US",
+          "state": "NY",
+          "city": "NEW YORK CITY",
+          "phone": "(800) 746-7287",
+          "source_record_id": "74128578"
+        },
+        {
+          "id": "US-MG-65991620",
+          "name": "CVS - #2716",
+          "country": "US",
+          "state": "NY",
+          "city": "NEW YORK",
+          "phone": "(800) 746-7287",
+          "source_record_id": "65991620"
+        },
+        {
+          "id": "US-MG-72303861",
+          "name": "CVS - #10933",
+          "country": "US",
+          "state": "NY",
+          "city": "MANHATTAN",
+          "phone": "(800) 746-7287",
+          "source_record_id": "72303861"
+        },
+        {
+          "id": "US-MG-68795182",
+          "name": "CVS - #10407",
+          "country": "US",
+          "state": "NY",
+          "city": "NEW YORK",
+          "phone": "(800) 746-7287",
+          "source_record_id": "68795182"
+        },
+        {
+          "id": "US-MG-76025488",
+          "name": "MUNDO LATINO MULTISERVICE",
+          "country": "US",
+          "state": "NY",
+          "city": "NEW YORK",
+          "phone": "(212) 995-9209",
+          "source_record_id": "76025488"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "0884bd4ab1d251cadf58d5ad83e894bac80196ed21e431e342b06bfc5fedba66",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NY-new-york.json",
+      "source_location_rows": 792,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-CT-hartford",
+      "title": "MoneyGram · Hartford, CT",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Hartford%2C+CT%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:26.783718+00:00",
+      "obtained_records": 76,
+      "new_locations": 67,
+      "existing_matches": 9,
+      "sample_records": [
+        {
+          "id": "US-MG-42790129",
+          "name": "RAPIENVIO TRAVEL - #643 - HARTFORD",
+          "country": "US",
+          "state": "CT",
+          "city": "HARTFORD",
+          "phone": "(860) 246-4100",
+          "source_record_id": "42790129"
+        },
+        {
+          "id": "US-MG-75313010",
+          "name": "JN MONEY - HARTFORD",
+          "country": "US",
+          "state": "CT",
+          "city": "HARTFORD",
+          "phone": "(866) 735-6002",
+          "source_record_id": "75313010"
+        },
+        {
+          "id": "US-MG-65997912",
+          "name": "CVS - #1089",
+          "country": "US",
+          "state": "CT",
+          "city": "EAST HARTFORD",
+          "phone": "(800) 746-7287",
+          "source_record_id": "65997912"
+        },
+        {
+          "id": "US-MG-65997679",
+          "name": "CVS - #1038",
+          "country": "US",
+          "state": "CT",
+          "city": "WEST HARTFORD",
+          "phone": "(800) 746-7287",
+          "source_record_id": "65997679"
+        },
+        {
+          "id": "US-MG-65998979",
+          "name": "CVS - #840",
+          "country": "US",
+          "state": "CT",
+          "city": "HARTFORD",
+          "phone": "(800) 746-7287",
+          "source_record_id": "65998979"
+        },
+        {
+          "id": "US-MG-66000167",
+          "name": "CVS - #2099",
+          "country": "US",
+          "state": "CT",
+          "city": "HARTFORD",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66000167"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "d74dbdf11b777436f5d2e25a7d26326b5caf8baa2249de2c9ab982e1b82d9e6b",
+      "raw_file": "/workspace/scratch/moneygram-public/US-CT-hartford.json",
+      "source_location_rows": 76,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-RI-providence",
+      "title": "MoneyGram · Providence, RI",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Providence%2C+RI%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:27.053892+00:00",
+      "obtained_records": 90,
+      "new_locations": 77,
+      "existing_matches": 13,
+      "sample_records": [
+        {
+          "id": "US-MG-66000031",
+          "name": "CVS - #2049",
+          "country": "US",
+          "state": "RI",
+          "city": "PROVIDENCE",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66000031"
+        },
+        {
+          "id": "US-MG-44312945",
+          "name": "WALMART - #3301",
+          "country": "US",
+          "state": "RI",
+          "city": "PROVIDENCE",
+          "phone": "(401) 272-5047",
+          "source_record_id": "44312945"
+        },
+        {
+          "id": "US-MG-72228412",
+          "name": "LA CHAPINCITA MARKET LLC",
+          "country": "US",
+          "state": "RI",
+          "city": "PROVIDENCE",
+          "phone": "(401) 603-0012",
+          "source_record_id": "72228412"
+        },
+        {
+          "id": "US-MG-68662846",
+          "name": "EL QUICHE BAKERY STORE",
+          "country": "US",
+          "state": "RI",
+          "city": "PROVIDENCE",
+          "phone": "(401) 521-5154",
+          "source_record_id": "68662846"
+        },
+        {
+          "id": "US-MG-74190658",
+          "name": "ELMWOOD SUPERMARKET",
+          "country": "US",
+          "state": "RI",
+          "city": "PROVIDENCE",
+          "phone": "(401) 785-1051",
+          "source_record_id": "74190658"
+        },
+        {
+          "id": "US-MG-74753943",
+          "name": "JACKIE PROFESSIONAL SERVICES LLC - #1 -",
+          "country": "US",
+          "state": "RI",
+          "city": "PROVIDENCE",
+          "phone": "(401) 444-0801",
+          "source_record_id": "74753943"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "c58724ad40ee429b3e1f92962e5d676636583c8059f95320964d9e32aceecc16",
+      "raw_file": "/workspace/scratch/moneygram-public/US-RI-providence.json",
+      "source_location_rows": 90,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-IL-chicago",
+      "title": "MoneyGram · Chicago, IL",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Chicago%2C+IL%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:27.330868+00:00",
+      "obtained_records": 206,
+      "new_locations": 143,
+      "existing_matches": 63,
+      "sample_records": [
+        {
+          "id": "US-MG-503979104",
+          "name": "CIRCLE K - #4706902",
+          "country": "US",
+          "state": "IL",
+          "city": "CHICAGO",
+          "phone": "3126833633",
+          "source_record_id": "503979104"
+        },
+        {
+          "id": "US-MG-66610829",
+          "name": "LOOP CURRENCY EXCHANGE - #1 - CHICAGO -",
+          "country": "US",
+          "state": "IL",
+          "city": "CHICAGO",
+          "phone": "(312) 372-7748",
+          "source_record_id": "66610829"
+        },
+        {
+          "id": "US-MG-503982794",
+          "name": "CIRCLE K - #4706897",
+          "country": "US",
+          "state": "IL",
+          "city": "CHICAGO",
+          "phone": "3128847633",
+          "source_record_id": "503982794"
+        },
+        {
+          "id": "US-MG-503966221",
+          "name": "CIRCLE K - #4706898 - CHICAGO",
+          "country": "US",
+          "state": "IL",
+          "city": "CHICAGO",
+          "phone": "3123841989",
+          "source_record_id": "503966221"
+        },
+        {
+          "id": "US-MG-503982418",
+          "name": "CIRCLE K - #4706906",
+          "country": "US",
+          "state": "IL",
+          "city": "CHICAGO",
+          "phone": "3127951973",
+          "source_record_id": "503982418"
+        },
+        {
+          "id": "US-MG-66012773",
+          "name": "CVS - #4781",
+          "country": "US",
+          "state": "IL",
+          "city": "CHICAGO",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66012773"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "d6051a90b6c5343b0f34991e3033b40728a14000650e195ba2b12f749e701a55",
+      "raw_file": "/workspace/scratch/moneygram-public/US-IL-chicago.json",
+      "source_location_rows": 206,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NC-charlotte",
+      "title": "MoneyGram · Charlotte, NC",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Charlotte%2C+NC%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:27.705333+00:00",
+      "obtained_records": 202,
+      "new_locations": 183,
+      "existing_matches": 19,
+      "sample_records": [
+        {
+          "id": "US-MG-66006815",
+          "name": "CVS - #7089",
+          "country": "US",
+          "state": "NC",
+          "city": "CHARLOTTE",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66006815"
+        },
+        {
+          "id": "US-MG-500150880",
+          "name": "CIRCLE K - #2701884",
+          "country": "US",
+          "state": "NC",
+          "city": "CHARLOTTE",
+          "phone": "7043769844",
+          "source_record_id": "500150880"
+        },
+        {
+          "id": "US-MG-502111498",
+          "name": "CIRCLE K - #2723964",
+          "country": "US",
+          "state": "NC",
+          "city": "CHARLOTTE",
+          "phone": "7043331014",
+          "source_record_id": "502111498"
+        },
+        {
+          "id": "US-MG-66001247",
+          "name": "CVS - #3185",
+          "country": "US",
+          "state": "NC",
+          "city": "CHARLOTTE",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66001247"
+        },
+        {
+          "id": "US-MG-65766761",
+          "name": "WAYNE'S SUPERMARKET NO. 4",
+          "country": "US",
+          "state": "NC",
+          "city": "CHARLOTTE",
+          "phone": "(704) 332-6884",
+          "source_record_id": "65766761"
+        },
+        {
+          "id": "US-MG-500263524",
+          "name": "CIRCLE K - #2708403",
+          "country": "US",
+          "state": "NC",
+          "city": "CHARLOTTE",
+          "phone": "7043769294",
+          "source_record_id": "500263524"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "76dcb44f62695f38f9d523b3963a032f6d4752d8cb6a2a0b3d6b27dc723c3a10",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NC-charlotte.json",
+      "source_location_rows": 202,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-FL-orlando",
+      "title": "MoneyGram · Orlando, FL",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Orlando%2C+FL%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:25.497344+00:00",
+      "obtained_records": 218,
+      "new_locations": 214,
+      "existing_matches": 4,
+      "sample_records": [
+        {
+          "id": "US-MG-66026248",
+          "name": "CVS - #1314",
+          "country": "US",
+          "state": "FL",
+          "city": "ORLANDO",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66026248"
+        },
+        {
+          "id": "US-MG-66028453",
+          "name": "CVS - #5216",
+          "country": "US",
+          "state": "FL",
+          "city": "ORLANDO",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66028453"
+        },
+        {
+          "id": "US-MG-67994188",
+          "name": "WALMART - #3162",
+          "country": "US",
+          "state": "FL",
+          "city": "ORLANDO",
+          "phone": "(407) 241-4080",
+          "source_record_id": "67994188"
+        },
+        {
+          "id": "US-MG-500153671",
+          "name": "CIRCLE K - #2704110",
+          "country": "US",
+          "state": "FL",
+          "city": "ORLANDO",
+          "phone": "4078956787",
+          "source_record_id": "500153671"
+        },
+        {
+          "id": "US-MG-501479315",
+          "name": "CIRCLE K - #2708969",
+          "country": "US",
+          "state": "FL",
+          "city": "ORLANDO",
+          "phone": "4072931992",
+          "source_record_id": "501479315"
+        },
+        {
+          "id": "US-MG-40316660",
+          "name": "ACE CASH EXPRESS - #3278",
+          "country": "US",
+          "state": "FL",
+          "city": "ORLANDO",
+          "phone": "(407) 893-6484",
+          "source_record_id": "40316660"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "f334b9d37170ccbeb5fbc701b400d1d4786593649d08bab6ff13e00a4c91afb3",
+      "raw_file": "/workspace/scratch/moneygram-public/US-FL-orlando.json",
+      "source_location_rows": 219,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NC-raleigh",
+      "title": "MoneyGram · Raleigh, NC",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Raleigh%2C+NC%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:27.968146+00:00",
+      "obtained_records": 115,
+      "new_locations": 102,
+      "existing_matches": 13,
+      "sample_records": [
+        {
+          "id": "US-MG-500028191",
+          "name": "T & D MART",
+          "country": "US",
+          "state": "NC",
+          "city": "RALEIGH",
+          "phone": "9198333596",
+          "source_record_id": "500028191"
+        },
+        {
+          "id": "US-MG-76256451",
+          "name": "RALEIGH CHECK CASHING - RALEIGH - RALEIG",
+          "country": "US",
+          "state": "NC",
+          "city": "RALEIGH",
+          "phone": "(919) 856-1041",
+          "source_record_id": "76256451"
+        },
+        {
+          "id": "US-MG-502111462",
+          "name": "CIRCLE K - #2723303",
+          "country": "US",
+          "state": "NC",
+          "city": "RALEIGH",
+          "phone": "9197430128",
+          "source_record_id": "502111462"
+        },
+        {
+          "id": "US-MG-69646434",
+          "name": "CVS - #10682",
+          "country": "US",
+          "state": "NC",
+          "city": "RALEIGH",
+          "phone": "(800) 746-7287",
+          "source_record_id": "69646434"
+        },
+        {
+          "id": "US-MG-501940496",
+          "name": "CIRCLE K - #2703126",
+          "country": "US",
+          "state": "NC",
+          "city": "RALEIGH",
+          "phone": "9197588838",
+          "source_record_id": "501940496"
+        },
+        {
+          "id": "US-MG-500159786",
+          "name": "CIRCLE K - #2708620",
+          "country": "US",
+          "state": "NC",
+          "city": "RALEIGH",
+          "phone": "9198514583",
+          "source_record_id": "500159786"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "872ab9514c8d0175c84f873448302141319339f8e5da4009f14cb8213599be48",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NC-raleigh.json",
+      "source_location_rows": 115,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-NC-durham",
+      "title": "MoneyGram · Durham, NC",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Durham%2C+NC%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:28.317789+00:00",
+      "obtained_records": 103,
+      "new_locations": 9,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "US-MG-67124974",
+          "name": "COMPARE FOODS",
+          "country": "US",
+          "state": "NC",
+          "city": "DURHAM",
+          "phone": "(919) 419-8346",
+          "source_record_id": "67124974"
+        },
+        {
+          "id": "US-MG-40045449",
+          "name": "TIENDA MI PUEBLO",
+          "country": "US",
+          "state": "NC",
+          "city": "DURHAM",
+          "phone": "(919) 682-6123",
+          "source_record_id": "40045449"
+        },
+        {
+          "id": "US-MG-45082384",
+          "name": "ACE CASH EXPRESS - #1113",
+          "country": "US",
+          "state": "NC",
+          "city": "DURHAM",
+          "phone": "(919) 682-2977",
+          "source_record_id": "45082384"
+        },
+        {
+          "id": "US-MG-75200848",
+          "name": "VARIEDADES RLB - DURHAM",
+          "country": "US",
+          "state": "NC",
+          "city": "DURHAM",
+          "phone": "(919) 724-3257",
+          "source_record_id": "75200848"
+        },
+        {
+          "id": "US-MG-73359937",
+          "name": "COMPARE FOODS - DURHAM",
+          "country": "US",
+          "state": "NC",
+          "city": "DURHAM",
+          "phone": "(919) 220-9640",
+          "source_record_id": "73359937"
+        },
+        {
+          "id": "US-MG-73249335",
+          "name": "TROPICANA SUPERMARKET",
+          "country": "US",
+          "state": "NC",
+          "city": "DURHAM",
+          "phone": "(919) 907-1850",
+          "source_record_id": "73249335"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "345d3ea694af9246cc19873ca66197821b5d59a0b9a270b62b47aff1e5d836e5",
+      "raw_file": "/workspace/scratch/moneygram-public/US-NC-durham.json",
+      "source_location_rows": 103,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-CA-ON-toronto",
+      "title": "MoneyGram · Toronto, ON",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Toronto%2C+ON%2C+Canada&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:28.530310+00:00",
+      "obtained_records": 151,
+      "new_locations": 151,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "CA-MG-75809896",
+          "name": "TRANS ASIA EXPRESS - TORONTO",
+          "country": "CA",
+          "state": "ON",
+          "city": "TORONTO",
+          "phone": "(416) 532-2330",
+          "source_record_id": "75809896"
+        },
+        {
+          "id": "CA-MG-75682424",
+          "name": "MONEY MART - #880 - TORONTO",
+          "country": "CA",
+          "state": "ON",
+          "city": "TORONTO",
+          "phone": "(416) 367-2927",
+          "source_record_id": "75682424"
+        },
+        {
+          "id": "CA-MG-75681771",
+          "name": "MONEY MART - #855 - TORONTO",
+          "country": "CA",
+          "state": "ON",
+          "city": "TORONTO",
+          "phone": "(416) 920-4146",
+          "source_record_id": "75681771"
+        },
+        {
+          "id": "CA-MG-75682071",
+          "name": "MONEY MART - #807 - TORONTO",
+          "country": "CA",
+          "state": "ON",
+          "city": "TORONTO",
+          "phone": "(647) 260-3217",
+          "source_record_id": "75682071"
+        },
+        {
+          "id": "CA-MG-75682042",
+          "name": "MONEY MART - #801 - TORONTO",
+          "country": "CA",
+          "state": "ON",
+          "city": "TORONTO",
+          "phone": "(416) 364-2274",
+          "source_record_id": "75682042"
+        },
+        {
+          "id": "CA-MG-74963283",
+          "name": "SHAH ENTERPRISE - TORONTO",
+          "country": "CA",
+          "state": "ON",
+          "city": "TORONTO",
+          "phone": "(416) 737-5677",
+          "source_record_id": "74963283"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "f0c6d54090de290794202c66ddb7b2ae3db8cfcc7c07ba9c293c3320f67df809",
+      "raw_file": "/workspace/scratch/moneygram-public/CA-ON-toronto.json",
+      "source_location_rows": 152,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-US-GA-atlanta",
+      "title": "MoneyGram · Atlanta, GA",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "US",
+      "url": "https://www.moneygram.com/locations/api/locations?country=US&address=Atlanta%2C+GA%2C+USA&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:28.368798+00:00",
+      "obtained_records": 218,
+      "new_locations": 150,
+      "existing_matches": 68,
+      "sample_records": [
+        {
+          "id": "US-MG-66021832",
+          "name": "CVS - #7336",
+          "country": "US",
+          "state": "GA",
+          "city": "ATLANTA",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66021832"
+        },
+        {
+          "id": "US-MG-75143471",
+          "name": "WALMART - #7601",
+          "country": "US",
+          "state": "GA",
+          "city": "ATLANTA",
+          "phone": "(404) 460-2703",
+          "source_record_id": "75143471"
+        },
+        {
+          "id": "US-MG-40315894",
+          "name": "ACE CASH EXPRESS - #824",
+          "country": "US",
+          "state": "GA",
+          "city": "ATLANTA",
+          "phone": "(404) 756-0101",
+          "source_record_id": "40315894"
+        },
+        {
+          "id": "US-MG-40315797",
+          "name": "ACE CASH EXPRESS - #816",
+          "country": "US",
+          "state": "GA",
+          "city": "ATLANTA",
+          "phone": "(404) 888-0890",
+          "source_record_id": "40315797"
+        },
+        {
+          "id": "US-MG-66011813",
+          "name": "CVS - #4178",
+          "country": "US",
+          "state": "GA",
+          "city": "ATLANTA",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66011813"
+        },
+        {
+          "id": "US-MG-66008211",
+          "name": "CVS - #2943",
+          "country": "US",
+          "state": "GA",
+          "city": "ATLANTA",
+          "phone": "(800) 746-7287",
+          "source_record_id": "66008211"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "eeed73078d2eb39ed12a912c460bf18b38df4409b2a7e86d1d0733f0b673432d",
+      "raw_file": "/workspace/scratch/moneygram-public/US-GA-atlanta.json",
+      "source_location_rows": 218,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-CA-ON-ottawa",
+      "title": "MoneyGram · Ottawa, ON",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Ottawa%2C+ON%2C+Canada&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:28.842190+00:00",
+      "obtained_records": 19,
+      "new_locations": 19,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "CA-MG-75682521",
+          "name": "MONEY MART - #45 - OTTAWA",
+          "country": "CA",
+          "state": "ON",
+          "city": "OTTAWA",
+          "phone": "(613) 234-0112",
+          "source_record_id": "75682521"
+        },
+        {
+          "id": "CA-MG-75585291",
+          "name": "BRAND BOOST CONSULTING - OTTAWA.",
+          "country": "CA",
+          "state": "AB",
+          "city": "OTTAWA.",
+          "phone": "(613) 233-6193",
+          "source_record_id": "75585291"
+        },
+        {
+          "id": "CA-MG-75681328",
+          "name": "MONEY MART - #40 - OTTAWA",
+          "country": "CA",
+          "state": "ON",
+          "city": "OTTAWA",
+          "phone": "(613) 241-4004",
+          "source_record_id": "75681328"
+        },
+        {
+          "id": "CA-MG-73525509",
+          "name": "DEPANNEUR CESAR - GATINEAU",
+          "country": "CA",
+          "state": "QC",
+          "city": "GATINEAU",
+          "phone": "(819) 778-8558",
+          "source_record_id": "73525509"
+        },
+        {
+          "id": "CA-MG-76135721",
+          "name": "MARCHE AFRO CARIB - GATINEAU",
+          "country": "CA",
+          "state": "QC",
+          "city": "GATINEAU",
+          "phone": "(613) 808-7035",
+          "source_record_id": "76135721"
+        },
+        {
+          "id": "CA-MG-74488658",
+          "name": "EXPERTS SERVICES MONETAIRES INC.",
+          "country": "CA",
+          "state": "QC",
+          "city": "GATINEAU",
+          "phone": "(819) 777-0202",
+          "source_record_id": "74488658"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "01e131b3bc45105ad48565ca45d0078e95b7bcaf12b250354c109a7bd0429c1b",
+      "raw_file": "/workspace/scratch/moneygram-public/CA-ON-ottawa.json",
+      "source_location_rows": 19,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-CA-BC-vancouver",
+      "title": "MoneyGram · Vancouver, BC",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Vancouver%2C+BC%2C+Canada&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:29.259864+00:00",
+      "obtained_records": 51,
+      "new_locations": 51,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "CA-MG-75682589",
+          "name": "MONEY MART - #247 - VANCOUVER",
+          "country": "CA",
+          "state": "BC",
+          "city": "VANCOUVER",
+          "phone": "(604) 677-8278",
+          "source_record_id": "75682589"
+        },
+        {
+          "id": "CA-MG-71004637",
+          "name": "GASTOWN COLLECTABLE INC.",
+          "country": "CA",
+          "state": "BC",
+          "city": "VANCOUVER",
+          "phone": "(604) 647-2274",
+          "source_record_id": "71004637"
+        },
+        {
+          "id": "CA-MG-75683216",
+          "name": "MONEY MART - #205 - VANCOUVER",
+          "country": "CA",
+          "state": "BC",
+          "city": "VANCOUVER",
+          "phone": "(604) 683-9381",
+          "source_record_id": "75683216"
+        },
+        {
+          "id": "CA-MG-75683452",
+          "name": "MONEY MART - #201 - VANCOUVER",
+          "country": "CA",
+          "state": "BC",
+          "city": "VANCOUVER",
+          "phone": "(604) 871-9792",
+          "source_record_id": "75683452"
+        },
+        {
+          "id": "CA-MG-75683232",
+          "name": "MONEY MART - #209 - VANCOUVER",
+          "country": "CA",
+          "state": "BC",
+          "city": "VANCOUVER",
+          "phone": "(604) 606-9511",
+          "source_record_id": "75683232"
+        },
+        {
+          "id": "CA-MG-75682262",
+          "name": "MONEY MART - #241 - VANCOUVER",
+          "country": "CA",
+          "state": "BC",
+          "city": "VANCOUVER",
+          "phone": "(604) 708-3412",
+          "source_record_id": "75682262"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "8538c575c2e43a9f1838c60d90a0368f6d3c716ab9bc8b6abcaf464c96a81cad",
+      "raw_file": "/workspace/scratch/moneygram-public/CA-BC-vancouver.json",
+      "source_location_rows": 51,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-CA-QC-montreal",
+      "title": "MoneyGram · Montréal, QC",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Montr%C3%A9al%2C+QC%2C+Canada&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:29.170291+00:00",
+      "obtained_records": 70,
+      "new_locations": 70,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "CA-MG-74987832",
+          "name": "MONTREAL EXCHANGE - MONTREAL",
+          "country": "CA",
+          "state": "QC",
+          "city": "MONTREAL",
+          "phone": "(514) 544-2311",
+          "source_record_id": "74987832"
+        },
+        {
+          "id": "CA-MG-75681988",
+          "name": "MONEY MART - #624 - MONTREAL",
+          "country": "CA",
+          "state": "QC",
+          "city": "MONTREAL",
+          "phone": "(514) 939-2362",
+          "source_record_id": "75681988"
+        },
+        {
+          "id": "CA-MG-74592777",
+          "name": "DEPANNEUR NINE ELEVEN",
+          "country": "CA",
+          "state": "QC",
+          "city": "MONTREAL",
+          "phone": "(438) 220-7576",
+          "source_record_id": "74592777"
+        },
+        {
+          "id": "CA-MG-70692037",
+          "name": "GUB MONEY TRANSFER",
+          "country": "CA",
+          "state": "QC",
+          "city": "MONTREAL",
+          "phone": "(438) 239-7915",
+          "source_record_id": "70692037"
+        },
+        {
+          "id": "CA-MG-72276341",
+          "name": "SHOWCASE BRIDAL.",
+          "country": "CA",
+          "state": "QC",
+          "city": "MONTREAL",
+          "phone": "(514) 546-6231",
+          "source_record_id": "72276341"
+        },
+        {
+          "id": "CA-MG-66634313",
+          "name": "DEPANNEUR 7 JOURS",
+          "country": "CA",
+          "state": "QC",
+          "city": "MONTREAL",
+          "phone": "(514) 903-9894",
+          "source_record_id": "66634313"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "992ec3cf1a2c53cdb16ef9273fc229edae284a4bcc6551d54cb2bd771ebb0f41",
+      "raw_file": "/workspace/scratch/moneygram-public/CA-QC-montreal.json",
+      "source_location_rows": 70,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-CA-AB-calgary",
+      "title": "MoneyGram · Calgary, AB",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Calgary%2C+AB%2C+Canada&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:29.351150+00:00",
+      "obtained_records": 36,
+      "new_locations": 36,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "CA-MG-75682385",
+          "name": "MONEY MART - #520 - CALGARY",
+          "country": "CA",
+          "state": "AB",
+          "city": "CALGARY",
+          "phone": "(403) 234-8499",
+          "source_record_id": "75682385"
+        },
+        {
+          "id": "CA-MG-75570633",
+          "name": "FOOD WORLD - CALGARY",
+          "country": "CA",
+          "state": "AB",
+          "city": "CALGARY",
+          "phone": "(403) 455-4970",
+          "source_record_id": "75570633"
+        },
+        {
+          "id": "CA-MG-75681959",
+          "name": "MONEY MART - #515 - CALGARY",
+          "country": "CA",
+          "state": "AB",
+          "city": "CALGARY",
+          "phone": "(403) 240-7115",
+          "source_record_id": "75681959"
+        },
+        {
+          "id": "CA-MG-75683546",
+          "name": "MONEY MART - #511 - CALGARY",
+          "country": "CA",
+          "state": "AB",
+          "city": "CALGARY",
+          "phone": "(403) 640-4777",
+          "source_record_id": "75683546"
+        },
+        {
+          "id": "CA-MG-72773873",
+          "name": "FRANCHESA FOODS - CALGARY",
+          "country": "CA",
+          "state": "AB",
+          "city": "CALGARY",
+          "phone": "(587) 349-4595",
+          "source_record_id": "72773873"
+        },
+        {
+          "id": "CA-MG-75683821",
+          "name": "MONEY MART - #1560 - CALGARY",
+          "country": "CA",
+          "state": "AB",
+          "city": "CALGARY",
+          "phone": "(403) 230-2897",
+          "source_record_id": "75683821"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "53bb8119c2ce7f70a63df7ae441dde2ea6fe847164ed662a011003bf95ed816f",
+      "raw_file": "/workspace/scratch/moneygram-public/CA-AB-calgary.json",
+      "source_location_rows": 37,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-CA-AB-edmonton",
+      "title": "MoneyGram · Edmonton, AB",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "CA",
+      "url": "https://www.moneygram.com/locations/api/locations?country=CA&address=Edmonton%2C+AB%2C+Canada&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:29.707030+00:00",
+      "obtained_records": 33,
+      "new_locations": 33,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "CA-MG-75681360",
+          "name": "MONEY MART - #5 - EDMONTON",
+          "country": "CA",
+          "state": "AB",
+          "city": "EDMONTON",
+          "phone": "(780) 425-2275",
+          "source_record_id": "75681360"
+        },
+        {
+          "id": "CA-MG-69776809",
+          "name": "CARLTON GROCERIES AND DELI",
+          "country": "CA",
+          "state": "AB",
+          "city": "EDMONTON",
+          "phone": "(780) 953-7698",
+          "source_record_id": "69776809"
+        },
+        {
+          "id": "CA-MG-75684642",
+          "name": "MONEY MART - #2146 - EDMONTON",
+          "country": "CA",
+          "state": "AB",
+          "city": "EDMONTON",
+          "phone": "(780) 471-4310",
+          "source_record_id": "75684642"
+        },
+        {
+          "id": "CA-MG-75681373",
+          "name": "MONEY MART - #6 - EDMONTON",
+          "country": "CA",
+          "state": "AB",
+          "city": "EDMONTON",
+          "phone": "(780) 479-8821",
+          "source_record_id": "75681373"
+        },
+        {
+          "id": "CA-MG-75681289",
+          "name": "MONEY MART - #409 - EDMONTON",
+          "country": "CA",
+          "state": "AB",
+          "city": "EDMONTON",
+          "phone": "(780) 466-5344",
+          "source_record_id": "75681289"
+        },
+        {
+          "id": "CA-MG-75681409",
+          "name": "MONEY MART - #12 - EDMONTON",
+          "country": "CA",
+          "state": "AB",
+          "city": "EDMONTON",
+          "phone": "(780) 476-1880",
+          "source_record_id": "75681409"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "f618819b462bf5fea89f0d5cddb2e4b34d8a12dc9efb1e6171c17c0543c37a9b",
+      "raw_file": "/workspace/scratch/moneygram-public/CA-AB-edmonton.json",
+      "source_location_rows": 33,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-san-juan",
+      "title": "MoneyGram · San Juan, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=San+Juan%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:29.759961+00:00",
+      "obtained_records": 37,
+      "new_locations": 37,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-67757286",
+          "name": "WALMART - #5803",
+          "country": "PR",
+          "state": "PR",
+          "city": "SANTURCE",
+          "phone": "7876415600",
+          "source_record_id": "67757286"
+        },
+        {
+          "id": "PR-MG-74110874",
+          "name": "SUPERMERCADO VENUS GARDENS - SAN JUAN -",
+          "country": "PR",
+          "state": "PR",
+          "city": "SAN JUAN",
+          "phone": "7877558305",
+          "source_record_id": "74110874"
+        },
+        {
+          "id": "PR-MG-66553588",
+          "name": "MAILBOXES DC INC",
+          "country": "PR",
+          "state": "PR",
+          "city": "SAN JUAN",
+          "phone": "7872765025",
+          "source_record_id": "66553588"
+        },
+        {
+          "id": "PR-MG-66418018",
+          "name": "CASH EXPRESS - GUAYNABO",
+          "country": "PR",
+          "state": "PR",
+          "city": "GUAYNABO",
+          "phone": "7877898159",
+          "source_record_id": "66418018"
+        },
+        {
+          "id": "PR-MG-66353762",
+          "name": "SELECTOS CAMPO RICO",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAROLINA",
+          "phone": "7877574345",
+          "source_record_id": "66353762"
+        },
+        {
+          "id": "PR-MG-72650705",
+          "name": "SUPERMERCADO AGRANEL - CAROLINA - CAROLI",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAROLINA",
+          "phone": "7877529120",
+          "source_record_id": "72650705"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "0d654a056f140948a66bacbe6cd57b00b106f1393bc2a1e08f761f342c7b8f2c",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-san-juan.json",
+      "source_location_rows": 37,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-bayamon",
+      "title": "MoneyGram · Bayamón, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Bayam%C3%B3n%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:29.902455+00:00",
+      "obtained_records": 39,
+      "new_locations": 3,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-44308687",
+          "name": "WALMART - #2501",
+          "country": "PR",
+          "state": "PR",
+          "city": "BAYAMON",
+          "phone": "7874749411",
+          "source_record_id": "44308687"
+        },
+        {
+          "id": "PR-MG-75679097",
+          "name": "ECONO SIERRA BAYAMON - BAYAMON",
+          "country": "PR",
+          "state": "PR",
+          "city": "BAYAMON",
+          "phone": "7878752054",
+          "source_record_id": "75679097"
+        },
+        {
+          "id": "PR-MG-70946628",
+          "name": "SUPERMERCADOS SELECTOS BAYAMON",
+          "country": "PR",
+          "state": "PR",
+          "city": "BAYAMON",
+          "phone": "7872239391",
+          "source_record_id": "70946628"
+        },
+        {
+          "id": "PR-MG-68274580",
+          "name": "CASH EXPRESS #2 - BAYAMON",
+          "country": "PR",
+          "state": "PR",
+          "city": "BAYAMON",
+          "phone": "7879954875",
+          "source_record_id": "68274580"
+        },
+        {
+          "id": "PR-MG-65311158",
+          "name": "THE MAIL STORE - #0001",
+          "country": "PR",
+          "state": "PR",
+          "city": "GUAYNABO",
+          "phone": "7872870410",
+          "source_record_id": "65311158"
+        },
+        {
+          "id": "PR-MG-70107836",
+          "name": "SELECTOS",
+          "country": "PR",
+          "state": "PR",
+          "city": "TOA BAJA",
+          "phone": "7877844920",
+          "source_record_id": "70107836"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "4ac11ec93c14e561f68e2b37bb9ff8cf856390f01f8c8d8c2ff5cb06b5125b89",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-bayamon.json",
+      "source_location_rows": 39,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-carolina",
+      "title": "MoneyGram · Carolina, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Carolina%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:30.180473+00:00",
+      "obtained_records": 36,
+      "new_locations": 3,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-65084032",
+          "name": "FARMACIA PUERTA DE CAROLINA - #0001",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAROLINA",
+          "phone": "7872762809",
+          "source_record_id": "65084032"
+        },
+        {
+          "id": "PR-MG-44308690",
+          "name": "WALMART - #2423",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAROLINA",
+          "phone": "7872570082",
+          "source_record_id": "44308690"
+        },
+        {
+          "id": "PR-MG-72650705",
+          "name": "SUPERMERCADO AGRANEL - CAROLINA - CAROLI",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAROLINA",
+          "phone": "7877529120",
+          "source_record_id": "72650705"
+        },
+        {
+          "id": "PR-MG-66353762",
+          "name": "SELECTOS CAMPO RICO",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAROLINA",
+          "phone": "7877574345",
+          "source_record_id": "66353762"
+        },
+        {
+          "id": "PR-MG-66553588",
+          "name": "MAILBOXES DC INC",
+          "country": "PR",
+          "state": "PR",
+          "city": "SAN JUAN",
+          "phone": "7872765025",
+          "source_record_id": "66553588"
+        },
+        {
+          "id": "PR-MG-74110874",
+          "name": "SUPERMERCADO VENUS GARDENS - SAN JUAN -",
+          "country": "PR",
+          "state": "PR",
+          "city": "SAN JUAN",
+          "phone": "7877558305",
+          "source_record_id": "74110874"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "68b4650a84daa4ac4b3271a6e200d2f4f9deae6b8a724f79fbb36bbf61ed2ef5",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-carolina.json",
+      "source_location_rows": 36,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-ponce",
+      "title": "MoneyGram · Ponce, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Ponce%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:30.357485+00:00",
+      "obtained_records": 28,
+      "new_locations": 17,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-44308768",
+          "name": "WALMART - #5793",
+          "country": "PR",
+          "state": "PR",
+          "city": "PONCE",
+          "phone": "7876510798",
+          "source_record_id": "44308768"
+        },
+        {
+          "id": "PR-MG-70499586",
+          "name": "SUPERMERCADO FAMCOOP VILLALBA",
+          "country": "PR",
+          "state": "PR",
+          "city": "VILLALBA",
+          "phone": "7878470101",
+          "source_record_id": "70499586"
+        },
+        {
+          "id": "PR-MG-68191265",
+          "name": "FARMACIA LA FE REFORMADA INC",
+          "country": "PR",
+          "state": "PR",
+          "city": "PONCE",
+          "phone": "7878486383",
+          "source_record_id": "68191265"
+        },
+        {
+          "id": "PR-MG-44046211",
+          "name": "FARMACIA LORRAINE",
+          "country": "PR",
+          "state": "PR",
+          "city": "PONCE",
+          "phone": "7878431838",
+          "source_record_id": "44046211"
+        },
+        {
+          "id": "PR-MG-45100279",
+          "name": "FARMACIA LA FE - #1",
+          "country": "PR",
+          "state": "PR",
+          "city": "PONCE",
+          "phone": "7878443155",
+          "source_record_id": "45100279"
+        },
+        {
+          "id": "PR-MG-70957471",
+          "name": "FARMACIA LA FE - #5 - PONCE",
+          "country": "PR",
+          "state": "PR",
+          "city": "PONCE",
+          "phone": "7875698700",
+          "source_record_id": "70957471"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "38a648075c292228ba877c9fa06d3bbe1123cfca80a69557d91d814f8329b17b",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-ponce.json",
+      "source_location_rows": 29,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-mayaguez",
+      "title": "MoneyGram · Mayagüez, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Mayag%C3%BCez%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:30.443246+00:00",
+      "obtained_records": 29,
+      "new_locations": 26,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-67148112",
+          "name": "FARMACIA YOMAR",
+          "country": "PR",
+          "state": "PR",
+          "city": "MAYAGUEZ",
+          "phone": "7878324104",
+          "source_record_id": "67148112"
+        },
+        {
+          "id": "PR-MG-73770257",
+          "name": "FARMACIA LA NUEVA ESPERANZA - MAYAGUEZ",
+          "country": "PR",
+          "state": "PR",
+          "city": "MAYAGUEZ",
+          "phone": "7878332718",
+          "source_record_id": "73770257"
+        },
+        {
+          "id": "PR-MG-40002424",
+          "name": "GUTIERREZ GAS",
+          "country": "PR",
+          "state": "PR",
+          "city": "ARECIBO",
+          "phone": "7878782995",
+          "source_record_id": "40002424"
+        },
+        {
+          "id": "PR-MG-65118416",
+          "name": "FARMACIA BELMONTE - #1",
+          "country": "PR",
+          "state": "PR",
+          "city": "MAYAGUEZ",
+          "phone": "7878312212",
+          "source_record_id": "65118416"
+        },
+        {
+          "id": "PR-MG-68386423",
+          "name": "SUPERMERCADO ECONO",
+          "country": "PR",
+          "state": "PR",
+          "city": "MAYAGUEZ",
+          "phone": "7878341951",
+          "source_record_id": "68386423"
+        },
+        {
+          "id": "PR-MG-44308739",
+          "name": "WALMART - #2067",
+          "country": "PR",
+          "state": "PR",
+          "city": "MAYAGUEZ",
+          "phone": "7876521174",
+          "source_record_id": "44308739"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "c573a7a2c84adc425ab42d3687c17ae627be0eb78b294e3a93735f061bb7b225",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-mayaguez.json",
+      "source_location_rows": 29,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-caguas",
+      "title": "MoneyGram · Caguas, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Caguas%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:30.655615+00:00",
+      "obtained_records": 44,
+      "new_locations": 3,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-73370877",
+          "name": "SUPERMERCADO ECONO - #7879000240 - CAGUA",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAGUAS",
+          "phone": "7879000240",
+          "source_record_id": "73370877"
+        },
+        {
+          "id": "PR-MG-44311687",
+          "name": "WALMART - #2449",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAGUAS",
+          "phone": "7876531394",
+          "source_record_id": "44311687"
+        },
+        {
+          "id": "PR-MG-73372503",
+          "name": "SUPERMERCADO ECONO CAGUAS BAIROA - #7877",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAGUAS",
+          "phone": "7877447880",
+          "source_record_id": "73372503"
+        },
+        {
+          "id": "PR-MG-73370987",
+          "name": "SUPERMERCADO ECONO CAGUAS VILLA DEL CARM",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAGUAS",
+          "phone": "7877434321",
+          "source_record_id": "73370987"
+        },
+        {
+          "id": "PR-MG-68158075",
+          "name": "FARMACIA SAMARITANA 2",
+          "country": "PR",
+          "state": "PR",
+          "city": "GURABO",
+          "phone": "7876877997",
+          "source_record_id": "68158075"
+        },
+        {
+          "id": "PR-MG-65372906",
+          "name": "FARMACIA SAMARITANA - #0001",
+          "country": "PR",
+          "state": "PR",
+          "city": "SAN LORENZO",
+          "phone": "7877367100",
+          "source_record_id": "65372906"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "ede7c05631a102dde5618229dbcfa3b73b140c08da09c3609c43b9e4ed8e542f",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-caguas.json",
+      "source_location_rows": 44,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-BCN-ensenada",
+      "title": "MoneyGram · Ensenada, BCN",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Ensenada%2C+Baja+California%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:31.139478+00:00",
+      "obtained_records": 195,
+      "new_locations": 195,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-76371899",
+          "name": "OXXO - #10TIJ50JY7 - ENSENADA - BAEZ TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "ENSENADA",
+          "phone": "8283892122",
+          "source_record_id": "76371899"
+        },
+        {
+          "id": "MX-MG-76269888",
+          "name": "OXXO - #10TIJ50M4R - ENSENADA - TALES DE",
+          "country": "MX",
+          "state": "BCN",
+          "city": "ENSENADA",
+          "phone": "8283892122",
+          "source_record_id": "76269888"
+        },
+        {
+          "id": "MX-MG-71397946",
+          "name": "OXXO - BONITA TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "ENSENADA",
+          "phone": "8183892121",
+          "source_record_id": "71397946"
+        },
+        {
+          "id": "MX-MG-71398466",
+          "name": "OXXO - BALBOA TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "ENSENADA",
+          "phone": "8183892121",
+          "source_record_id": "71398466"
+        },
+        {
+          "id": "MX-MG-71398770",
+          "name": "OXXO - EJERCITO TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "ENSENADA",
+          "phone": "8183892121",
+          "source_record_id": "71398770"
+        },
+        {
+          "id": "MX-MG-71399685",
+          "name": "OXXO - BAHIA TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "ENSENADA",
+          "phone": "8183892121",
+          "source_record_id": "71399685"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "214a52485d85e21888ed408e15e9ae7eba89501157bc6def768f154a4df24c48",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-BCN-ensenada.json",
+      "source_location_rows": 217,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-BCN-mexicali",
+      "title": "MoneyGram · Mexicali, BCN",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Mexicali%2C+Baja+California%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:30.932815+00:00",
+      "obtained_records": 458,
+      "new_locations": 458,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-71332354",
+          "name": "OXXO - CASCADA MXL",
+          "country": "MX",
+          "state": "BCN",
+          "city": "MEXICALI",
+          "phone": "8183892121",
+          "source_record_id": "71332354"
+        },
+        {
+          "id": "MX-MG-71332477",
+          "name": "OXXO - QUINTA DE OCAMPO MXL",
+          "country": "MX",
+          "state": "BCN",
+          "city": "MEXICALI",
+          "phone": "8183892121",
+          "source_record_id": "71332477"
+        },
+        {
+          "id": "MX-MG-75873246",
+          "name": "BODEGA AURRERA EXPRESS - LOS PORTALES ME",
+          "country": "MX",
+          "state": "BCN",
+          "city": "MEXICALI",
+          "phone": "5526296000",
+          "source_record_id": "75873246"
+        },
+        {
+          "id": "MX-MG-76269590",
+          "name": "OXXO - #10MXL50W7Y - MEXICALI - GULFSTRE",
+          "country": "MX",
+          "state": "BCN",
+          "city": "MEXICALI",
+          "phone": "8283892122",
+          "source_record_id": "76269590"
+        },
+        {
+          "id": "MX-MG-71823038",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10MXL5",
+          "country": "MX",
+          "state": "BCN",
+          "city": "MEXICALI",
+          "phone": "8183892121",
+          "source_record_id": "71823038"
+        },
+        {
+          "id": "MX-MG-76185878",
+          "name": "OXXO - #10MXL504TK - MEXICALI - HECHICER",
+          "country": "MX",
+          "state": "BCN",
+          "city": "MEXICALI",
+          "phone": "8283892122",
+          "source_record_id": "76185878"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "39cbcd32a339d26c8abeb712159431e2919b07e46825a2acb61436e50bff1ab9",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-BCN-mexicali.json",
+      "source_location_rows": 508,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-BCN-tijuana",
+      "title": "MoneyGram · Tijuana, BCN",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Tijuana%2C+Baja+California%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:30.859080+00:00",
+      "obtained_records": 1005,
+      "new_locations": 1005,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-74426733",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10TIJ5",
+          "country": "MX",
+          "state": "BCN",
+          "city": "TIJUANA",
+          "phone": "8183892121",
+          "source_record_id": "74426733"
+        },
+        {
+          "id": "MX-MG-75439198",
+          "name": "BODEGA AURRERA - TIJUANA CD NATURA - #44",
+          "country": "MX",
+          "state": "BCN",
+          "city": "TIJUANA",
+          "phone": "5526296000",
+          "source_record_id": "75439198"
+        },
+        {
+          "id": "MX-MG-71359832",
+          "name": "OXXO - CECENA TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "TIJUANA",
+          "phone": "8183892121",
+          "source_record_id": "71359832"
+        },
+        {
+          "id": "MX-MG-71361558",
+          "name": "OXXO - CANACO TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "TIJUANA",
+          "phone": "8183892121",
+          "source_record_id": "71361558"
+        },
+        {
+          "id": "MX-MG-71361024",
+          "name": "OXXO - DEL PADRE TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "TIJUANA",
+          "phone": "8183892121",
+          "source_record_id": "71361024"
+        },
+        {
+          "id": "MX-MG-71360274",
+          "name": "OXXO - CABALLERO TIJ",
+          "country": "MX",
+          "state": "BCN",
+          "city": "TIJUANA",
+          "phone": "8183892121",
+          "source_record_id": "71360274"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "08a427f84648b7df37ef3e32e7ee29313aa7032961c149fe604b4daa0f2967b7",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-BCN-tijuana.json",
+      "source_location_rows": 1123,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-SON-nogales",
+      "title": "MoneyGram · Nogales, SON",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Nogales%2C+Sonora%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:31.704934+00:00",
+      "obtained_records": 116,
+      "new_locations": 116,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-73619156",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10MXL5",
+          "country": "MX",
+          "state": "SON",
+          "city": "NOGALES",
+          "phone": "8183892121",
+          "source_record_id": "73619156"
+        },
+        {
+          "id": "MX-MG-71171722",
+          "name": "FARMACIAS GUADALAJARA - #1834 - NOGALES",
+          "country": "MX",
+          "state": "SON",
+          "city": "NOGALES",
+          "phone": "8005556555",
+          "source_record_id": "71171722"
+        },
+        {
+          "id": "MX-MG-71337524",
+          "name": "OXXO - 5 DE MAYO NOG",
+          "country": "MX",
+          "state": "SON",
+          "city": "NOGALES",
+          "phone": "8183892121",
+          "source_record_id": "71337524"
+        },
+        {
+          "id": "MX-MG-74458277",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10MXL5",
+          "country": "MX",
+          "state": "SON",
+          "city": "NOGALES",
+          "phone": "8183892121",
+          "source_record_id": "74458277"
+        },
+        {
+          "id": "MX-MG-71336800",
+          "name": "OXXO - RUIZ CORTINEZ NOG",
+          "country": "MX",
+          "state": "SON",
+          "city": "NOGALES",
+          "phone": "8183892121",
+          "source_record_id": "71336800"
+        },
+        {
+          "id": "MX-MG-69454147",
+          "name": "LEY - NOGALES",
+          "country": "MX",
+          "state": "SON",
+          "city": "NOGALES",
+          "phone": "6313132994",
+          "source_record_id": "69454147"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "b6ac412d7ebcb0ed60e28aeedc091d3d49172aa1c891c803d58b9ce0371d1bad",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-SON-nogales.json",
+      "source_location_rows": 127,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-SON-hermosillo",
+      "title": "MoneyGram · Hermosillo, SON",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Hermosillo%2C+Sonora%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:31.879453+00:00",
+      "obtained_records": 252,
+      "new_locations": 252,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-72141816",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10MXL5",
+          "country": "MX",
+          "state": "SON",
+          "city": "HERMOSILLO",
+          "phone": "8183892121",
+          "source_record_id": "72141816"
+        },
+        {
+          "id": "MX-MG-71855051",
+          "name": "FARMACIAS GUADALAJARA - #1956 - HERMOSIL",
+          "country": "MX",
+          "state": "SON",
+          "city": "HERMOSILLO",
+          "phone": "8005556559",
+          "source_record_id": "71855051"
+        },
+        {
+          "id": "MX-MG-71277765",
+          "name": "OXXO - MANGLAR HMO",
+          "country": "MX",
+          "state": "SON",
+          "city": "HERMOSILLO",
+          "phone": "8183892121",
+          "source_record_id": "71277765"
+        },
+        {
+          "id": "MX-MG-71279381",
+          "name": "OXXO - RIO HMO",
+          "country": "MX",
+          "state": "SON",
+          "city": "HERMOSILLO",
+          "phone": "8183892121",
+          "source_record_id": "71279381"
+        },
+        {
+          "id": "MX-MG-71276766",
+          "name": "OXXO - CENTRO HMO",
+          "country": "MX",
+          "state": "SON",
+          "city": "HERMOSILLO",
+          "phone": "8183892121",
+          "source_record_id": "71276766"
+        },
+        {
+          "id": "MX-MG-71150387",
+          "name": "ELEKTRA - #9651 - HERMOSILLO - DAZ HERMO",
+          "country": "MX",
+          "state": "SON",
+          "city": "HERMOSILLO",
+          "phone": "5517207000",
+          "source_record_id": "71150387"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "65eabd0275a16400a5c3cf3532f037d72eb71f8a92c365189c2b06ee1018a585",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-SON-hermosillo.json",
+      "source_location_rows": 266,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-CHH-ciudad-juarez",
+      "title": "MoneyGram · Ciudad Juárez, CHH",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Ciudad+Ju%C3%A1rez%2C+Chihuahua%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:32.047567+00:00",
+      "obtained_records": 447,
+      "new_locations": 447,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-76269095",
+          "name": "OXXO - #10CHI50R19 - CHIHUAHUA - GAS CAM",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "8283892122",
+          "source_record_id": "76269095"
+        },
+        {
+          "id": "MX-MG-76183948",
+          "name": "OXXO - #10CHI5031N - CHIHUAHUA - PARADOR",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "8283892122",
+          "source_record_id": "76183948"
+        },
+        {
+          "id": "MX-MG-71243634",
+          "name": "OXXO - ACEQUIAS RBB CJS",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CIUDAD JUAREZ",
+          "phone": "8183892121",
+          "source_record_id": "71243634"
+        },
+        {
+          "id": "MX-MG-74456444",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10CHI5",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CIUDAD JUAREZ",
+          "phone": "8183892121",
+          "source_record_id": "74456444"
+        },
+        {
+          "id": "MX-MG-71244196",
+          "name": "OXXO - RODADORA CJS",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CIUDAD JUAREZ",
+          "phone": "8183892121",
+          "source_record_id": "71244196"
+        },
+        {
+          "id": "MX-MG-73618403",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10CHI5",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CIUDAD JUAREZ",
+          "phone": "8183892121",
+          "source_record_id": "73618403"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "b9e48a401dc9ab5dbf552159df19d22b2cf34b27e4b2545dc969ea44c71ad8b8",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-CHH-ciudad-juarez.json",
+      "source_location_rows": 490,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-COA-piedras-negras",
+      "title": "MoneyGram · Piedras Negras, COA",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Piedras+Negras%2C+Coahuila%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:32.484061+00:00",
+      "obtained_records": 129,
+      "new_locations": 129,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-71395391",
+          "name": "OXXO - #10NLA50YKW - LEONOR PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "PIEDRAS NEGRAS",
+          "phone": "8183892121",
+          "source_record_id": "71395391"
+        },
+        {
+          "id": "MX-MG-71394622",
+          "name": "OXXO - #10NLA50KSU - SANTA CRUZ PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "PIEDRAS NEGRAS",
+          "phone": "8183892121",
+          "source_record_id": "71394622"
+        },
+        {
+          "id": "MX-MG-71395016",
+          "name": "OXXO - #10NLA50SVY - SANTO TOMAS PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "PIEDRAS NEGRAS",
+          "phone": "8183892121",
+          "source_record_id": "71395016"
+        },
+        {
+          "id": "MX-MG-72639755",
+          "name": "DINERO EXPRESS - PIEDRAS NEGRAS - BA SYR",
+          "country": "MX",
+          "state": "COA",
+          "city": "PIEDRAS NEGRAS",
+          "phone": "5517208177",
+          "source_record_id": "72639755"
+        },
+        {
+          "id": "MX-MG-71855035",
+          "name": "FARMACIAS GUADALAJARA - #1954 - PIEDRAS",
+          "country": "MX",
+          "state": "COA",
+          "city": "PIEDRAS NEGRAS",
+          "phone": "8005556559",
+          "source_record_id": "71855035"
+        },
+        {
+          "id": "MX-MG-73840200",
+          "name": "OXXO - #10NLA50ME9 - PIEDRAS NEGRAS - RI",
+          "country": "MX",
+          "state": "COA",
+          "city": "PIEDRAS NEGRAS",
+          "phone": "8183892121",
+          "source_record_id": "73840200"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "f563f5f1a255332f2a9ff00ac0d97895397cbe858c205e168eba0885e3ecc9af",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-COA-piedras-negras.json",
+      "source_location_rows": 138,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-CHH-chihuahua",
+      "title": "MoneyGram · Chihuahua, CHH",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Chihuahua%2C+Chihuahua%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:32.367172+00:00",
+      "obtained_records": 314,
+      "new_locations": 314,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-68836562",
+          "name": "DINERO EXPRESS - #2149 - CHIHUAHUA - BAN",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "5517208141",
+          "source_record_id": "68836562"
+        },
+        {
+          "id": "MX-MG-71766425",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10CHI5",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "8183892121",
+          "source_record_id": "71766425"
+        },
+        {
+          "id": "MX-MG-71248338",
+          "name": "OXXO - 20 DE NOVIEMBRE CUF",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "8183892121",
+          "source_record_id": "71248338"
+        },
+        {
+          "id": "MX-MG-70400559",
+          "name": "FARMACIAS GUADALAJARA - CHIHUAHUA CHIHU",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "7132785436",
+          "source_record_id": "70400559"
+        },
+        {
+          "id": "MX-MG-71248642",
+          "name": "OXXO - PACHECO CUF",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "8183892121",
+          "source_record_id": "71248642"
+        },
+        {
+          "id": "MX-MG-71247698",
+          "name": "OXXO - JUAREZ CUF",
+          "country": "MX",
+          "state": "CHH",
+          "city": "CHIHUAHUA",
+          "phone": "8183892121",
+          "source_record_id": "71247698"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "430f3e1ea4ac3132e4498da61bd6023c7e93af2caca256656929c0e77c0160d1",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-CHH-chihuahua.json",
+      "source_location_rows": 326,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-COA-ciudad-acuna",
+      "title": "MoneyGram · Ciudad Acuña, COA",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Ciudad+Acu%C3%B1a%2C+Coahuila%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:32.930584+00:00",
+      "obtained_records": 77,
+      "new_locations": 77,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-71394376",
+          "name": "OXXO - #10NLA50EYF - LAS AVES PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "ACUNA",
+          "phone": "8183892121",
+          "source_record_id": "71394376"
+        },
+        {
+          "id": "MX-MG-71394114",
+          "name": "OXXO - #10NLA50ACQ - ACUNA PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "ACUNA",
+          "phone": "8183892121",
+          "source_record_id": "71394114"
+        },
+        {
+          "id": "MX-MG-71394321",
+          "name": "OXXO - #10NLA50DJD - SANTA ROSA PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "ACUNA",
+          "phone": "8183892121",
+          "source_record_id": "71394321"
+        },
+        {
+          "id": "MX-MG-71394790",
+          "name": "OXXO - #10NLA50OSQ - OSTER PDS",
+          "country": "MX",
+          "state": "COA",
+          "city": "ACUNA",
+          "phone": "8183892121",
+          "source_record_id": "71394790"
+        },
+        {
+          "id": "MX-MG-74886917",
+          "name": "WALMART - CD ACUA - #5334 - CIUDAD ACUNA",
+          "country": "MX",
+          "state": "COA",
+          "city": "CIUDAD ACUNA",
+          "phone": "5526296000",
+          "source_record_id": "74886917"
+        },
+        {
+          "id": "MX-MG-74330667",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10NLA5",
+          "country": "MX",
+          "state": "COA",
+          "city": "ACUNA",
+          "phone": "8183892121",
+          "source_record_id": "74330667"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "384fd37aff90e07fc0b483296251a281cb3348b680261464818eb1104dd6182c",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-COA-ciudad-acuna.json",
+      "source_location_rows": 79,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-COA-saltillo",
+      "title": "MoneyGram · Saltillo, COA",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Saltillo%2C+Coahuila%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:33.020926+00:00",
+      "obtained_records": 188,
+      "new_locations": 188,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-76432165",
+          "name": "OXXO - #10LGA50GA6 - MATAMOROS - HIGUERA",
+          "country": "MX",
+          "state": "COA",
+          "city": "MATAMOROS",
+          "phone": "8283892122",
+          "source_record_id": "76432165"
+        },
+        {
+          "id": "MX-MG-71383659",
+          "name": "OXXO - MALASIA SLF",
+          "country": "MX",
+          "state": "COA",
+          "city": "SALTILLO",
+          "phone": "8183892121",
+          "source_record_id": "71383659"
+        },
+        {
+          "id": "MX-MG-45833313",
+          "name": "SORIANA - #270",
+          "country": "MX",
+          "state": "COA",
+          "city": "SALTILLO",
+          "phone": "7132785436",
+          "source_record_id": "45833313"
+        },
+        {
+          "id": "MX-MG-76426320",
+          "name": "ALSUPER LERDO - #8017 - SALTILLO - ALSUP",
+          "country": "MX",
+          "state": "COA",
+          "city": "SALTILLO",
+          "phone": "6144421100",
+          "source_record_id": "76426320"
+        },
+        {
+          "id": "MX-MG-45830536",
+          "name": "SORIANA - #223",
+          "country": "MX",
+          "state": "COA",
+          "city": "SALTILLO",
+          "phone": "7132785436",
+          "source_record_id": "45830536"
+        },
+        {
+          "id": "MX-MG-72151000",
+          "name": "COPPEL TRANSMISORES - SALTILLO - SENDERO",
+          "country": "MX",
+          "state": "COA",
+          "city": "SALTILLO",
+          "phone": "8444318266",
+          "source_record_id": "72151000"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "f4972d2178ab8bc82fba81e8a273cf68d0bfeee0d3d314bab3e1e3240e980609",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-COA-saltillo.json",
+      "source_location_rows": 195,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-NLE-anahuac",
+      "title": "MoneyGram · Anáhuac, NLE",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=An%C3%A1huac%2C+Nuevo+Le%C3%B3n%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:33.490179+00:00",
+      "obtained_records": 6,
+      "new_locations": 6,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-71372864",
+          "name": "OXXO - EMPALME MAF",
+          "country": "MX",
+          "state": "TAM",
+          "city": "VALLE HERMOSO",
+          "phone": "8183892121",
+          "source_record_id": "71372864"
+        },
+        {
+          "id": "MX-MG-71334420",
+          "name": "OXXO - PLAZA JUAREZ NLD",
+          "country": "MX",
+          "state": "NLE",
+          "city": "ANAHUAC",
+          "phone": "8183892121",
+          "source_record_id": "71334420"
+        },
+        {
+          "id": "MX-MG-71335131",
+          "name": "OXXO - ESCOBEDO NLD",
+          "country": "MX",
+          "state": "NLE",
+          "city": "ANAHUAC",
+          "phone": "8183892121",
+          "source_record_id": "71335131"
+        },
+        {
+          "id": "MX-MG-66943716",
+          "name": "MI BODEGA AURRERA - ANAC - ANAHUAC",
+          "country": "MX",
+          "state": "NLE",
+          "city": "ANAHUAC",
+          "phone": "5526296000",
+          "source_record_id": "66943716"
+        },
+        {
+          "id": "MX-MG-71335089",
+          "name": "OXXO - NADADORES NLD",
+          "country": "MX",
+          "state": "NLE",
+          "city": "ANAHUAC",
+          "phone": "8183892121",
+          "source_record_id": "71335089"
+        },
+        {
+          "id": "MX-MG-71335092",
+          "name": "OXXO - RODRIGUEZ NLD",
+          "country": "MX",
+          "state": "NLE",
+          "city": "ANAHUAC",
+          "phone": "8183892121",
+          "source_record_id": "71335092"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "a5cf2b6e5435cb64f2d87d50593e70870743036a42958a892dbff2a4cd81cfda",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-NLE-anahuac.json",
+      "source_location_rows": 7,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-TAM-nuevo-laredo",
+      "title": "MoneyGram · Nuevo Laredo, TAM",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Nuevo+Laredo%2C+Tamaulipas%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:33.575642+00:00",
+      "obtained_records": 218,
+      "new_locations": 218,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-71334022",
+          "name": "OXXO - EVA SAMANO NLD",
+          "country": "MX",
+          "state": "TAM",
+          "city": "NUEVO LAREDO",
+          "phone": "8183892121",
+          "source_record_id": "71334022"
+        },
+        {
+          "id": "MX-MG-45832563",
+          "name": "SORIANA - #367",
+          "country": "MX",
+          "state": "TAM",
+          "city": "NUEVO LAREDO",
+          "phone": "7132785436",
+          "source_record_id": "45832563"
+        },
+        {
+          "id": "MX-MG-75388715",
+          "name": "BANCOPPEL - #6647 - NUEVO LAREDO - EVA S",
+          "country": "MX",
+          "state": "TAM",
+          "city": "NUEVO LAREDO",
+          "phone": "5210000000",
+          "source_record_id": "75388715"
+        },
+        {
+          "id": "MX-MG-71333829",
+          "name": "OXXO - BERLIN NLD",
+          "country": "MX",
+          "state": "TAM",
+          "city": "NUEVO LAREDO",
+          "phone": "8183892121",
+          "source_record_id": "71333829"
+        },
+        {
+          "id": "MX-MG-71334970",
+          "name": "OXXO - CORET NLD",
+          "country": "MX",
+          "state": "TAM",
+          "city": "NUEVO LAREDO",
+          "phone": "8183892121",
+          "source_record_id": "71334970"
+        },
+        {
+          "id": "MX-MG-71334064",
+          "name": "OXXO - LA FE NLD",
+          "country": "MX",
+          "state": "TAM",
+          "city": "NUEVO LAREDO",
+          "phone": "8183892121",
+          "source_record_id": "71334064"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "97c21b757159c0d9149a4d6243ddc1b764bf097f7fe69956a67413f78cd23153",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-TAM-nuevo-laredo.json",
+      "source_location_rows": 232,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-NLE-monterrey",
+      "title": "MoneyGram · Monterrey, NLE",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Monterrey%2C+Nuevo+Le%C3%B3n%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:33.146764+00:00",
+      "obtained_records": 1298,
+      "new_locations": 1298,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-76477188",
+          "name": "WAL-MART SUPERCENTER - #6977 - REYNOSA -",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "5526296000",
+          "source_record_id": "76477188"
+        },
+        {
+          "id": "MX-MG-76270204",
+          "name": "OXXO - #10ZAI506DY - MONTERREY - METRO F",
+          "country": "MX",
+          "state": "NLE",
+          "city": "MONTERREY",
+          "phone": "8283892122",
+          "source_record_id": "76270204"
+        },
+        {
+          "id": "MX-MG-74714788",
+          "name": "CADENA COMERCIAL OXXO SA DE CV - #10UMI5",
+          "country": "MX",
+          "state": "TAM",
+          "city": "VILLAGRAN",
+          "phone": "8183892121",
+          "source_record_id": "74714788"
+        },
+        {
+          "id": "MX-MG-72162222",
+          "name": "COPPEL TRANSMISORES - MONTERREY - COLON",
+          "country": "MX",
+          "state": "NLE",
+          "city": "MONTERREY",
+          "phone": "8113540589",
+          "source_record_id": "72162222"
+        },
+        {
+          "id": "MX-MG-71319924",
+          "name": "OXXO - #10ZAI50MZX - MENDEZ MTY",
+          "country": "MX",
+          "state": "NLE",
+          "city": "MONTERREY",
+          "phone": "8183892121",
+          "source_record_id": "71319924"
+        },
+        {
+          "id": "MX-MG-76433559",
+          "name": "OXXO - #10ZAI500TY - MONTERREY - METRO Z",
+          "country": "MX",
+          "state": "NLE",
+          "city": "MONTERREY",
+          "phone": "8283892122",
+          "source_record_id": "76433559"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "64b6b70e89990b4f3574eb7046a23b3f4a05a9d262193461cd05bfd635b9c6b4",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-NLE-monterrey.json",
+      "source_location_rows": 1346,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-TAM-reynosa",
+      "title": "MoneyGram · Reynosa, TAM",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Reynosa%2C+Tamaulipas%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:33.967420+00:00",
+      "obtained_records": 313,
+      "new_locations": 313,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-45828865",
+          "name": "SORIANA - #147",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "7132785436",
+          "source_record_id": "45828865"
+        },
+        {
+          "id": "MX-MG-75230177",
+          "name": "BODEGA AURRERA EXPRESS - PUERTA DE PERAL",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "5526296000",
+          "source_record_id": "75230177"
+        },
+        {
+          "id": "MX-MG-76185852",
+          "name": "OXXO - #10MON50ZZ1 - REYNOSA - GAS VALLA",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "8283892122",
+          "source_record_id": "76185852"
+        },
+        {
+          "id": "MX-MG-71351995",
+          "name": "OXXO - #10MON50HAK - NUEVA ALDAMA REX",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "8183892121",
+          "source_record_id": "71351995"
+        },
+        {
+          "id": "MX-MG-70390342",
+          "name": "FARMACIAS GUADALAJARA - REYNOSA TAMAULI",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "7132785436",
+          "source_record_id": "70390342"
+        },
+        {
+          "id": "MX-MG-74521421",
+          "name": "BANCOPPEL - #7603 - REYNOSA - HIDALGO",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "8008777474",
+          "source_record_id": "74521421"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "6a88e7585c5d206bfe76187a5d175111a147ca9763aee1e39904e55c5e0afca0",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-TAM-reynosa.json",
+      "source_location_rows": 332,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-arecibo",
+      "title": "MoneyGram · Arecibo, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Arecibo%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:34.317428+00:00",
+      "obtained_records": 18,
+      "new_locations": 2,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-67570764",
+          "name": "WALMART - #2346",
+          "country": "PR",
+          "state": "PR",
+          "city": "TOA BAJA",
+          "phone": "7876415656",
+          "source_record_id": "67570764"
+        },
+        {
+          "id": "PR-MG-66063463",
+          "name": "WALMART - #2302",
+          "country": "PR",
+          "state": "PR",
+          "city": "BARCELONETA",
+          "phone": "7879708100",
+          "source_record_id": "66063463"
+        },
+        {
+          "id": "PR-MG-65014235",
+          "name": "COLMADO CORREA - #0001",
+          "country": "PR",
+          "state": "PR",
+          "city": "ARECIBO",
+          "phone": "7876915672",
+          "source_record_id": "65014235"
+        },
+        {
+          "id": "PR-MG-73351650",
+          "name": "FARMACIA CINTRON - UTUADO",
+          "country": "PR",
+          "state": "PR",
+          "city": "UTUADO",
+          "phone": "7878942190",
+          "source_record_id": "73351650"
+        },
+        {
+          "id": "PR-MG-74873069",
+          "name": "SUPER FARMACIA CAGUANA",
+          "country": "PR",
+          "state": "PR",
+          "city": "UTUADO",
+          "phone": "7878143802",
+          "source_record_id": "74873069"
+        },
+        {
+          "id": "PR-MG-44308755",
+          "name": "WALMART - #1854",
+          "country": "PR",
+          "state": "PR",
+          "city": "HATILLO",
+          "phone": "7875444851",
+          "source_record_id": "44308755"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "ddb418d5d124199a277d1804e387a40321f422cbabb0fadac3fd91f4beb396e9",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-arecibo.json",
+      "source_location_rows": 18,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-MX-TAM-matamoros",
+      "title": "MoneyGram · Matamoros, TAM",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "MX",
+      "url": "https://www.moneygram.com/locations/api/locations?country=MX&address=Matamoros%2C+Tamaulipas%2C+Mexico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:34.286796+00:00",
+      "obtained_records": 279,
+      "new_locations": 279,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "MX-MG-71372314",
+          "name": "OXXO - MEZQUITAL MAF",
+          "country": "MX",
+          "state": "TAM",
+          "city": "MATAMOROS",
+          "phone": "8183892121",
+          "source_record_id": "71372314"
+        },
+        {
+          "id": "MX-MG-76185771",
+          "name": "OXXO - #10MON50IF0 - REYNOSA - ESTACION",
+          "country": "MX",
+          "state": "TAM",
+          "city": "REYNOSA",
+          "phone": "8283892122",
+          "source_record_id": "76185771"
+        },
+        {
+          "id": "MX-MG-71371580",
+          "name": "OXXO - LAGUNA JASSO MAF",
+          "country": "MX",
+          "state": "TAM",
+          "city": "MATAMOROS",
+          "phone": "8183892121",
+          "source_record_id": "71371580"
+        },
+        {
+          "id": "MX-MG-71370442",
+          "name": "OXXO - LAGUNA SALADA MAF",
+          "country": "MX",
+          "state": "TAM",
+          "city": "MATAMOROS",
+          "phone": "8183892121",
+          "source_record_id": "71370442"
+        },
+        {
+          "id": "MX-MG-70399178",
+          "name": "FARMACIAS GUADALAJARA - MATAMOROS TAMAU",
+          "country": "MX",
+          "state": "TAM",
+          "city": "MATAMOROS",
+          "phone": "7132785436",
+          "source_record_id": "70399178"
+        },
+        {
+          "id": "MX-MG-74409226",
+          "name": "TIENDAS CHEDRAUI - #54 - MATAMOROS I SEX",
+          "country": "MX",
+          "state": "TAM",
+          "city": "HEROICA MATAMOROS",
+          "phone": "8007333300",
+          "source_record_id": "74409226"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "ed036e4d248292e5a47f150f582ca23346dc81f8f921ba376b7ab0898bdc55bc",
+      "raw_file": "/workspace/scratch/moneygram-public/MX-TAM-matamoros.json",
+      "source_location_rows": 297,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-humacao",
+      "title": "MoneyGram · Humacao, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Humacao%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:34.615488+00:00",
+      "obtained_records": 25,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-44308700",
+          "name": "WALMART - #2240",
+          "country": "PR",
+          "state": "PR",
+          "city": "HUMACAO",
+          "phone": "7876569407",
+          "source_record_id": "44308700"
+        },
+        {
+          "id": "PR-MG-72809459",
+          "name": "ECONO - NAGUABO - NAGUABO",
+          "country": "PR",
+          "state": "PR",
+          "city": "NAGUABO",
+          "phone": "7878741522",
+          "source_record_id": "72809459"
+        },
+        {
+          "id": "PR-MG-65372906",
+          "name": "FARMACIA SAMARITANA - #0001",
+          "country": "PR",
+          "state": "PR",
+          "city": "SAN LORENZO",
+          "phone": "7877367100",
+          "source_record_id": "65372906"
+        },
+        {
+          "id": "PR-MG-68158075",
+          "name": "FARMACIA SAMARITANA 2",
+          "country": "PR",
+          "state": "PR",
+          "city": "GURABO",
+          "phone": "7876877997",
+          "source_record_id": "68158075"
+        },
+        {
+          "id": "PR-MG-44311687",
+          "name": "WALMART - #2449",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAGUAS",
+          "phone": "7876531394",
+          "source_record_id": "44311687"
+        },
+        {
+          "id": "PR-MG-73370877",
+          "name": "SUPERMERCADO ECONO - #7879000240 - CAGUA",
+          "country": "PR",
+          "state": "PR",
+          "city": "CAGUAS",
+          "phone": "7879000240",
+          "source_record_id": "73370877"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "ba63302416a15fc61a4de82604a94b16a7fd3b4e52a8b029c49195dd467f5934",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-humacao.json",
+      "source_location_rows": 25,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "moneygram-PR-PR-fajardo",
+      "title": "MoneyGram · Fajardo, PR",
+      "platform": "MoneyGram",
+      "source_type": "platform",
+      "format": "JSON",
+      "country": "PR",
+      "url": "https://www.moneygram.com/locations/api/locations?country=PR&address=Fajardo%2C+PR%2C+Puerto+Rico&limit=5000",
+      "retrieved_at": "2026-11-04T20:54:34.771223+00:00",
+      "obtained_records": 14,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "sample_records": [
+        {
+          "id": "PR-MG-44308658",
+          "name": "WALMART - #1822",
+          "country": "PR",
+          "state": "PR",
+          "city": "FAJARDO",
+          "phone": "7876559392",
+          "source_record_id": "44308658"
+        },
+        {
+          "id": "PR-MG-72623402",
+          "name": "FAMCOOP RIO GRANDE - RIO GRANDE - RIO GR",
+          "country": "PR",
+          "state": "PR",
+          "city": "RIO GRANDE",
+          "phone": "7877169191",
+          "source_record_id": "72623402"
+        },
+        {
+          "id": "PR-MG-72809459",
+          "name": "ECONO - NAGUABO - NAGUABO",
+          "country": "PR",
+          "state": "PR",
+          "city": "NAGUABO",
+          "phone": "7878741522",
+          "source_record_id": "72809459"
+        },
+        {
+          "id": "PR-MG-45848913",
+          "name": "WALMART - #5802",
+          "country": "PR",
+          "state": "PR",
+          "city": "CANOVANAS",
+          "phone": "7879572700",
+          "source_record_id": "45848913"
+        },
+        {
+          "id": "PR-MG-73354042",
+          "name": "CORREO PRIVADO SAN ISIDRO - CANOVANAS -",
+          "country": "PR",
+          "state": "PR",
+          "city": "CANOVANAS",
+          "phone": "7878764020",
+          "source_record_id": "73354042"
+        },
+        {
+          "id": "PR-MG-44308700",
+          "name": "WALMART - #2240",
+          "country": "PR",
+          "state": "PR",
+          "city": "HUMACAO",
+          "phone": "7876569407",
+          "source_record_id": "44308700"
+        }
+      ],
+      "status": "retrieved",
+      "sha256": "9031ef2f8dae8dcf89f575c01fe6eafa3773267f2936a28402b08607aac8b978",
+      "raw_file": "/workspace/scratch/moneygram-public/PR-PR-fajardo.json",
+      "source_location_rows": 14,
+      "notes": "Localizador público consultado en vivo. Servicios publicados; no se comprueba actividad de líneas. Radio reportado: 25"
+    },
+    {
+      "id": "inegi-denue-bcn",
+      "title": "INEGI DENUE — Baja California",
+      "platform": "INEGI DENUE",
+      "source_type": "document",
+      "format": "CSV/ZIP",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_02_csv.zip",
+      "country": "MX",
+      "retrieved_at": "2026-11-04T20:53:55.454945+00:00",
+      "status": "retrieved",
+      "obtained_records": 56194,
+      "notes": "Archivo oficial completo con CRC ZIP y SHA256. Se incluyen todas las actividades económicas con teléfono de estructura mexicana válida. La fecha de consulta o fecha_alta no acredita actividad de la línea, propiedad, independencia ni servicio de remesas. SCIAN y actividad originales conservados; cadenas incluidas y etiquetadas por coincidencia de marca. La notación científica telefónica, cuando existe, se expande exactamente sin redondear y conserva el texto original. Filas numeradas como registros lógicos CSV, contando encabezado como fila 1. Edición identificada en el diccionario: 20/05/2026; fecha de consulta distinta de vigencia telefónica.",
+      "sha256": "07f33c0d289f3218990d52246f8edf6705a2a6580c636ed3e3736fcd2f9d8fe7",
+      "sample_records": [
+        {
+          "id": "MX-DENUE-02007114119000311000000000U5",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "BCN",
+          "city": "San Felipe",
+          "phone": "6863575943",
+          "source_record_id": "02007114119000311000000000U5"
+        },
+        {
+          "id": "MX-DENUE-02006112515000023000000000U9",
+          "name": "ACUICOLA SAN QUINTIN",
+          "country": "MX",
+          "state": "BCN",
+          "city": "San Quintín [Acuícola]",
+          "phone": "6461309983",
+          "source_record_id": "02006112515000023000000000U9"
+        },
+        {
+          "id": "MX-DENUE-02001115113000137001000000U9",
+          "name": "AGRICOLA DOS MARES",
+          "country": "MX",
+          "state": "BCN",
+          "city": "Ejido Punta Colnett (Punta Colonet)",
+          "phone": "6462109444",
+          "source_record_id": "02001115113000137001000000U9"
+        },
+        {
+          "id": "MX-DENUE-02005114119000082101000000U6",
+          "name": "AGROINDUSTRIAS ISLA CORONADO NORTE",
+          "country": "MX",
+          "state": "BCN",
+          "city": "Ensenada",
+          "phone": "6463863715",
+          "source_record_id": "02005114119000082101000000U6"
+        },
+        {
+          "id": "MX-DENUE-02001114119002894110000000U1",
+          "name": "AGROMARINOS",
+          "country": "MX",
+          "state": "BCN",
+          "city": "Agromarinos",
+          "phone": "6161071186",
+          "source_record_id": "02001114119002894110000000U1"
+        },
+        {
+          "id": "MX-DENUE-02006114119000482000000000U6",
+          "name": "AGROMARISMA",
+          "country": "MX",
+          "state": "BCN",
+          "city": "Ejido Nueva Odisea (El Pabellón)",
+          "phone": "6461715933",
+          "source_record_id": "02006114119000482000000000U6"
+        }
+      ],
+      "region": "BCN",
+      "document_date": "2026-05-20",
+      "new_locations": 56194
+    },
+    {
+      "id": "inegi-denue-son",
+      "title": "INEGI DENUE — Sonora",
+      "platform": "INEGI DENUE",
+      "source_type": "document",
+      "format": "CSV/ZIP",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_26_csv.zip",
+      "country": "MX",
+      "retrieved_at": "2026-11-04T20:53:55.455241+00:00",
+      "status": "retrieved",
+      "obtained_records": 68251,
+      "notes": "Archivo oficial completo con CRC ZIP y SHA256. Se incluyen todas las actividades económicas con teléfono de estructura mexicana válida. La fecha de consulta o fecha_alta no acredita actividad de la línea, propiedad, independencia ni servicio de remesas. SCIAN y actividad originales conservados; cadenas incluidas y etiquetadas por coincidencia de marca. La notación científica telefónica, cuando existe, se expande exactamente sin redondear y conserva el texto original. Filas numeradas como registros lógicos CSV, contando encabezado como fila 1. Edición identificada en el diccionario: 20/05/2026; fecha de consulta distinta de vigencia telefónica.",
+      "sha256": "332bbcd4cc79a5806cbde9e9e4be0522648171d48f04d4e13b1500dce5192fdc",
+      "sample_records": [
+        {
+          "id": "MX-DENUE-26033114111007583000000000U7",
+          "name": "Pesca de camarón",
+          "country": "MX",
+          "state": "SON",
+          "city": "Yavaros (Isla las Viejas)",
+          "phone": "6474875152",
+          "source_record_id": "26033114111007583000000000U7"
+        },
+        {
+          "id": "MX-DENUE-26033114111001784100000000U7",
+          "name": "A GARRA BANDIDO",
+          "country": "MX",
+          "state": "SON",
+          "city": "Paredón Colorado (Paredón Viejo)",
+          "phone": "6461503316",
+          "source_record_id": "26033114111001784100000000U7"
+        },
+        {
+          "id": "MX-DENUE-26033114119000294010000000U1",
+          "name": "ACUA NOM",
+          "country": "MX",
+          "state": "SON",
+          "city": "Cautebe",
+          "phone": "6441380231",
+          "source_record_id": "26033114119000294010000000U1"
+        },
+        {
+          "id": "MX-DENUE-26072114111000094000000000U0",
+          "name": "ACUICOLA BATOSALY",
+          "country": "MX",
+          "state": "SON",
+          "city": "Bahía de Lobos",
+          "phone": "6441015864",
+          "source_record_id": "26072114111000094000000000U0"
+        },
+        {
+          "id": "MX-DENUE-26026114111000032011000000U6",
+          "name": "ACUICOLA CUMORA",
+          "country": "MX",
+          "state": "SON",
+          "city": "Las Mayas (Colonia Agrícola Basconcobe)",
+          "phone": "6444130609",
+          "source_record_id": "26026114111000032011000000U6"
+        },
+        {
+          "id": "MX-DENUE-26029112512000053111000000U7",
+          "name": "ACUICOLA DOÑA LIDIA",
+          "country": "MX",
+          "state": "SON",
+          "city": "Heroica Guaymas",
+          "phone": "6221446596",
+          "source_record_id": "26029112512000053111000000U7"
+        }
+      ],
+      "region": "SON",
+      "document_date": "2026-05-20",
+      "new_locations": 68251
+    },
+    {
+      "id": "inegi-denue-chh",
+      "title": "INEGI DENUE — Chihuahua",
+      "platform": "INEGI DENUE",
+      "source_type": "document",
+      "format": "CSV/ZIP",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_08_csv.zip",
+      "country": "MX",
+      "retrieved_at": "2026-11-04T20:54:11.160895+00:00",
+      "status": "retrieved",
+      "obtained_records": 71734,
+      "notes": "Archivo oficial completo con CRC ZIP y SHA256. Se incluyen todas las actividades económicas con teléfono de estructura mexicana válida. La fecha de consulta o fecha_alta no acredita actividad de la línea, propiedad, independencia ni servicio de remesas. SCIAN y actividad originales conservados; cadenas incluidas y etiquetadas por coincidencia de marca. La notación científica telefónica, cuando existe, se expande exactamente sin redondear y conserva el texto original. Filas numeradas como registros lógicos CSV, contando encabezado como fila 1. Edición identificada en el diccionario: 20/05/2026; fecha de consulta distinta de vigencia telefónica.",
+      "sha256": "d946462adfa8fc4a5697e0f99ccf42a86bca88ee77bf1c14b5c24ba612c72e05",
+      "sample_records": [
+        {
+          "id": "MX-DENUE-08017237111000051011000000U1",
+          "name": "AGRICOLA FG",
+          "country": "MX",
+          "state": "CHH",
+          "city": "Campo 2A",
+          "phone": "6255890083",
+          "source_record_id": "08017237111000051011000000U1"
+        },
+        {
+          "id": "MX-DENUE-08039115111000021000000000U3",
+          "name": "AGRIDRONE",
+          "country": "MX",
+          "state": "CHH",
+          "city": "Octaviano López",
+          "phone": "6295192339",
+          "source_record_id": "08039115111000021000000000U3"
+        },
+        {
+          "id": "MX-DENUE-08035115112000014101000000U4",
+          "name": "AGROINDUSTRIAS COLONIA BUENOS AIRES",
+          "country": "MX",
+          "state": "CHH",
+          "city": "Buenos Aires (Campo Cuatro)",
+          "phone": "6361305090",
+          "source_record_id": "08035115112000014101000000U4"
+        },
+        {
+          "id": "MX-DENUE-08021115119000011000000000U5",
+          "name": "AGROLAB",
+          "country": "MX",
+          "state": "CHH",
+          "city": "Delicias",
+          "phone": "6394674242",
+          "source_record_id": "08021115119000011000000000U5"
+        },
+        {
+          "id": "MX-DENUE-08052115112000014001000000U9",
+          "name": "ALGODONERA UNION DEL PROGRESO",
+          "country": "MX",
+          "state": "CHH",
+          "city": "El Cadillal",
+          "phone": "6261013856",
+          "source_record_id": "08052115112000014001000000U9"
+        },
+        {
+          "id": "MX-DENUE-08017493120000113000000000U7",
+          "name": "ARROYO SECO",
+          "country": "MX",
+          "state": "CHH",
+          "city": "Arroyo Seco [Frigorífico]",
+          "phone": "6251180135",
+          "source_record_id": "08017493120000113000000000U7"
+        }
+      ],
+      "region": "CHH",
+      "document_date": "2026-05-20",
+      "new_locations": 71734
+    },
+    {
+      "id": "inegi-denue-coa",
+      "title": "INEGI DENUE — Coahuila",
+      "platform": "INEGI DENUE",
+      "source_type": "document",
+      "format": "CSV/ZIP",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_05_csv.zip",
+      "country": "MX",
+      "retrieved_at": "2026-11-04T20:54:13.235719+00:00",
+      "status": "retrieved",
+      "obtained_records": 55492,
+      "notes": "Archivo oficial completo con CRC ZIP y SHA256. Se incluyen todas las actividades económicas con teléfono de estructura mexicana válida. La fecha de consulta o fecha_alta no acredita actividad de la línea, propiedad, independencia ni servicio de remesas. SCIAN y actividad originales conservados; cadenas incluidas y etiquetadas por coincidencia de marca. La notación científica telefónica, cuando existe, se expande exactamente sin redondear y conserva el texto original. Filas numeradas como registros lógicos CSV, contando encabezado como fila 1. Edición identificada en el diccionario: 20/05/2026; fecha de consulta distinta de vigencia telefónica.",
+      "sha256": "7df6cf18dd6105fb2b96d9fbf27cc658d3aa1a54054559e7b0a6489734065828",
+      "sample_records": [
+        {
+          "id": "MX-DENUE-05035115119000071001000000U2",
+          "name": "AGRICOLA GANADERA G TRES",
+          "country": "MX",
+          "state": "COA",
+          "city": "Torreón",
+          "phone": "8712681956",
+          "source_record_id": "05035115119000071001000000U2"
+        },
+        {
+          "id": "MX-DENUE-05004115113000021000000000U6",
+          "name": "BODEGA SIN NOMBRE",
+          "country": "MX",
+          "state": "COA",
+          "city": "Arteaga",
+          "phone": "8112770653",
+          "source_record_id": "05004115113000021000000000U6"
+        },
+        {
+          "id": "MX-DENUE-05002114119000123101000000U2",
+          "name": "CAÑON DE LA ZORRA",
+          "country": "MX",
+          "state": "COA",
+          "city": "Santo Toribio",
+          "phone": "8777730883",
+          "source_record_id": "05002114119000123101000000U2"
+        },
+        {
+          "id": "MX-DENUE-05011112512000012012000000U6",
+          "name": "CENTRO ACUICOLA LA ROSA",
+          "country": "MX",
+          "state": "COA",
+          "city": "La Rosa",
+          "phone": "8441844791",
+          "source_record_id": "05011112512000012012000000U6"
+        },
+        {
+          "id": "MX-DENUE-05035115113000081000000000U4",
+          "name": "COMERCIALIZADORA E IMPORTADORA RAMAS",
+          "country": "MX",
+          "state": "COA",
+          "city": "Torreón",
+          "phone": "8715742252",
+          "source_record_id": "05035115113000081000000000U4"
+        },
+        {
+          "id": "MX-DENUE-05035115111000182000000000U4",
+          "name": "CORMA FUMIGACIONES",
+          "country": "MX",
+          "state": "COA",
+          "city": "Torreón",
+          "phone": "8717477968",
+          "source_record_id": "05035115111000182000000000U4"
+        }
+      ],
+      "region": "COA",
+      "document_date": "2026-05-20",
+      "new_locations": 55492
+    },
+    {
+      "id": "inegi-denue-nle",
+      "title": "INEGI DENUE — Nuevo León",
+      "platform": "INEGI DENUE",
+      "source_type": "document",
+      "format": "CSV/ZIP",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_19_csv.zip",
+      "country": "MX",
+      "retrieved_at": "2026-11-04T20:54:29.682725+00:00",
+      "status": "retrieved",
+      "obtained_records": 94001,
+      "notes": "Archivo oficial completo con CRC ZIP y SHA256. Se incluyen todas las actividades económicas con teléfono de estructura mexicana válida. La fecha de consulta o fecha_alta no acredita actividad de la línea, propiedad, independencia ni servicio de remesas. SCIAN y actividad originales conservados; cadenas incluidas y etiquetadas por coincidencia de marca. La notación científica telefónica, cuando existe, se expande exactamente sin redondear y conserva el texto original. Filas numeradas como registros lógicos CSV, contando encabezado como fila 1. Edición identificada en el diccionario: 20/05/2026; fecha de consulta distinta de vigencia telefónica.",
+      "sha256": "ba9963bd99f27b65220f1e249384ab74c744cc665ca134347040ccbd8860ae0f",
+      "sample_records": [
+        {
+          "id": "MX-DENUE-19009115111000021000000000U3",
+          "name": "AGR SERKA AGROQUIMICOS Y SERVICIOS CADEREYTA",
+          "country": "MX",
+          "state": "NLE",
+          "city": "Cadereyta Jiménez",
+          "phone": "8281086740",
+          "source_record_id": "19009115111000021000000000U3"
+        },
+        {
+          "id": "MX-DENUE-19044115210000021000000000U0",
+          "name": "BASCULA PUBLICA",
+          "country": "MX",
+          "state": "NLE",
+          "city": "Ciudad Sabinas Hidalgo",
+          "phone": "8241063215",
+          "source_record_id": "19044115210000021000000000U0"
+        },
+        {
+          "id": "MX-DENUE-19009467115000031011000000U7",
+          "name": "CONTROL INTEGRAL DEL MEDIO AMBIENTE",
+          "country": "MX",
+          "state": "NLE",
+          "city": "Cadereyta Jiménez",
+          "phone": "8282845256",
+          "source_record_id": "19009467115000031011000000U7"
+        },
+        {
+          "id": "MX-DENUE-19043311999000011010000000U3",
+          "name": "DESCASCARADORA NUECES PROCESADAS DE HUERTAS LOS CONCABADOS",
+          "country": "MX",
+          "state": "NLE",
+          "city": "Rayones",
+          "phone": "8119111250",
+          "source_record_id": "19043311999000011010000000U3"
+        },
+        {
+          "id": "MX-DENUE-19006722513003061010000000U4",
+          "name": "EL COLEGA",
+          "country": "MX",
+          "state": "NLE",
+          "city": "Santa Rosa",
+          "phone": "8112027799",
+          "source_record_id": "19006722513003061010000000U4"
+        },
+        {
+          "id": "MX-DENUE-19038561910000013011000000U3",
+          "name": "EXPORTADORA DE FRUTAS Y LEGUMBRES TRES ASES",
+          "country": "MX",
+          "state": "NLE",
+          "city": "Montemorelos",
+          "phone": "8262632145",
+          "source_record_id": "19038561910000013011000000U3"
+        }
+      ],
+      "region": "NLE",
+      "document_date": "2026-05-20",
+      "new_locations": 94001
+    },
+    {
+      "id": "inegi-denue-tam",
+      "title": "INEGI DENUE — Tamaulipas",
+      "platform": "INEGI DENUE",
+      "source_type": "document",
+      "format": "CSV/ZIP",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_28_csv.zip",
+      "country": "MX",
+      "retrieved_at": "2026-11-04T20:54:32.846387+00:00",
+      "status": "retrieved",
+      "obtained_records": 57636,
+      "notes": "Archivo oficial completo con CRC ZIP y SHA256. Se incluyen todas las actividades económicas con teléfono de estructura mexicana válida. La fecha de consulta o fecha_alta no acredita actividad de la línea, propiedad, independencia ni servicio de remesas. SCIAN y actividad originales conservados; cadenas incluidas y etiquetadas por coincidencia de marca. La notación científica telefónica, cuando existe, se expande exactamente sin redondear y conserva el texto original. Filas numeradas como registros lógicos CSV, contando encabezado como fila 1. Edición identificada en el diccionario: 20/05/2026; fecha de consulta distinta de vigencia telefónica.",
+      "sha256": "56b07316d59cc1227bcae766ce2e7660df58a79e2f57a21c1ac8ddac7b3f3e9a",
+      "sample_records": [
+        {
+          "id": "MX-DENUE-28003114119000641000000000U4",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "TAM",
+          "city": "Cúez de Palmas Altas",
+          "phone": "9841284979",
+          "source_record_id": "28003114119000641000000000U4"
+        },
+        {
+          "id": "MX-DENUE-28003114119000631000000000U5",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "TAM",
+          "city": "Cúez de Palmas Altas",
+          "phone": "8312548946",
+          "source_record_id": "28003114119000631000000000U5"
+        },
+        {
+          "id": "MX-DENUE-28003114119000621000000000U6",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "TAM",
+          "city": "Cúez de Palmas Altas",
+          "phone": "9514636773",
+          "source_record_id": "28003114119000621000000000U6"
+        },
+        {
+          "id": "MX-DENUE-28003114119001911100000000U0",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "TAM",
+          "city": "Llano Grande (Liliana Orta de Hernández)",
+          "phone": "8334527853",
+          "source_record_id": "28003114119001911100000000U0"
+        },
+        {
+          "id": "MX-DENUE-28003114119003181000000000U8",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "TAM",
+          "city": "Cúez de Palmas Altas",
+          "phone": "8332840370",
+          "source_record_id": "28003114119003181000000000U8"
+        },
+        {
+          "id": "MX-DENUE-28003114119002771000000000U7",
+          "name": "Pesca y captura de peces, crustáceos, moluscos y otras especies",
+          "country": "MX",
+          "state": "TAM",
+          "city": "Cruz Grande (Cruz de los Ríos)",
+          "phone": "8335311155",
+          "source_record_id": "28003114119002771000000000U7"
+        }
+      ],
+      "region": "TAM",
+      "document_date": "2026-05-20",
+      "new_locations": 57636
+    },
+    {
+      "id": "doc-bdo-ca-agents-2025",
+      "title": "BDO Remit Canada Remittance Agents Directory",
+      "platform": "BDO Unibank",
+      "titleorganization": "BDO Unibank",
+      "organization": "BDO Unibank",
+      "source_type": "document",
+      "format": "PDF",
+      "url": "https://www.bdo.com.ph/content/dam/bdounibank/en-ph/remittance/bdo-remit-canada/bdo-remit-canada-remittance-agents-directory-apr-30.pdf",
+      "retrieved_at": "2026-11-04T20:47:18.321201+00:00",
+      "attempted_at": "2026-11-04T20:47:18.321201+00:00",
+      "status": "retrieved",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": "2025-04-30",
+      "notes": "HISTÓRICO: fecha del documento anterior a la consulta. No asegura actualidad de negocio, dirección o teléfono. No se incorporan registros a la maestra actual. Documento sin teléfonos publicados de los candidatos de Canadá/EEUU; sólo direcciones para revisión. La cubierta conserva fecha2022; la tabla indica30abril2025.",
+      "sha256": "83436c2360ab6e40e88fdf323f759fbc1837679aacdf8006d95348787c6e636d",
+      "sample_records": []
+    },
+    {
+      "id": "doc-liga-pr-2021",
+      "title": "Directorio de Cooperativas de Tipos Diversos 2021",
+      "platform": "Liga de Cooperativas de Puerto Rico",
+      "titleorganization": "Liga de Cooperativas de Puerto Rico",
+      "organization": "Liga de Cooperativas de Puerto Rico",
+      "source_type": "document",
+      "format": "PDF",
+      "url": "https://liga.coop/wp-content/uploads/2021/11/Directorio-de-Cooperativas-de-Tipos-Diversos-2021-2.pdf",
+      "retrieved_at": "2026-11-04T20:47:36.518926+00:00",
+      "attempted_at": "2026-11-04T20:47:36.518926+00:00",
+      "status": "retrieved",
+      "obtained_records": 31,
+      "candidate_records": 31,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": "2021-02",
+      "notes": "HISTÓRICO: fecha del documento anterior a la consulta. No asegura actualidad de negocio, dirección o teléfono. No se incorporan registros a la maestra actual.",
+      "sha256": "dc6b7ae0703e7e08737ee04f497edd657b76d3b6859834be2363927a090ae55e",
+      "sample_records": [
+        {
+          "id": "PR-LIGA2021-8b9124449651",
+          "name": "Coop. Agrícola Aguadeña",
+          "address": "Calle Estación Núm. 69",
+          "city": "Aguada",
+          "state": "PR",
+          "country": "PR",
+          "phone": "+17878682810",
+          "source_page": 4,
+          "source_row": null,
+          "document_date": "2021-02",
+          "source_fetched_at": "2026-11-04T20:47:36.518926+00:00"
+        },
+        {
+          "id": "PR-LIGA2021-f3ebc1a97204",
+          "name": "Coop. Agrícola del Sur (COOPAS)",
+          "address": "Urb. Estancias del Guayabal, 124 Paseo del Olmo",
+          "city": "Juana Díaz",
+          "state": "PR",
+          "country": "PR",
+          "phone": "+17877090541",
+          "source_page": 4,
+          "source_row": null,
+          "document_date": "2021-02",
+          "source_fetched_at": "2026-11-04T20:47:36.518926+00:00"
+        },
+        {
+          "id": "PR-LIGA2021-398685bf45e9",
+          "name": "Coop. de Veteranos Agricultores (CJCOOP)",
+          "address": "Calle 2 E-24, Urb. Riverside Park",
+          "city": "Bayamón",
+          "state": "PR",
+          "country": "PR",
+          "phone": "+17876742322",
+          "source_page": 6,
+          "source_row": null,
+          "document_date": "2021-02",
+          "source_fetched_at": "2026-11-04T20:47:36.518926+00:00"
+        },
+        {
+          "id": "PR-LIGA2021-d6c42dd3e2a3",
+          "name": "Coop. Orgánica Madre Tierra",
+          "address": "Calle Fernando Calder 469, Urb. Roosevelt",
+          "city": "San Juan",
+          "state": "PR",
+          "country": "PR",
+          "phone": "+17872008580",
+          "source_page": 6,
+          "source_row": null,
+          "document_date": "2021-02",
+          "source_fetched_at": "2026-11-04T20:47:36.518926+00:00"
+        },
+        {
+          "id": "PR-LIGA2021-f27acbdcb5cd",
+          "name": "Coop. Equipo Médico de Puerto Rico (CEMPR)",
+          "address": "Urb. Costa de Oro, Calle 1 B-14",
+          "city": "Dorado",
+          "state": "PR",
+          "country": "PR",
+          "phone": "+17877713333",
+          "source_page": 11,
+          "source_row": null,
+          "document_date": "2021-02",
+          "source_fetched_at": "2026-11-04T20:47:36.518926+00:00"
+        },
+        {
+          "id": "PR-LIGA2021-674b79fb2e9f",
+          "name": "Coop. Farmacias Puertorriqueñas (COOPHARMA)",
+          "address": "2 Calle Colón, Suite 4",
+          "city": "Aguada",
+          "state": "PR",
+          "country": "PR",
+          "phone": "+17872522048",
+          "source_page": 11,
+          "source_row": null,
+          "document_date": "2021-02",
+          "source_fetched_at": "2026-11-04T20:47:36.518926+00:00"
+        }
+      ]
+    },
+    {
+      "id": "doc-ncat-us-2006",
+      "title": "NC A&T Contractor Database 2006",
+      "platform": "North Carolina A&T State University",
+      "titleorganization": "North Carolina A&T State University",
+      "organization": "North Carolina A&T State University",
+      "source_type": "document",
+      "format": "PDF",
+      "url": "https://hub.ncat.edu/_files/administrative/minority-contractor-database.pdf",
+      "retrieved_at": "2026-11-04T20:48:28.308391+00:00",
+      "attempted_at": "2026-11-04T20:48:28.308391+00:00",
+      "status": "retrieved",
+      "obtained_records": 463,
+      "candidate_records": 463,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": "2006-10-10",
+      "notes": "HISTÓRICO: fecha del documento anterior a la consulta. No asegura actualidad de negocio, dirección o teléfono. No se incorporan registros a la maestra actual.",
+      "sha256": "b7d807119205210008edb9350f9be939d589dc2240c37b92769198d916f49db8",
+      "sample_records": [
+        {
+          "id": "US-NCAT2006-328eeb0ae2350d",
+          "name": "Blair Insustries, Inc.",
+          "address": "6336 Oleander Dr. Unit 1",
+          "city": "Wilmington",
+          "state": "NC",
+          "country": "US",
+          "phone": "+19103434307",
+          "source_page": 1,
+          "source_row": 9,
+          "document_date": "2006-10-10",
+          "source_fetched_at": "2026-11-04T20:48:28.308391+00:00"
+        },
+        {
+          "id": "US-NCAT2006-c2b0a98ce70600",
+          "name": "Antronix",
+          "address": "103-M Creek Ridge Road",
+          "city": "Greensboro",
+          "state": "NC",
+          "country": "US",
+          "phone": "+13362720878",
+          "source_page": 1,
+          "source_row": 11,
+          "document_date": "2006-10-10",
+          "source_fetched_at": "2026-11-04T20:48:28.308391+00:00"
+        },
+        {
+          "id": "US-NCAT2006-24357fcc03cbe3",
+          "name": "Deeds",
+          "address": "510 Gorrell St.",
+          "city": "Greensboro",
+          "state": "NC",
+          "country": "US",
+          "phone": "+13362536922",
+          "source_page": 1,
+          "source_row": 13,
+          "document_date": "2006-10-10",
+          "source_fetched_at": "2026-11-04T20:48:28.308391+00:00"
+        },
+        {
+          "id": "US-NCAT2006-4349524904d008",
+          "name": "Bennett Electrial Services",
+          "address": "904 Elizabethan Dr.",
+          "city": "Greensboro",
+          "state": "NC",
+          "country": "US",
+          "phone": "+13362533191",
+          "source_page": 1,
+          "source_row": 15,
+          "document_date": "2006-10-10",
+          "source_fetched_at": "2026-11-04T20:48:28.308391+00:00"
+        },
+        {
+          "id": "US-NCAT2006-8bdca7d113b7bf",
+          "name": "Cameron & Cameron, Inc.",
+          "address": "1418 Avondale Drive Sutie 18",
+          "city": "Durham",
+          "state": "NC",
+          "country": "US",
+          "phone": "+19195301202",
+          "source_page": 1,
+          "source_row": 17,
+          "document_date": "2006-10-10",
+          "source_fetched_at": "2026-11-04T20:48:28.308391+00:00"
+        },
+        {
+          "id": "US-NCAT2006-bfc5fa9ef9e50c",
+          "name": "Sunrise Enterprise",
+          "address": "771 Spring Street NW, 2nd FloorJ",
+          "city": "Atlanta",
+          "state": "GA",
+          "country": "US",
+          "phone": "+14048536800",
+          "source_page": 1,
+          "source_row": 33,
+          "document_date": "2006-10-10",
+          "source_fetched_at": "2026-11-04T20:48:28.308391+00:00"
+        }
+      ]
+    },
+    {
+      "id": "doc-pr-business-2021-xlsx",
+      "title": "Directorio de Empresas Operando Noviembre 2021",
+      "platform": "Instituto de Estadísticas de Puerto Rico",
+      "titleorganization": "Instituto de Estadísticas de Puerto Rico",
+      "organization": "Instituto de Estadísticas de Puerto Rico",
+      "source_type": "document",
+      "format": "XLSX",
+      "url": "https://estadisticas.pr/files/Inventario/publicaciones/Directorio%20de%20Empresas%20Operando%20Noviembre%202021%20%28Nov%2030%2C%202021%29%20Pub.xlsx",
+      "retrieved_at": null,
+      "attempted_at": "2026-11-04",
+      "status": "error",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": "2021-11",
+      "notes": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP Error 503: Service Unavailable. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados.",
+      "sha256": null,
+      "sample_records": []
+    },
+    {
+      "id": "doc-peru-toronto-grocery-2022",
+      "title": "Peruvian Grocery Stores Toronto 2022",
+      "platform": "Consulado General del Perú en Toronto",
+      "titleorganization": "Consulado General del Perú en Toronto",
+      "organization": "Consulado General del Perú en Toronto",
+      "source_type": "document",
+      "format": "PDF",
+      "url": "https://www.consulado.pe/es/Toronto/Documents/Peruvian%20Grocery%20Stores%20V.8a%20-%2003%20de%20mayo%20de%202022.pptx.pdf",
+      "retrieved_at": null,
+      "attempted_at": "2026-11-04",
+      "status": "error",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": "2022-05-03",
+      "notes": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP Error 503: Service Unavailable. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados.",
+      "sha256": null,
+      "sample_records": []
+    },
+    {
+      "id": "doc-bdo-partners-2024",
+      "title": "BDO Remit Offices and Partners Directory",
+      "platform": "BDO Unibank",
+      "titleorganization": "BDO Unibank",
+      "organization": "BDO Unibank",
+      "source_type": "document",
+      "format": "PDF",
+      "url": "https://www.bdo.com.ph/content/dam/bdounibank/en-ph/mcg-digital-marketing/pdfs/BDO-Remit-Offices-and-Partners-Directory-as-of-October-22.pdf",
+      "retrieved_at": "2026-11-04T20:51:10.890352+00:00",
+      "attempted_at": "2026-11-04T20:51:10.890352+00:00",
+      "status": "retrieved",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "address_only_candidates": 20,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": "2024-10-22",
+      "notes": "HISTÓRICO: fecha del documento anterior a la consulta. No asegura actualidad de negocio, dirección o teléfono. No se incorporan registros a la maestra actual. Documento sin teléfonos publicados de los candidatos de Canadá/EEUU; sólo direcciones para revisión.",
+      "sha256": "29e5f273c7df3d944190a59afb99da19bb18ec76bc2e313c86be3706959d84dc",
+      "sample_records": []
+    },
+    {
+      "id": "doc-fintrac-msb-xlsx",
+      "title": "Money Services Business Registry XLSX",
+      "platform": "FINTRAC Canada",
+      "titleorganization": "FINTRAC Canada",
+      "organization": "FINTRAC Canada",
+      "source_type": "document",
+      "format": "XLSX",
+      "url": "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.xlsx",
+      "retrieved_at": null,
+      "attempted_at": "2026-11-04",
+      "status": "error",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": null,
+      "notes": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP Error 503: Service Unavailable. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados.",
+      "sha256": null,
+      "sample_records": []
+    },
+    {
+      "id": "doc-fintrac-msb-csv",
+      "title": "Money Services Business Registry CSV",
+      "platform": "FINTRAC Canada",
+      "titleorganization": "FINTRAC Canada",
+      "organization": "FINTRAC Canada",
+      "source_type": "document",
+      "format": "CSV",
+      "url": "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv",
+      "retrieved_at": null,
+      "attempted_at": "2026-11-04",
+      "status": "error",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "address_only_candidates": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": null,
+      "notes": "Registro de investigación pendiente; no se incorpora ningún contacto a la colección histórica ni a la maestra actual desde esta fuente. Descarga no obtenida: HTTP403. No se afirma haber leído el contenido; fecha documental tomada del título/URL publicado cuando consta. La fuente no asegura actualidad; los contactos históricos extraídos de otros documentos permanecen separados.",
+      "sha256": null,
+      "sample_records": []
+    },
+    {
+      "id": "search-public-yahoo",
+      "title": "Búsquedas públicas de documentos · Yahoo",
+      "platform": "Yahoo",
+      "titleorganization": "Yahoo",
+      "organization": "Yahoo",
+      "source_type": "search",
+      "format": "HTML",
+      "url": "https://search.yahoo.com/search?p=%22Money%20transfer%22%20%22Toronto%22%20filetype%3Acsv",
+      "retrieved_at": "2026-11-04",
+      "status": "response",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": null,
+      "notes": "Respondió HTML con enlaces públicos; se usó para descubrir directorios. El buscador no aporta altas actuales.",
+      "sha256": null,
+      "sample_records": [],
+      "queries": [
+        "\"Money transfer\" \"Toronto\" filetype:csv",
+        "\"directorio\" \"negocios\" \"Toronto\" filetype:pdf",
+        "\"Canada\" \"Sigue\" filetype:pdf \"agents\"",
+        "\"Latino\" \"Toronto\" filetype:pdf \"416\" grocery",
+        "\"Canada\" \"remittance agents\" filetype:pdf \"Tel\"",
+        "\"Puerto Rico\" \"directorio\" \"cooperativas\" filetype:xlsx",
+        "\"directorio\" \"negocios\" \"Canadá\" filetype:pdf \"teléfono\"",
+        "\"Hispanic\" \"business directory\" \"North Carolina\" filetype:pdf",
+        "\"BDO Remit Canada\" filetype:pdf \"Tel\"",
+        "\"Canada\" \"agents directory\" \"phone\" filetype:pdf",
+        "\"Canada\" \"remittance\" \"directory\" filetype:xlsx",
+        "\"COSSEC\" \"directorio\"",
+        "\"Canada\" \"remittance agents\" filetype:pdf",
+        "\"Mexican grocery\" \"Canada\" filetype:pdf"
+      ],
+      "query_urls": [
+        "https://search.yahoo.com/search?p=%22Money%20transfer%22%20%22Toronto%22%20filetype%3Acsv",
+        "https://search.yahoo.com/search?p=%22directorio%22%20%22negocios%22%20%22Toronto%22%20filetype%3Apdf",
+        "https://search.yahoo.com/search?p=%22Canada%22%20%22Sigue%22%20filetype%3Apdf%20%22agents%22",
+        "https://search.yahoo.com/search?p=%22Latino%22%20%22Toronto%22%20filetype%3Apdf%20%22416%22%20grocery",
+        "https://search.yahoo.com/search?p=%22Canada%22%20%22remittance%20agents%22%20filetype%3Apdf%20%22Tel%22",
+        "https://search.yahoo.com/search?p=%22Puerto%20Rico%22%20%22directorio%22%20%22cooperativas%22%20filetype%3Axlsx",
+        "https://search.yahoo.com/search?p=%22directorio%22%20%22negocios%22%20%22Canad%C3%A1%22%20filetype%3Apdf%20%22tel%C3%A9fono%22",
+        "https://search.yahoo.com/search?p=%22Hispanic%22%20%22business%20directory%22%20%22North%20Carolina%22%20filetype%3Apdf",
+        "https://search.yahoo.com/search?p=%22BDO%20Remit%20Canada%22%20filetype%3Apdf%20%22Tel%22",
+        "https://search.yahoo.com/search?p=%22Canada%22%20%22agents%20directory%22%20%22phone%22%20filetype%3Apdf",
+        "https://search.yahoo.com/search?p=%22Canada%22%20%22remittance%22%20%22directory%22%20filetype%3Axlsx",
+        "https://search.yahoo.com/search?p=%22COSSEC%22%20%22directorio%22",
+        "https://search.yahoo.com/search?p=%22Canada%22%20%22remittance%20agents%22%20filetype%3Apdf",
+        "https://search.yahoo.com/search?p=%22Mexican%20grocery%22%20%22Canada%22%20filetype%3Apdf"
+      ],
+      "failed_queries": [
+        {
+          "query": "\"remittance\" \"Canada\" filetype:pdf \"telephone\" agents",
+          "status": "error",
+          "http_status": 503
+        }
+      ]
+    },
+    {
+      "id": "search-public-bing",
+      "title": "Búsquedas públicas de documentos · Bing",
+      "platform": "Bing",
+      "titleorganization": "Bing",
+      "organization": "Bing",
+      "source_type": "search",
+      "format": "HTML",
+      "url": "https://www.bing.com/search?q=%22money%20transfer%22%20%22Canada%22%20filetype%3Apdf",
+      "retrieved_at": "2026-11-04",
+      "status": "response",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": null,
+      "notes": "Respondió HTML pero presentó resultados genéricos poco útiles. No se extrajeron contactos del buscador.",
+      "sha256": null,
+      "sample_records": [],
+      "queries": [
+        "\"money transfer\" \"Canada\" filetype:pdf",
+        "money transfer agents Canada filetype:pdf phone",
+        "Hispanic business directory North Carolina filetype:pdf",
+        "Puerto Rico business directory filetype:pdf telefono",
+        "Latino business directory Canada filetype:pdf"
+      ],
+      "query_urls": [
+        "https://www.bing.com/search?q=%22money%20transfer%22%20%22Canada%22%20filetype%3Apdf",
+        "https://www.bing.com/search?q=money%20transfer%20agents%20Canada%20filetype%3Apdf%20phone",
+        "https://www.bing.com/search?q=Hispanic%20business%20directory%20North%20Carolina%20filetype%3Apdf",
+        "https://www.bing.com/search?q=Puerto%20Rico%20business%20directory%20filetype%3Apdf%20telefono",
+        "https://www.bing.com/search?q=Latino%20business%20directory%20Canada%20filetype%3Apdf"
+      ]
+    },
+    {
+      "id": "search-public-google",
+      "title": "Búsquedas públicas de documentos · Google",
+      "platform": "Google",
+      "titleorganization": "Google",
+      "organization": "Google",
+      "source_type": "search",
+      "format": "HTML",
+      "url": "https://www.google.com/search?q=%22money%20transfer%22%20locations%20filetype%3Apdf%20phone",
+      "retrieved_at": "2026-11-04",
+      "status": "response",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": null,
+      "notes": "Respuesta HTML que requiere JavaScript. No se extrajeron contactos del buscador ni se sortearon controles.",
+      "sha256": null,
+      "sample_records": [],
+      "queries": [
+        "\"money transfer\" locations filetype:pdf phone",
+        "\"Western Union\" \"Canada\" filetype:pdf phone"
+      ],
+      "query_urls": [
+        "https://www.google.com/search?q=%22money%20transfer%22%20locations%20filetype%3Apdf%20phone",
+        "https://www.google.com/search?q=%22Western%20Union%22%20%22Canada%22%20filetype%3Apdf%20phone"
+      ]
+    },
+    {
+      "id": "search-public-duckduckgo",
+      "title": "Búsquedas públicas de documentos · DuckDuckGo",
+      "platform": "DuckDuckGo",
+      "titleorganization": "DuckDuckGo",
+      "organization": "DuckDuckGo",
+      "source_type": "search",
+      "format": "HTML",
+      "url": "https://html.duckduckgo.com/html/?q=%22money%20transfer%22%20%22Canada%22%20filetype%3Apdf",
+      "retrieved_at": "2026-11-04",
+      "status": "error",
+      "obtained_records": 0,
+      "candidate_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "document_date": null,
+      "notes": "Respuesta de desafío/captcha. No se completó ni se sorteó el desafío; no se extrajeron contactos.",
+      "sha256": null,
+      "sample_records": [],
+      "queries": [
+        "\"money transfer\" \"Canada\" filetype:pdf",
+        "\"Hispanic\" \"business directory\" filetype:pdf"
+      ],
+      "query_urls": [
+        "https://html.duckduckgo.com/html/?q=%22money%20transfer%22%20%22Canada%22%20filetype%3Apdf",
+        "https://html.duckduckgo.com/html/?q=%22Hispanic%22%20%22business%20directory%22%20filetype%3Apdf"
+      ]
+    },
+    {
+      "id": "search-root-google_pdf",
+      "title": "Google · búsqueda pública de directorios PDF",
+      "platform": "Google",
+      "source_type": "search",
+      "format": "HTML",
+      "url": "https://www.google.com/search?q=%22money%20transfer%22%20locations%20filetype%3Apdf%20phone",
+      "retrieved_at": "2026-11-04T20:43:46.158014+00:00",
+      "status": "retrieved",
+      "obtained_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "sample_records": [],
+      "queries": [
+        "\"money transfer\" locations filetype:pdf phone"
+      ],
+      "notes": "Página de resultados consultada. No se convierte una búsqueda o redirección JavaScript en un contacto extraído."
+    },
+    {
+      "id": "search-root-bing_pdf",
+      "title": "Bing · búsqueda pública de directorios PDF",
+      "platform": "Bing",
+      "source_type": "search",
+      "format": "HTML",
+      "url": "https://www.bing.com/search?q=%22moneygram%22%20%22locations%22%20filetype%3Apdf",
+      "retrieved_at": "2026-11-04T20:43:47.592499+00:00",
+      "status": "retrieved",
+      "obtained_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "sample_records": [],
+      "queries": [
+        "\"moneygram\" \"locations\" filetype:pdf"
+      ],
+      "notes": "Página de resultados consultada. No se convierte una búsqueda o redirección JavaScript en un contacto extraído."
+    },
+    {
+      "id": "website-sabor-latino-sitio-oficial",
+      "title": "Sabor Latino sitio oficial",
+      "platform": "Sitios oficiales de negocios",
+      "source_type": "platform",
+      "format": "HTML",
+      "url": "https://saborlatino.ca/",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:46:26.202665+00:00",
+      "status": "retrieved",
+      "obtained_records": 3,
+      "new_locations": 3,
+      "existing_matches": 0,
+      "sha256": "7ccbb0ce58b49e2c74085ebb9f319309c326a93b92c3105d0c65bc0b04b28bfc",
+      "notes": "Contacto extraído del sitio oficial. Brossard CP repeats Montreal CP; omitted normalized CP Brossard tel href is +15148481078 but visible number is (450) 910 1625; use visible number Neither phone activity nor remittances checked",
+      "sample_records": [
+        {
+          "id": "CA-WEB-0946EBEA47E5",
+          "name": "Sabor Latino",
+          "country": "CA",
+          "state": "QC",
+          "city": "Montréal",
+          "phone": "+15142774130",
+          "source_record_id": "6955 Rue St-Hubert"
+        },
+        {
+          "id": "CA-WEB-DBD106DD5E68",
+          "name": "Sabor Latino",
+          "country": "CA",
+          "state": "QC",
+          "city": "Montréal",
+          "phone": "+15148481078",
+          "source_record_id": "4387 Boul. St-Laurent"
+        },
+        {
+          "id": "CA-WEB-FF2E68A12816",
+          "name": "Sabor Latino",
+          "country": "CA",
+          "state": "QC",
+          "city": "Brossard",
+          "phone": "+14509101625",
+          "source_record_id": "7800 Boul. Taschereau"
+        }
+      ]
+    },
+    {
+      "id": "website-sombrero-latin-foods-sitio-oficial",
+      "title": "Sombrero Latin Foods sitio oficial",
+      "platform": "Sitios oficiales de negocios",
+      "source_type": "platform",
+      "format": "HTML",
+      "url": "https://sombrerolatinfoods.ca/pages/about-us",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:47:48.468465+00:00",
+      "status": "retrieved",
+      "obtained_records": 1,
+      "new_locations": 1,
+      "existing_matches": 0,
+      "sha256": "0cc4339c285d8a4f71fa1c6e21eec37a67975638861f5e9dec0e10095bd01c04",
+      "notes": "Contacto extraído del sitio oficial. Homepage pickup address 341 Bering Ave differs from contact address 339; one business record kept Social profiles yield identity/business-description metadata, not phone or full street address Neither phone activity nor remittances checked",
+      "sample_records": [
+        {
+          "id": "CA-WEB-A5993BAEBD85",
+          "name": "Sombrero Latin Foods",
+          "country": "CA",
+          "state": "ON",
+          "city": "Etobicoke",
+          "phone": "+16473880110",
+          "source_record_id": "339 Bering Ave"
+        }
+      ]
+    },
+    {
+      "id": "website-fresh-is-best-on-broadway-sitio-oficial",
+      "title": "Fresh Is Best on Broadway sitio oficial",
+      "platform": "Sitios oficiales de negocios",
+      "source_type": "platform",
+      "format": "HTML",
+      "url": "https://freshisbestonbroadway.ca",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:47:48.469703+00:00",
+      "status": "retrieved",
+      "obtained_records": 1,
+      "new_locations": 1,
+      "existing_matches": 0,
+      "sha256": "b2212c1aea426707ef11cdd571e3b8ce1ad2867ec84a1b7a55036c3564cecb6f",
+      "notes": "Contacto extraído del sitio oficial. Facebook tracking pixel is not a business profile Neither phone activity nor remittances checked",
+      "sample_records": [
+        {
+          "id": "CA-WEB-B4EB943E5235",
+          "name": "Fresh Is Best on Broadway",
+          "country": "CA",
+          "state": "BC",
+          "city": "Vancouver",
+          "phone": "+17787372442",
+          "source_record_id": "2908 West Broadway"
+        }
+      ]
+    },
+    {
+      "id": "social-profile-1",
+      "title": "Facebook · Sabor Latino",
+      "platform": "Facebook",
+      "source_type": "social",
+      "format": "HTML",
+      "url": "https://www.facebook.com/SaborLatino.PlazaStHubert",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:46:43.601369+00:00",
+      "status": "login_required",
+      "obtained_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "phone_contacts_extracted": 0,
+      "identity_fields_extracted": [],
+      "sha256": "8e1b9fe4a25fee146564e84728dc877e4761b7d4293624c5aae10996cd6ac245",
+      "notes": "No se obtuvo contacto de esta red: acceso requerido o página de error. Sin evasión de acceso. Enlace de relación desde sitio oficial: https://saborlatino.ca/",
+      "sample_records": []
+    },
+    {
+      "id": "social-profile-2",
+      "title": "Instagram · Sabor Latino",
+      "platform": "Instagram",
+      "source_type": "social",
+      "format": "HTML",
+      "url": "https://www.instagram.com/saborlatino.plazasthubert/",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:46:43.602403+00:00",
+      "status": "error",
+      "obtained_records": 0,
+      "new_locations": 0,
+      "existing_matches": 0,
+      "phone_contacts_extracted": 0,
+      "identity_fields_extracted": [],
+      "sha256": "2998d3b3ebd4718a452e05e8ded01433c4336615d86306f17d1757892c7dc14e",
+      "notes": "No se obtuvo contacto de esta red: acceso requerido o página de error. Sin evasión de acceso. Enlace de relación desde sitio oficial: https://saborlatino.ca/",
+      "sample_records": []
+    },
+    {
+      "id": "social-profile-3",
+      "title": "Facebook · Sombrero Latin Foods",
+      "platform": "Facebook",
+      "source_type": "social",
+      "format": "HTML",
+      "url": "https://www.facebook.com/SombreroLatinFoods/",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:47:48.466186+00:00",
+      "status": "retrieved",
+      "obtained_records": 1,
+      "new_locations": 0,
+      "existing_matches": 1,
+      "phone_contacts_extracted": 0,
+      "identity_fields_extracted": [
+        "business_name",
+        "city",
+        "business_description"
+      ],
+      "sha256": "12ed9a07d4a4caf5afb94f2f75fa8151f340c0b403ec539f6c6e005a2870cd95",
+      "notes": "Identidad, giro y localidad corroborados en metadatos públicos. Teléfono y dirección postal proceden exclusivamente del sitio oficial; esta red no los publicó en el contenido leído. Enlace de relación desde sitio oficial: https://sombrerolatinfoods.ca/pages/about-us",
+      "sample_records": [
+        {
+          "id": "SOCIAL-3",
+          "name": "Sombrero Latin Foods",
+          "country": "CA",
+          "state": "ON",
+          "city": "Toronto",
+          "phone": "",
+          "source_record_id": "https://www.facebook.com/SombreroLatinFoods/"
+        }
+      ]
+    },
+    {
+      "id": "social-profile-4",
+      "title": "Instagram · Sombrero Latin Foods",
+      "platform": "Instagram",
+      "source_type": "social",
+      "format": "HTML",
+      "url": "https://www.instagram.com/sombrerolatinfoods/",
+      "country": "CA",
+      "retrieved_at": "2026-11-04T20:47:48.467106+00:00",
+      "status": "retrieved",
+      "obtained_records": 1,
+      "new_locations": 0,
+      "existing_matches": 1,
+      "phone_contacts_extracted": 0,
+      "identity_fields_extracted": [
+        "business_name",
+        "public_bio",
+        "country",
+        "city"
+      ],
+      "sha256": "c26a4e3abcef4a38c4c613d0101e79f4e157767148032f9a97ad5ffa6c14363d",
+      "notes": "Identidad, giro y localidad corroborados en metadatos públicos. Teléfono y dirección postal proceden exclusivamente del sitio oficial; esta red no los publicó en el contenido leído. Enlace de relación desde sitio oficial: https://sombrerolatinfoods.ca/pages/about-us",
+      "sample_records": [
+        {
+          "id": "SOCIAL-4",
+          "name": "Sombrero Latin Foods",
+          "country": "CA",
+          "state": "ON",
+          "city": "Toronto",
+          "phone": "",
+          "source_record_id": "https://www.instagram.com/sombrerolatinfoods/"
+        }
+      ]
+    }
+  ]
+}
