@@ -1,0 +1,96 @@
+/* Punto Envíos · interfaz móvil premium; complementa buscador.css sin alterar otros módulos */
+body.premium-remesas{--ink:#e9eff8;--green:#121f32;--green-soft:#223149;--paper:#0b101b;--cream:#10192a;--line:#29374a;--muted:#a0aec0;--white:#151f2f;--yellow:#f6d38d;color:var(--ink);background:var(--paper);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.premium-remesas .header{position:sticky;top:0;z-index:1100;background:rgba(13,20,33,.94);border-color:#2d3b4f;backdrop-filter:blur(18px)}
+.premium-remesas .header-inner{min-height:76px}
+.premium-remesas .brand{color:#f6f9fd;letter-spacing:-.03em}
+.premium-remesas .brand-icon{background:linear-gradient(140deg,#5fe2bd,#2a7ae6);color:#061321;box-shadow:0 4px 18px #2d9bca33}
+.premium-remesas .header nav a{color:#d4dfed}
+.premium-remesas .header nav a:hover{color:#77e4be}
+.premium-remesas .hero{background:radial-gradient(ellipse at 80% 10%,#1d405e 0%,transparent 42%),linear-gradient(135deg,#132338,#0d1523 80%);border-bottom-color:var(--line)}
+.premium-remesas .hero-inner{padding-top:42px;padding-bottom:43px;gap:40px}
+.premium-remesas .eyebrow{color:#8de3ca}
+.premium-remesas h1{font-size:clamp(33px,4vw,54px);font-weight:700;letter-spacing:-.055em;line-height:1.09}
+.premium-remesas h1 em{color:#85f2d2;font-family:inherit;font-weight:650}
+.premium-remesas .hero-copy{color:#b4c3d3;line-height:1.6}
+.premium-remesas .hero-link{color:#b2f5db;border-color:#62bb9e}
+.premium-remesas .hero-card{background:linear-gradient(155deg,#1c3348,#17253b);box-shadow:0 20px 45px #050a1280;border:1px solid #395168}
+.premium-remesas .hero-card .eyebrow,.premium-remesas .hero-card p:not(.eyebrow){color:#bdd1dc}
+.premium-remesas .hero-card-icon{color:#72e5bf}
+.premium-remesas .hero-card-line{color:#b0d8c8}
+.premium-remesas .directory{padding-top:32px}
+.premium-remesas .directory-meta,.premium-remesas .priority-focus p,.premium-remesas .filter-actions p,.premium-remesas .address,.premium-remesas .principles-grid p,.premium-remesas .source-inspector-body,.premium-remesas .detail-content,.premium-remesas .empty-state p{color:#aebdcc}
+.premium-remesas .priority-focus,.premium-remesas .filters,.premium-remesas .business-card,.premium-remesas .empty-state,.premium-remesas .source-inspector{background:#131e2d;border-color:#2b3c50}
+.premium-remesas .priority-focus h3,.premium-remesas .section-heading h2,.premium-remesas .business-card h3,.premium-remesas .detail-content h4,.premium-remesas .principles-grid h3{color:#f4f8fd}
+.premium-remesas .priority-state,.premium-remesas select,.premium-remesas .search-input{background:#0e1726;border-color:#3b5065;color:#e8f0f7}
+.premium-remesas .priority-state:hover,.premium-remesas button:hover:not(:disabled){background:#22354c}
+.premium-remesas .search-input input{color:#f2f7fc}
+.premium-remesas input::placeholder{color:#8295a9}
+.premium-remesas .priority-state:focus-visible,.premium-remesas button:focus-visible{outline:2px solid #65e1c0;outline-offset:2px}
+.premium-remesas .evidence-notice{color:#c2cebf;background:#24302c;border-color:#75ad92}
+.premium-remesas .card-details{border-color:#2c3c4c}
+.premium-remesas .card-top{align-items:center}
+.premium-remesas .category-label{color:#80dfc1}
+.premium-remesas .state-pill{background:#24423b;color:#a7f5d8}
+.premium-remesas .provider-chip{background:#25364a;border-color:#3f5369;color:#d6e6ee}
+.premium-remesas .empty-provider{color:#849bad}
+.premium-remesas .evidence-badge{color:#a6dfc7}
+.premium-remesas .evidence-badge.pending{color:#f0ca85}
+.premium-remesas .profiles a,.premium-remesas .cross-search a,.premium-remesas .source-inspector a{color:#91dbfa}
+.premium-remesas .cross-search a{background:#233448}
+.premium-remesas .outline-button{color:#dbeaf3;border-color:#476075;background:#162537}
+.premium-remesas .sources-section{border-color:#2a3a4c}
+.premium-remesas .footer{background:#09111e;border-top:1px solid #26384d}
+.premium-remesas .footer strong{color:#fff}
+.premium-remesas .footer p,.premium-remesas .footer a{color:#b6c6d5}
+.premium-remesas .business-card{box-shadow:0 12px 26px #03070c30}
+.premium-remesas .business-card:hover{border-color:#4a756c}
+.premium-remesas .results-grid{gap:16px}
+.premium-remesas .filters,.premium-remesas .business-card,.premium-remesas .priority-focus{border-radius:20px}
+.premium-remesas .map-locate-button{margin-top:19px;width:100%;min-height:42px;border:1px solid #58a898;border-radius:11px;background:#1b3d3b;color:#b8ffe0;font-size:12px;font-weight:750;text-align:center}
+.premium-remesas .map-locate-button:hover{background:#245248}
+.remesas-map-panel{border-radius:21px;border:1px solid #385069;background:#142136;overflow:hidden;margin:21px 0;box-shadow:0 14px 35px #02060b3d}
+.remesas-map-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 20px}
+.remesas-map-head h3{margin:4px 0 0;color:#fff;font-size:21px;letter-spacing:-.5px}
+.remesas-map-head p{margin:0;font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:750;color:#88dac1}
+.remesas-map-actions{display:flex;gap:8px;flex-wrap:wrap}
+.remesas-map-actions button{border:1px solid #445b72;background:#1f3145;color:#ecf6fd;border-radius:12px;min-height:41px;padding:10px 13px;font-weight:700;font-size:12px}
+.remesas-map-actions button:hover{background:#2d475f}
+.remesas-map-canvas{height:248px;width:100%;background:#0e1b2d;position:relative}
+.remesas-map-panel.is-expanded .remesas-map-canvas{height:min(68vh,690px)}
+.remesas-map-bottom{display:flex;gap:12px;align-items:start;justify-content:space-between;padding:13px 18px;min-height:69px}
+.remesas-map-bottom p{margin:0;color:#a9c0d4;font-size:11px;line-height:1.6}
+.remesas-map-bottom p:first-child{color:#dceaf2;font-weight:650}
+.remesas-map-bottom a{color:#87d7f5}
+.remesas-map-legend{display:flex;gap:11px;flex-wrap:wrap;padding:0 18px 14px;color:#b9cad8;font-size:10px}
+.remesas-map-legend span:before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:#55dab1}
+.remesas-map-legend span:last-child:before{background:#f4b65d}
+.remesas-map-canvas .leaflet-container{font:inherit}
+.remesas-map-canvas .leaflet-control-attribution{font-size:10px!important;background:#ffffffdf!important;color:#26313b!important}
+.remesas-map-canvas .leaflet-control-attribution a{color:#246081!important}
+.remesas-map-canvas .leaflet-control-zoom a{color:#10253b!important;background:#fff!important}
+.remesas-marker,.remesas-cluster{display:flex!important;align-items:center;justify-content:center;border-radius:50%;border:3px solid white;box-shadow:0 3px 12px #0006;font-weight:800}
+.remesas-marker{background:#35af86;color:#fff;font-size:22px}
+.remesas-marker.is-pending{background:#e7a94e}
+.remesas-cluster{background:#27486b;color:#fff;font-size:14px}
+.remesas-map-canvas .leaflet-popup-content p{font-size:12px;line-height:1.5;margin:8px 0}
+.remesas-map-canvas .leaflet-popup-content a{color:#155e9d;font-weight:700}
+.premium-remesas .map-footnote{margin-top:5px;color:#92a6b9;font-size:10px}
+@media(max-width:700px){
+  .premium-remesas .shell{width:calc(100% - 30px)}
+  .premium-remesas .header-inner{min-height:66px}
+  .premium-remesas .hero-inner{padding-top:30px;padding-bottom:34px}
+  .premium-remesas h1{font-size:clamp(30px,8vw,42px);letter-spacing:-.05em}
+  .premium-remesas .hero-card{box-shadow:none}
+  .premium-remesas .directory{padding-top:25px}
+  .premium-remesas .filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .premium-remesas .results-toolbar{flex-wrap:wrap}
+  .remesas-map-panel{border-radius:17px;margin:18px 0}
+  .remesas-map-head{flex-direction:column;align-items:stretch;padding:15px}
+  .remesas-map-actions{display:grid;grid-template-columns:1fr 1fr}
+  .remesas-map-actions button{padding:9px 4px;font-size:11px}
+  .remesas-map-canvas{height:245px}
+  .remesas-map-panel.is-expanded .remesas-map-canvas{height:58vh;min-height:330px}
+  .remesas-map-bottom{flex-direction:column;padding:11px 14px}
+  .remesas-map-legend{padding-left:14px}
+}
+@media(prefers-reduced-motion:reduce){.premium-remesas *{scroll-behavior:auto!important}}
