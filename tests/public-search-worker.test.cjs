@@ -11,7 +11,7 @@ const manifest = {version: 1, fields, metadata, total: 1, shards: [{url:"data/pu
 const rows = {fields, rows:[example]};
 const engine = new PublicEngine(manifest, "https://example.org/st-locations-/", {
   verifyHash: false,
-  fetch: async () => ({ok: true, arrayBuffer: async () => Uint8Array.from(Buffer.from(JSON.stringify(rows))).buffer}),
+  fetch: async () => ({ok: true, arrayBuffer: async () => { const bytes = Buffer.from(JSON.stringify(rows)); return bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength); }}),
 });
 
 test("matches published aliases without changing primary business name", async () => {
