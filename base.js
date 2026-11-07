@@ -109,6 +109,7 @@
       const candidates = [...ui["master-state"].options].filter(option => option.value === country + "|" + region || (!country && option.value.endsWith("|" + region)));
       if (candidates.length === 1) ui["master-state"].value = candidates[0].value;
     }
+    for (const [key, id] of [["category", "master-category"], ["group", "master-group"], ["proof", "master-proof"]]) selectValue(id, params.get(key));
     const platform = params.get("platform");
     if (platform && !selectValue("master-platform", platform)) initialNotice = mode === "static" ? " El filtro de plataforma solicitado no está disponible en este archivo estático." : " La plataforma solicitada no figura en el índice de la base; selecciona una fuente disponible.";
   }
@@ -141,6 +142,16 @@
     const values = { q: ui["master-query"].value.trim(), country, region: separator >= 0 ? regionValue.slice(separator + 1) : "", platform: fullMode() ? ui["master-platform"].value : "", category: ui["master-category"].value, group: ui["master-group"].value, proof: ui["master-proof"].value || "all" };
     for (const [key, value] of Object.entries(values)) if (value) params.set(key, value);
     return params;
+  }
+
+  function syncURL() {
+    const url = new URL(window.location.href);
+    for (const key of ["q", "country", "region", "platform", "category", "group", "proof"]) url.searchParams.delete(key);
+    for (const [key, value] of queryParams()) {
+      if (key !== "proof" || value !== "all") url.searchParams.set(key, value);
+    }
+    const next = url.pathname + url.search + url.hash;
+    if (next !== window.location.pathname + window.location.search + window.location.hash) window.history.replaceState(null, "", next);
   }
 
   function setBusy(value) {
@@ -269,6 +280,7 @@
   function apply() {
     syncFilterIndicators();
     if (!ready) return;
+    syncURL();
     if (fullMode()) { loadApiPage(1); return; }
     const query = normalized(ui["master-query"].value).trim(), tokens = query.split(/\s+/).filter(Boolean);
     const digits = /^[+\d\s().-]+$/.test(query) ? query.replace(/\D/g, "") : "";
