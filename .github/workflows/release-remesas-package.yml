@@ -1,0 +1,79 @@
+name: Paquete descargable · Punto Envíos
+on:
+  push:
+    branches:
+      - main
+      - feature/remesas-html-autonomo
+    paths:
+      - tools/build_remesas_package.py
+      - .github/workflows/release-remesas-package.yml
+      - data/locations.json
+      - buscador.html
+      - buscador.css
+      - buscador.js
+      - remesas-map.css
+      - remesas-map.js
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/build_remesas_package.py
+      - .github/workflows/release-remesas-package.yml
+permissions:
+  contents: write
+jobs:
+  build-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generar HTML autonomo y ZIP completo
+        run: python tools/build_remesas_package.py
+      - name: Validar los archivos de entrega
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from zipfile import ZipFile
+          out=Path("release-remesas")
+          docs=list(out.glob("*_Autonomo.html"))
+          zips=list(out.glob("*.zip"))
+          assert len(docs)==1 and len(zips)==1
+          html=docs[0].read_text(encoding="utf-8")
+          assert 'id="offline-data"' in html and 'id="remesas-map"' in html
+          assert 'fetch("/st-locations-/data/locations.json")' not in html
+          assert 'if (location.protocol === "file:") return;' in html
+          with ZipFile(zips[0]) as archive:
+              assert archive.testzip() is None
+              files=set(archive.namelist())
+              assert "datos/remesas_publicadas_4499.json" in files
+              assert "datos/base_comercial_417496.json" in files
+              assert "datos/historicos.json" in files
+              assert docs[0].name in files
+              assert any(s.startswith("datos/pendientes_revision/") for s in files)
+              source=json.loads(archive.read("datos/remesas_publicadas_4499.json"))
+              assert len(source["records"])==4499
+              manifest=json.loads(archive.read("MANIFIESTO_REGISTROS.json"))
+              assert manifest["commercial_records"]==417496
+          print("QA PASADA: HTML, ZIP y 4499 registros de remesas integrados")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: punto-envios-html-y-registros
+          path: |
+            release-remesas/*.html
+            release-remesas/*.zip
+          compression-level: 0
+          if-no-files-found: error
+      - name: Publicar descarga en GitHub Releases
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="punto-envios-remesas-2026-11-07"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-remesas/*.html release-remesas/*.zip --clobber
+          else
+            gh release create "$TAG" release-remesas/*.html release-remesas/*.zip --target "${GITHUB_SHA}" --title "Punto Envíos · HTML y todos los registros" --notes "Incluye un HTML autónomo con 4499 fichas de remesas, base comercial general de 417496 registros, contactos históricos y candidatos separados pendientes de revisión. La vigencia de teléfonos y remesas no está certificada."
+          fi
