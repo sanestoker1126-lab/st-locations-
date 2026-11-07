@@ -9,9 +9,13 @@
     <title>Buscador de negocios y remesas | Punto Envíos</title>
     <link rel="icon" href="/st-locations-/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/st-locations-/buscador.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/st-locations-/remesas-map.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous" defer></script>
     <script src="/st-locations-/buscador.js" defer></script>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'"><link rel="canonical" href="https://sanestoker1126-lab.github.io/st-locations-/buscador.html"></head>
-  <body>
+    <script src="/st-locations-/remesas-map.js" defer></script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; worker-src 'self'; style-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://nominatim.openstreetmap.org; img-src 'self' data: https://cdn.jsdelivr.net https://tile.openstreetmap.org; object-src 'none'; base-uri 'self'; form-action 'self'"><link rel="canonical" href="https://sanestoker1126-lab.github.io/st-locations-/buscador.html"></head>
+  <body class="premium-remesas">
     <a class="skip-link" href="#buscador">Saltar al buscador</a>
     <header class="header">
       <div class="shell header-inner">
@@ -54,6 +58,22 @@
             </div>
             <div class="filter-actions"><p>Los filtros se combinan. El nombre del negocio no acredita quién es su propietario.</p><button class="text-button" id="reset-filters" type="reset">Limpiar filtros <span aria-hidden="true">↺</span></button></div>
           </form>
+
+          <section class="remesas-map-panel" id="remesas-map-panel" aria-label="Minimapa de ubicaciones de remesas">
+            <div class="remesas-map-head">
+              <div><p>MAPA INTERACTIVO · ESTADOS UNIDOS</p><h3>Explora las ubicaciones</h3></div>
+              <div class="remesas-map-actions">
+                <button id="remesas-map-nearby" type="button">⌖ Mi ubicación</button>
+                <button id="remesas-map-expand" type="button" aria-expanded="false" aria-controls="remesas-map">Ampliar mapa ↗</button>
+              </div>
+            </div>
+            <div id="remesas-map" class="remesas-map-canvas" role="application" aria-label="Mapa interactivo con zoom, desplazamiento y marcadores de ubicación"></div>
+            <div class="remesas-map-bottom">
+              <p id="remesas-map-status" role="status" aria-live="polite">Preparando el minimapa…</p>
+              <p id="remesas-map-message" role="status" aria-live="polite">Las ubicaciones requieren coordenadas comprobables.</p>
+            </div>
+            <div class="remesas-map-legend" aria-label="Leyenda de los puntos"><span>Coordenada validada</span><span>Búsqueda geocodificada, sin verificar</span></div>
+          </section>
           <div class="results-toolbar"><p id="results-summary" role="status" aria-live="polite">Preparando los registros…</p><button class="outline-button" id="export-csv" type="button" disabled>Descargar resultados CSV <span aria-hidden="true">↓</span></button></div>
           <p class="evidence-notice"><strong>Antes de visitar:</strong> un registro en la base no confirma que el negocio siga abierto ni que hoy ofrezca remesas. Los enlaces de búsqueda externa son consultas para revisar coincidencias.</p>
           <div id="load-state" class="empty-state" role="status"><span aria-hidden="true">⌕</span><h3>Cargando los negocios…</h3><p>Estamos preparando el directorio y sus fuentes.</p></div>
