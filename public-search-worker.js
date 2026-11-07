@@ -118,7 +118,8 @@
       if (!params.tokens.length) return true;
       const phones = row[ix.phones] || [];
       if (params.digits && phones.some(phone => String(phone.e164 || "").includes(params.digits))) return true;
-      const haystack = normalize(["name", "address", "city", "state", "postal_code", "category", "id"].map(field => row[ix[field]] || "").join(" "));
+      const aliases = Object.hasOwn(ix, "aliases") && Array.isArray(row[ix.aliases]) ? row[ix.aliases] : [];
+      const haystack = normalize([...["name", "address", "city", "state", "postal_code", "category", "id"].map(field => row[ix[field]] || ""), ...aliases].join(" "));
       const phoneText = phones.map(phone => normalize((phone.e164 || "") + " " + (phone.display || "")));
       return params.tokens.every(token => haystack.includes(token) || phoneText.some(value => value.includes(token)));
     }
