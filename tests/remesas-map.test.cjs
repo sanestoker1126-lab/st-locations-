@@ -41,7 +41,7 @@ test("map interaction is opt-in and search filters are forwarded", () => {
   const js = read("remesas-map.js");
   const search = read("buscador.js");
   assert.match(search, /new CustomEvent\("remesas:results"/);
-  assert.match(search, /data\.mapLocate/);
+  assert.match(search, /dataset\.mapLocate/);
   assert.match(js, /ui\.results\.addEventListener\("click"/);
   assert.match(js, /function matchAddress/);
   assert.match(js, /expectedZip !== foundZip/);
