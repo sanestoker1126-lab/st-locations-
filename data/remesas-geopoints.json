@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "dataset_id": "1a7a3091335aaefd56665aff33f0548d5dcbd47fd1356ece36948a3beb48ec5a",
+  "description": "Solo coordenadas de dirección verificadas con procedencia y fecha. No inferir coordenadas ni confundir geocodificación con validación.",
+  "points": []
+}

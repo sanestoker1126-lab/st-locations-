@@ -175,6 +175,11 @@
       if (link) profiles.append(link);
     }
     if (profiles.childNodes.length) main.append(profiles);
+    const mapButton = element("button", "map-locate-button", "⌖  Ubicar en minimapa");
+    mapButton.type = "button";
+    mapButton.dataset.mapLocate = string(record.id);
+    mapButton.setAttribute("aria-label", "Ubicar en minimapa: " + string(record.name));
+    main.append(mapButton);
     const details = element("details", "card-details");
     details.append(element("summary", "", "Ver fuentes y cruzar datos"));
     const body = element("div", "detail-content");
@@ -195,6 +200,7 @@
   }
   function render() {
     ui.results.replaceChildren();
+    window.dispatchEvent(new CustomEvent("remesas:results", { detail: { records: filtered } }));
     ui["export-csv"].disabled = filtered.length === 0;
     ui.pagination.hidden = filtered.length <= PAGE_SIZE;
     ui["load-state"].hidden = filtered.length > 0;

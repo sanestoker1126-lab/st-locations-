@@ -1,0 +1,29 @@
+name: QA · Buscador de remesas y minimapa
+on:
+  pull_request:
+    paths:
+      - 'buscador.html'
+      - 'buscador.js'
+      - 'remesas-map.js'
+      - 'remesas-map.css'
+      - 'data/remesas-geopoints.json'
+      - 'tests/**'
+      - '.github/workflows/qa-remesas.yml'
+  push:
+    branches: [feature/remesas-minimapa-premium]
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Revisar sintaxis y pruebas
+        run: |
+          node --check buscador.js
+          node --check remesas-map.js
+          node --check public-search-worker.js
+          node --test tests/*.test.cjs
