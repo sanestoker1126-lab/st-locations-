@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "dataset_id_at_comparison": "1a7a3091335aaefd56665aff33f0548d5dcbd47fd1356ece36948a3beb48ec5a",
+  "source_files": [
+    "BASE_MAESTRA_REMESAS_USA_AUDITADA_2026-11-04.csv",
+    "BASE_MAESTRA_REMESAS_USA_AUDITADA_2026-11-04.xlsx",
+    "Negocios_latinos_remesas_USA.xlsx",
+    "negocios_latinos_envios_dinero_USA_registros_actuales.xlsx",
+    "directorio_remesas_latinos_lote_auditado_2026-10-04.xlsx",
+    "directorio_remesas_latinos_lote_auditado_2026-10-04(1).xlsx"
+  ],
+  "source_rows": 11004,
+  "published_us": 8437,
+  "classification": {
+    "EXISTE_ID": 5326,
+    "EXISTE_ENTIDAD": 103,
+    "POSIBLE_TEL_DIRECCION": 158,
+    "POSIBLE_DIRECCION": 105,
+    "POSIBLE_TEL_CIUDAD": 345,
+    "REPETIDO_ENTRE_ARCHIVOS": 3,
+    "SIN_COINCIDENCIA": 4964
+  },
+  "new_without_match": 4964,
+  "staged_for_validation": 3532,
+  "staged_incomplete_or_excluded": 1432,
+  "held_possible_duplicates": 608,
+  "exclusion_reason_tallies": {
+    "telefono_faltante_o_invalido": 1112,
+    "cadena_o_marca_excluida": 162,
+    "remesadora_no_identificada": 65,
+    "telefono_gratuito_o_premium": 105
+  },
+  "historical_high_evidence_staged": 6,
+  "current_phone_verifications": 0,
+  "public_manifest_untouched": true,
+  "public_total_before": 417496,
+  "public_total_after": 417496
+}
