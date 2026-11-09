@@ -1,3 +1,4 @@
 data/public/shards/*.json -text
 *.gz -text
 *.zip -text
+*.xlsx -text
