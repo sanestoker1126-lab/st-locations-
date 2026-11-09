@@ -1,0 +1,56 @@
+source,source_name,address,city,state,phone,providers,match_rule,matched_master_ids,already_in_other_supplement,publish
+directorio_2026-11-06,La Teresita Supermarket,3302 W Columbus Dr,Tampa,FL,(813) 876-2024,Ria,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001628,NO,NO; requiere validación vigente
+directorio_2026-11-06,La Tienda Dollar - Orlando,11570 S Orange Blossom Trl,Orlando,FL,(407) 852-6233,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0002,NO,NO; requiere validación vigente
+directorio_2026-11-06,La Tienda Dollar - Tampa,7522 N Armenia Ave,Tampa,FL,(813) 879-3835,No identificada,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-006893,NO,NO; requiere validación vigente
+directorio_2026-11-06,Los Portales - S Kerr Ave,912 S Kerr Ave,Wilmington,NC,(910) 799-7262,MoneyGram; Intermex,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-002311,NO,NO; requiere validación vigente
+directorio_2026-11-06,Super Carniceria Compare - Aurora,541 N Sable Blvd,Aurora,CO,(720) 532-0119,MoneyGram,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-001426 | REM-010244,NO,NO; requiere validación vigente
+directorio_2026-11-06,Super Carniceria Compare - Denver,2796 S Federal Blvd,Denver,CO,(303) 761-4430,No identificada,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-001468 | REM-010255,NO,NO; requiere validación vigente
+directorio_2026-11-06,El Mercadito Grocery LLC,33 Bouton St,Norwalk,CT,(203) 604-1244,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0003,NO,NO; requiere validación vigente
+directorio_2026-11-06,Paloma Market Envios de Dinero,4075 Main St,Los Angeles,CA,(323) 521-1822,Ria; MoneyGram; Vigo; Orlandi Valuta; Intermex,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0004,NO,NO; requiere validación vigente
+directorio_2026-11-06,Tienda Xelajú,812 W Slauson Ave,Los Angeles,CA,(323) 750-8189,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0005,NO,NO; requiere validación vigente
+directorio_2026-11-06,Jorge's Home Fashion,2709 W 6th St,Los Angeles,CA,(213) 674-7495,Ria,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-004844,NO,NO; requiere validación vigente
+directorio_2026-11-06,Domingo's Financial Services,3208 W Jefferson Blvd,Los Angeles,CA,(323) 620-4845,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-005759,NO,NO; requiere validación vigente
+directorio_2026-11-06,Envios Gonzalez,5333 Main St Ste 100,Los Angeles,CA,(323) 918-2078,Intermex; Maxi; Intercambio Express; Vigo; Orlandi Valuta,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0006,NO,NO; requiere validación vigente
+directorio_2026-11-06,La Fiesta Meat Market,15020 Hawthorne Blvd Ste H,Lawndale,CA,(310) 263-0463,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0007,NO,NO; requiere validación vigente
+directorio_2026-11-06,Gringo Loco,3825 Independence Ave,Kansas City,MO,(816) 492-6152,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0008,NO,NO; requiere validación vigente
+directorio_2026-11-06,La Favorita Gift Shop,361 Willow St #1,San Jose,CA,(408) 971-1646,Ria,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-001333,NO,NO; requiere validación vigente
+directorio_2026-11-06,Spanish Grocery LLC,319 S Main Ave,Scranton,PA,(570) 341-9780,Ria,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0009,NO,NO; requiere validación vigente
+directorio_2026-11-06,M & M Laundromat,206 N Main St,Pleasantville,NJ,(609) 646-6448,Ria,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0010,NO,NO; requiere validación vigente
+directorio_2026-11-06,Supermercado Viva Mexico y Envios de Dinero,2264 Sheridan Rd,Zion,IL,(224) 946-5633,No identificada,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-000288,NO,NO; requiere validación vigente
+directorio_2026-11-06,Colenvia - Tienda Latina,4300 S Semoran Blvd Ste 104-105,Orlando,FL,(407) 575-1058,No identificada,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-010781,NO,NO; requiere validación vigente
+directorio_2026-11-06,Tu Lana Express y Más,2929 Beverly Blvd,Los Angeles,CA,(213) 908-5089,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-004941,NO,NO; requiere validación vigente
+directorio_2026-11-06,Carniceria Latino Americana,2800 Cherokee St,Saint Louis,MO,(314) 773-1707,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-000407,NO,NO; requiere validación vigente
+directorio_2026-11-06,Tienda El Ranchito,2565 N 32nd St,East Saint Louis,IL,(618) 875-3227,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001796,NO,NO; requiere validación vigente
+directorio_2026-11-06,Carniceria El Campesino,635 W Greenfield Ave,Milwaukee,WI,(414) 645-0288,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-003287,NO,NO; requiere validación vigente
+directorio_2026-11-06,El Aguila Multiservices - Milwaukee,3235 W Lincoln Ave,Milwaukee,WI,(414) 616-1902,MoneyGram,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-003288,NO,NO; requiere validación vigente
+directorio_2026-11-06,Tienda Mexicana Guerrero,251 E 4th St,Fremont,NE,(402) 727-0979,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0011,NO,NO; requiere validación vigente
+directorio_2026-11-06,Garcia Taqueria y Panaderia,1900 Okeechobee Rd,Fort Pierce,FL,(772) 882-9508,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001538,NO,NO; requiere validación vigente
+directorio_2026-11-06,Tienda y Carniceria Mi Pueblo Corp,180 Riverstone Pkwy Ste 120,Canton,GA,(770) 720-1270,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001660,NO,NO; requiere validación vigente
+directorio_2026-11-06,El Fenix Carniceria,29941 Aventura Ste F-H,Rancho Santa Margarita,CA,(949) 459-3809,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0012,NO,NO; requiere validación vigente
+directorio_2026-11-06,Los Paisanos Carniceria & Taqueria,4402 Sherwood Ln,Houston,TX,(713) 681-6464,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-003028,NO,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,La Teresita Supermarket,3302 W Columbus Dr,Tampa,FL,(813) 876-2024,Ria,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001628,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,La Tienda Dollar - Orlando,11570 S Orange Blossom Trl,Orlando,FL,(407) 852-6233,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0002,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,La Tienda Dollar - Tampa,7522 N Armenia Ave,Tampa,FL,(813) 879-3835,No identificada,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-006893,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Los Portales - S Kerr Ave,912 S Kerr Ave,Wilmington,NC,(910) 799-7262,MoneyGram; Intermex anunciado por marca (sucursal pendiente),TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-002311,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Super Carniceria Compare - Aurora,541 N Sable Blvd,Aurora,CO,(720) 532-0119,Proveedor sin atribución segura a esta sucursal,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-001426 | REM-010244,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Super Carniceria Compare - Denver,2796 S Federal Blvd,Denver,CO,(303) 761-4430,Proveedor sin atribución segura a esta sucursal,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-001468 | REM-010255,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,El Mercadito Grocery LLC,33 Bouton St,Norwalk,CT,(203) 604-1244,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0003,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Tienda Xelajú,812 W Slauson Ave,Los Angeles,CA,(323) 750-8189,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0005,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Jorge's Home Fashion,2709 W 6th St,Los Angeles,CA,(213) 674-7495,Ria,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-004844,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Domingo's Financial Services,3208 W Jefferson Blvd,Los Angeles,CA,(323) 620-4845,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-005759,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Envios Gonzalez,5333 Main St Ste 100,Los Angeles,CA,(323) 918-2078,Intermex; Maxi; Intercambio Express; Vigo; Orlandi Valuta,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0006,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,La Fiesta Meat Market,15020 Hawthorne Blvd Ste H,Lawndale,CA,(310) 263-0463,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0007,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Gringo Loco,3825 Independence Ave,Kansas City,MO,(816) 492-6152,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0008,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,La Favorita Gift Shop,361 Willow St #1,San Jose,CA,(408) 971-1646,Ria,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-001333,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Spanish Grocery LLC,319 S Main Ave,Scranton,PA,(570) 341-9780,Ria,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0009,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Colenvia - Tienda Latina,4300 S Semoran Blvd Ste 104-105,Orlando,FL,(407) 575-1058,No identificada,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-010781,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Tu Lana Express y Más,2929 Beverly Blvd,Los Angeles,CA,(213) 908-5089,No identificada,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-004941,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Carniceria Latino Americana,2800 Cherokee St,Saint Louis,MO,(314) 773-1707,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-000407,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Tienda El Ranchito,2565 N 32nd St,East Saint Louis,IL,(618) 875-3227,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001796,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Carniceria El Campesino,635 W Greenfield Ave,Milwaukee,WI,(414) 645-0288,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-003287,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,El Aguila Multiservices - Milwaukee,3235 W Lincoln Ave,Milwaukee,WI,(414) 616-1902,MoneyGram,TELEFONO_CIUDAD_ESTADO_COTEJAR_ALIAS_DIRECCION,REM-003288,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Tienda Mexicana Guerrero,251 E 4th St,Fremont,NE,(402) 727-0979,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0011,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Garcia Taqueria y Panaderia,1900 Okeechobee Rd,Fort Pierce,FL,(772) 882-9508,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001538,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Tienda y Carniceria Mi Pueblo Corp,180 Riverstone Pkwy Ste 120,Canton,GA,(770) 720-1270,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-001660,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,El Fenix Carniceria,29941 Aventura Ste F-H,Rancho Santa Margarita,CA,(949) 459-3809,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,LIB-20261106-0012,YES,NO; requiere validación vigente
+telefonos_respaldados_2026-11-06,Los Paisanos Carniceria & Taqueria,4402 Sherwood Ln,Houston,TX,(713) 681-6464,MoneyGram,NOMBRE_DIRECCION_CIUDAD_ESTADO,REM-003028,YES,NO; requiere validación vigente
