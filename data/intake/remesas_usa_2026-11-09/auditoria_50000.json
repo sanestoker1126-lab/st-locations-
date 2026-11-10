@@ -1,0 +1,47 @@
+{
+  "audit_date": "2026-11-09",
+  "objective_us_independent_money_transfer_businesses": 50000,
+  "published_us_reference_from_pr2": 8437,
+  "published_global_reference_from_pr2": 417496,
+  "legacy_pr2_raw_rows_reviewed": 11004,
+  "legacy_pr2_pending_uncertified": 3532,
+  "legacy_pr2_ambiguous": 608,
+  "local_master_records": 10947,
+  "local_master_unique_internal_ids": 10947,
+  "local_master_status_count": {
+    "CANDIDATO_HISTORICO_NO_CERTIFICADO": 9334,
+    "REQUIERE_TELEFONO_VALIDO": 1171,
+    "CUARENTENA_DUPLICADO_O_CONFLICTO": 357,
+    "EXCLUIDO_CADENA": 69,
+    "REQUIERE_PROVEEDOR_REML": 14,
+    "RESPALDADO_WEB_SIN_LLAMADA": 2
+  },
+  "local_exact_name_address_duplicate_groups": 0,
+  "local_phone_address_collision_groups": 110,
+  "local_phone_address_collision_records": 222,
+  "historical_ids_not_retained": 67,
+  "historical_ids_with_potential_master_match": 67,
+  "supplemental_documents_rows_checked": 55,
+  "supplemental_exact_name_address_matches": 38,
+  "supplemental_phone_city_alias_review": 17,
+  "supplemental_without_local_match": 0,
+  "supplemental_duplicate_rows_between_two_supplements": 26,
+  "new_publicable_certified_by_2026_11_09_audit": 0,
+  "phone_or_agent_live_certifications_by_2026_11_09_audit": 0,
+  "nominal_gap_from_pr2_us_published_count": 41563,
+  "public_manifest_modified": false,
+  "public_download_modified": false,
+  "source_references": [
+    "https://github.com/sanestoker1126-lab/st-locations-/pull/2",
+    "REMESAS_USA_CONSOLIDADO_AUDITADO_2026-11-06.csv (Library)",
+    "BASE_MAESTRA_REMESAS_USA_AUDITADA_2026-11-04.csv (Library)",
+    "directorio_negocios_latinos_remesas_USA_2026-11-06.csv (Library)",
+    "NEGOCIOS_REMESAS_TELEFONOS_RESPALDADOS_2026-11-06.csv (Library)"
+  ],
+  "warnings": [
+    "No suponer que 10,947, 3,532 y 8,437 son conjuntos disjuntos.",
+    "Los teléfonos con formato válido NO están certificados por llamada.",
+    "La igualdad de teléfono+ciudad es evidencia de cotejo, no prueba definitiva de identidad.",
+    "El catálogo global de 417,496 no equivale a negocios de remesas independientes verificados."
+  ]
+}
