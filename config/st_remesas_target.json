@@ -1,0 +1,18 @@
+{
+  "production_url": "https://st-remesas.vercel.app/",
+  "platform": "vercel",
+  "vercel_team_id": "team_DAQi7HOE0NXs0A1o0y4gmiXd",
+  "vercel_project_id": "prj_6oKmNWNrV1VIlZHVYbNaBroJGTiH",
+  "vercel_project_name": "st-remesas",
+  "reference_format": "concatenated-json-text-parts",
+  "reference_data_prefix": "/data/",
+  "reference_part_count": 27,
+  "reference_glob": "/data/[000..026].txt",
+  "public_records_observed_on_site": 9236,
+  "observed_at_local_date": "2026-11-10",
+  "production_git_link_detected": false,
+  "authoritative_public_reference": "vercel-live",
+  "github_pages_is_production_reference": false,
+  "automatic_publication_enabled": false,
+  "note": "The 9236 site listings are not individually validated remittance agents, nor verified live phones. Always obtain a fresh production snapshot at reconciliation time."
+}
