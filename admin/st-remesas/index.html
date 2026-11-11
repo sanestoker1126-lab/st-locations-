@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#091d24">
+<title>ST Remesas | Centro privado de verificación</title><link rel="stylesheet" href="/admin.css"><script src="/admin.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#workspace">Ir al panel</a>
+<header class="topbar"><div class="wrap bar"><div class="brand"><span class="logo">ST</span><span><strong>ST REMESAS</strong><small>OPERACIONES · USO PRIVADO</small></span></div><div class="top-actions"><span class="security">🔒 Protegido por Vercel Authentication</span><a href="https://st-remesas.vercel.app/" target="_blank" rel="noopener noreferrer">Abrir buscador público ↗</a></div></div></header>
+<main id="workspace" class="wrap">
+<section class="hero"><div><div class="eyebrow">CENTRO PRIVADO DE CONSOLIDACIÓN</div><h1>Investigar primero.<br><em>Publicar solo lo verificado.</em></h1><p>Consulta fuentes autorizadas, comprueba coincidencias contra las 9,236 fichas de ST Remesas y registra decisiones sin alterar la publicación.</p></div><div class="hero-proof"><span>BASE DE REFERENCIA</span><strong>ST Remesas · Vercel</strong><small id="public-status">Referencia pública · última verificación pendiente</small><a href="https://st-remesas.vercel.app/" target="_blank" rel="noopener noreferrer">st-remesas.vercel.app ↗</a></div></section>
+<div class="notice" role="note"><strong>Sin publicación automática.</strong> Los resultados son indicios documentales. Un número de teléfono técnicamente válido no confirma el propietario y una empresa registrada no acredita un agente de remesas.</div>
+<section class="dashboard" aria-label="Indicadores de configuración"><div class="metric"><label>Conectores listos</label><strong id="enabled-count">—</strong><small>De 5 APIs disponibles</small></div><div class="metric"><label>Directorio público</label><strong>9,236</strong><small>Referencia histórica del 11/11/2026; validar al comparar</small></div><div class="metric"><label>Publicaciones automáticas</label><strong>0</strong><small>Política bloqueada</small></div><div class="metric"><label>Registros en sesión</label><strong id="session-count">0</strong><small>Sin almacenamiento en servidor</small></div></section>
+<div class="grid">
+<section class="panel" aria-labelledby="form-title"><div class="panel-heading"><div><div class="eyebrow">01 · FICHA CANDIDATA</div><h2 id="form-title">Identidad del establecimiento</h2></div><span class="pill">Revisión manual</span></div>
+<form id="candidate-form" autocomplete="off">
+<label for="name">Nombre comercial <span>*</span></label><input id="name" name="name" maxlength="120" placeholder="Ej. La Fama Grocery" required>
+<label for="address">Dirección física</label><input id="address" name="address" maxlength="140" placeholder="Ej. 5303 W 65th St">
+<div class="two"><div><label for="city">Ciudad <span>*</span></label><input id="city" name="city" required placeholder="Little Rock"></div><div><label for="state">Estado (2 letras) <span>*</span></label><input id="state" name="state" pattern="[A-Za-z]{2}" maxlength="2" required placeholder="AR"></div></div>
+<label for="phone">Teléfono informado por la fuente</label><input id="phone" name="phone" type="tel" maxlength="35" placeholder="(501) 555-0142">
+<div class="actions"><button class="primary" type="button" id="compare">Cruzar con ST Remesas</button><button class="secondary" type="button" id="keep">Añadir a revisión local</button></div>
+</form>
+<div class="divider"></div><div class="panel-heading"><div><div class="eyebrow">02 · INVESTIGACIÓN</div><h3>Consulta una fuente</h3></div></div>
+<div id="providers" class="sources" aria-live="polite"><p>Consultando disponibilidad de APIs…</p></div>
+<p class="muted small">Cada consulta se ejecuta al pulsar y puede generar cargos con el proveedor. Las claves solo se almacenan en las variables privadas del proyecto Vercel.</p>
+</section>
+<section class="panel side" aria-label="Resultados y decisiones"><div class="panel-heading"><div><div class="eyebrow">EVIDENCIA Y COINCIDENCIAS</div><h2>Resultados de investigación</h2></div><button class="small-btn" id="clear-result" type="button">Limpiar</button></div>
+<div id="feedback" class="feedback" role="status" aria-live="polite">Introduce un establecimiento y selecciona una fuente. Sin fuentes configuradas, la consulta queda desactivada, pero puedes revisar candidatos localmente.</div>
+<div id="result" class="result"><div class="empty"><div class="empty-icon">◎</div><strong>Sin consulta activa</strong><span>Las coincidencias se mostrarán con su origen, fecha y clasificación conservadora.</span></div></div>
+<div class="divider"></div><div class="panel-heading"><div><div class="eyebrow">03 · IMPORTACIÓN LOCAL</div><h3>Revisar lote CSV sin subirlo</h3></div></div><label class="upload" for="csv-file"><span>Seleccionar archivo CSV</span><small>Vista previa de hasta 500 filas · los datos permanecen en tu navegador</small></label><input type="file" id="csv-file" accept=".csv,text/csv">
+<div id="csv-status" class="muted small">Sin archivo seleccionado.</div><div id="csv-preview" class="mini-list"></div>
+<div class="divider"></div><div class="panel-heading"><div><div class="eyebrow">04 · EXPORTAR AUDITORÍA</div><h3>Cola local de revisión</h3></div></div><div class="actions"><button class="secondary" id="export-review" type="button">Exportar CSV de revisión</button><button class="outline" id="clear-review" type="button">Vaciar sesión</button></div><p class="muted small">Los registros de esta sesión no se publican ni se almacenan al cerrar la página.</p>
+</section></div>
+<section class="footnote"><div><h3>Integraciones disponibles tras configurar claves</h3><p>Google Places, Foursquare, Yelp, OpenCorporates y Twilio Lookup. Firecrawl y Tavily continúan disponibles en los flujos de investigación conectados a ChatGPT, pero no se presume que sus credenciales estén instaladas en Vercel.</p></div><a href="https://vercel.com/docs/environment-variables" target="_blank" rel="noopener noreferrer">Configurar variables de entorno ↗</a></section>
+</main><footer class="wrap footer">ST Remesas · Centro administrativo aislado · No verifica automáticamente remesadoras, teléfonos ni titularidad · 2026</footer>
+</body></html>

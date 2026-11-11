@@ -1,0 +1,28 @@
+name: QA · ST Remesas administrador privado
+on:
+  pull_request:
+    paths:
+      - 'admin/st-remesas/**'
+      - '.github/workflows/qa-st-remesas-admin.yml'
+permissions:
+  contents: read
+jobs:
+  admin-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar sintaxis
+        run: |
+          node --check admin/st-remesas/api/connectors.js
+          node --check admin/st-remesas/admin.js
+      - name: Pruebas API y seguridad
+        run: node --test admin/st-remesas/tests/*.test.cjs
+      - name: Asegurar que no haya claves en código
+        run: |
+          if grep -nE '(^|[^A-Z_])(sk-[[:alnum:]]{20,}|fc-[[:alnum:]]{20,})' admin/st-remesas/*.js admin/st-remesas/api/*.js; then
+            echo 'Possible embedded secret'; exit 1
+          fi

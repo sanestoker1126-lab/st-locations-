@@ -1,0 +1,9 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');
+const app=require('../api/connectors.js');const x=app._test;
+test('normalización conservadora',()=>{assert.equal(x.norm('Av.  10   ROAD'), 'av 10 rd');assert.equal(x.norm('La FÁMA'), 'la fama');});
+test('E.164 evita formatos inválidos',()=>{assert.equal(x.e164('(501) 480-2089'),'+15014802089');assert.equal(x.e164('123'),null);assert.equal(x.e164('000-000-0000'),null)});
+test('no hay credenciales o tokens expuestos por status',()=>{const cfg=x.configs();assert.equal(cfg.twilio.configured,false);assert.ok(!JSON.stringify(cfg).includes('TWILIO_ACCOUNT_SID'));});
+test('payload exige identificadores necesarios',()=>{assert.throws(()=>x.validate({name:'A'}));assert.throws(()=>x.validate({name:'El Rey',city:'Raleigh',state:'North Carolina'}));assert.equal(x.validate({name:'El Rey',city:'Raleigh',state:'NC'}).name,'El Rey');});
+test('puntuación no certifica negocios',()=>{assert.equal(x.score({name:'La Fama',address:'10 Main St',city:'Raleigh'},{name:'La Fama',address:'10 Main St',city:'Raleigh'}),99)});
+test('GET responde sin datos privados',async()=>{const h={};const res={setHeader(k,v){h[k]=v},end(s){this.body=JSON.parse(s)}};await app({method:'GET',headers:{}},res);assert.equal(res.statusCode,200);assert.equal(res.body.publication,false);assert.equal(res.body.features.automatic_merge,false);});
+test('POST no acepta solicitudes cross-site',async()=>{const res={setHeader(){},end(s){this.body=JSON.parse(s)}};await app({method:'POST',headers:{origin:'https://attacker.invalid',host:'st-remesas-admin.vercel.app'},body:{action:'compare',business:{name:'A',city:'B',state:'NC'}}},res);assert.equal(res.statusCode,403);});
