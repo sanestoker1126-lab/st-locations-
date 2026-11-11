@@ -17,14 +17,18 @@ def main():
     report_path=root/'data/staging/reconciliation_report.json'
     report_path.parent.mkdir(parents=True,exist_ok=True)
     available=[(source,filename) for source,filename in SOURCES.items() if (input_dir/filename).is_file() and (input_dir/filename).stat().st_size>0]
-    summary={'schema_version':2,'status':'BLOCKED_NO_INPUTS','has_source_snapshots':bool(available),'source_snapshot_count':len(available),'input_roster_expected':len(SOURCES),'personal_data_published':False,'automatic_publication':False}
+    live_reference=work_dir/'st-remesas-live.json'
+    summary={'production_target':'https://st-remesas.vercel.app','production_project_id':'prj_6oKmNWNrV1VIlZHVYbNaBroJGTiH','vercel_reference_loaded':live_reference.is_file(),'schema_version':2,'status':'BLOCKED_NO_INPUTS','has_source_snapshots':bool(available),'source_snapshot_count':len(available),'input_roster_expected':len(SOURCES),'personal_data_published':False,'automatic_publication':False}
     if not available:
         print('BLOCKED_NO_INPUTS: Drive/Biblioteca/regulatorios no disponibles. No se declara conciliación realizada.')
+    elif not live_reference.is_file():
+        summary['status']='BLOCKED_VERCEL_REFERENCE'
+        print('BLOCKED_VERCEL_REFERENCE: falta la referencia actual de st-remesas.vercel.app; no se permite comparar como si GitHub Pages fuese producción.')
     else:
         result=ingest(input_dir,work_dir,root/'data/locations.json',root/'data/master-contacts.json')
         summary.update({k:v for k,v in result.items() if k!='date_utc'})
-        summary['status']='STAGING_READY' if result['repo_references']['published_reference_loaded'] and result['repo_references']['commercial_reference_loaded'] else 'INCOMPLETE_GITHUB_REFERENCE'
-        reference=root/'data/locations.json'
+        summary['status']='STAGING_READY' if live_reference.is_file() and result['repo_references']['commercial_reference_loaded'] else 'INCOMPLETE_GITHUB_REFERENCE'
+        reference=live_reference
         if reference.is_file() and (work_dir/'candidatos_enriquecidos_NO_PUBLICAR.csv').is_file():
             try:
                 overlaps=crosswalk(work_dir/'candidatos_enriquecidos_NO_PUBLICAR.csv',reference,work_dir)
@@ -34,6 +38,7 @@ def main():
                 summary['published_overlap_error']=type(exc).__name__
                 summary['status']='INCOMPLETE_GITHUB_REFERENCE'
         # Record only aggregate source metadata in public staging report; no raw contacts.
+    summary['comparison_baseline']='ST Remesas Vercel production (27 text chunks)'
     report_path.write_text(json.dumps(summary,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
     (work_dir/'estado_operacion.json').write_text(json.dumps({'status':summary['status'],'available_sources':[x[0] for x in available],'expected_sources':len(SOURCES),'no_publication':True},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     if os.environ.get('GITHUB_OUTPUT'):
