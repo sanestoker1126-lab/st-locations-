@@ -8,10 +8,12 @@ on:
     paths:
       - 'tools/remesas_reconcile.py'
       - 'tools/remesas_reconcile_ci.py'
+      - 'tools/remesas_vercel_reference.py'
       - 'tools/remesas_repo_crosswalk.py'
       - 'tools/remesas_sync_drive.py'
       - 'tests/test_remesas_reconcile.py'
       - 'tests/test_remesas_repo_crosswalk.py'
+      - 'tests/test_remesas_vercel_reference.py'
       - '.github/workflows/remesas-reconciliation.yml'
 permissions:
   contents: write
@@ -37,7 +39,9 @@ jobs:
       - name: Ejecutar pruebas de identidad, cruces y no publicación
         run: |
           python -m unittest discover -s tests -p 'test_remesas_*.py' -v
-      - name: Conciliar contra el catálogo vigente (sin modificarlo)
+      - name: Descargar referencia pública de ST Remesas (efímera; no publicar)
+        run: python tools/remesas_vercel_reference.py --out /tmp/st-locations-reconciliation/st-remesas-live.json
+      - name: Conciliar contra ST Remesas en Vercel (sin modificarlo)
         id: reconciliation
         run: python tools/remesas_reconcile_ci.py
       - uses: actions/upload-artifact@v4
@@ -49,7 +53,7 @@ jobs:
             data/staging/reconciliation_report.json
           retention-days: 30
       - name: PR solo de métricas agregadas (nunca contactos ni CSV de origen)
-        if: steps.reconciliation.outputs.has_sources == 'true'
+        if: steps.reconciliation.outputs.status == 'STAGING_READY'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -60,6 +64,7 @@ jobs:
           body: |
             Conciliación automática **solo de staging**. El PR contiene métricas agregadas.
             **No incluye teléfonos, propietarios ni direcciones de candidatos**.
+            Referencia de comparación: https://st-remesas.vercel.app (Vercel Project prj_6oKmNWNrV1VIlZHVYbNaBroJGTiH).
             No modifica `data/locations.json`, `data/master-contacts.json` ni la web.
             Se requiere verificación humana de negocios, operadores y teléfonos antes de publicar.
           add-paths: |
