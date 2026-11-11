@@ -1,0 +1,22 @@
+name: QA · ST Remesas conectores externos
+on:
+  pull_request:
+    paths:
+      - 'st-remesas-connectors.js'
+      - 'tests/test-st-remesas-connectors.cjs'
+      - '.github/workflows/qa-st-remesas-connectors.yml'
+permissions:
+  contents: read
+jobs:
+  connectors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Comprobar sintaxis
+        run: node --check st-remesas-connectors.js
+      - name: Validar URLs e intents
+        run: node --test tests/test-st-remesas-connectors.cjs
