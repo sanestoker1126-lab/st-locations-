@@ -1,0 +1,58 @@
+name: ST Locations · Reconciliación de fuentes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *' # cada 6 horas UTC; GitHub puede retrasar las ejecuciones
+  push:
+    paths:
+      - 'tools/remesas_reconcile.py'
+      - 'tools/remesas_reconcile_ci.py'
+      - 'tools/remesas_sync_drive.py'
+      - 'data/staging/remesas_sources/**'
+      - '.github/workflows/remesas-reconciliation.yml'
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencias opcionales de Google Sheets
+        run: python -m pip install 'google-auth>=2.35,<3' 'requests>=2.31,<3'
+      - name: Sincronizar instantáneas de Drive (solo lectura)
+        env:
+          ST_LOCATIONS_GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.ST_LOCATIONS_GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python tools/remesas_sync_drive.py --input-dir data/staging/remesas_sources
+      - name: Ejecutar pruebas de identidad y no publicación
+        run: python -m unittest discover -s tests -p 'test_reconcile.py' -v
+      - name: Conciliar contra el catálogo vigente (sin modificarlo)
+        run: python tools/remesas_reconcile_ci.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: informe-reconciliacion
+          path: |
+            /tmp/st-locations-reconciliation/reporte_conciliacion.json
+            /tmp/st-locations-reconciliation/revision_conflictos.csv
+            /tmp/st-locations-reconciliation/manifest_fuentes.csv
+          retention-days: 30
+      - name: PR de cambios detectados (requiere permiso Actions para PR)
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/remesas-staging
+          base: main
+          title: 'ST Locations · fuentes actualizadas para revisión'
+          commit-message: 'chore(remesas): actualizar instantáneas y reporte no publicable'
+          body: |
+            Conciliación automática conservadora. **No modifica** `data/locations.json`,
+            `data/master-contacts.json`, ni las páginas públicas.
+            Revisar conflictos, licencias, teléfonos y pruebas de servicio antes de integrar.
+          add-paths: |
+            data/staging/remesas_sources/*.csv
+            data/staging/reconciliation_report.json
+          delete-branch: true
