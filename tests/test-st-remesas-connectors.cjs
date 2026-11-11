@@ -28,7 +28,7 @@ test('phone normalization excludes invalid',()=>{
  for(const v of ['555','123-ABC','', '12345678901234567']) assert.equal(c.cleanPhone(v),'');
 });
 test('no auto calling or unauthorized networking',()=>{
- const fs=require('node:fs');const js=fs.readFileSync(require('node:path').join(__dirname,'../site/st-remesas-connectors.js'),'utf8');
+ const fs=require('node:fs');const js=fs.readFileSync(require('node:path').join(__dirname,'../st-remesas-connectors.js'),'utf8');
  assert.ok(js.includes('MutationObserver'));
  assert.ok(!/\bfetch\(/.test(js));
  assert.ok(!/\bXMLHttpRequest\b/.test(js));
