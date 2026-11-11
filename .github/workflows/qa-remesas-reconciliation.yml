@@ -1,0 +1,23 @@
+name: QA · conciliación remesas (Python)
+on:
+  pull_request:
+    paths:
+      - 'tools/remesas_*.py'
+      - 'tests/test_remesas_*.py'
+      - '.github/workflows/remesas-reconciliation.yml'
+      - '.github/workflows/qa-remesas-reconciliation.yml'
+permissions:
+  contents: read
+jobs:
+  qa-python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compilacion sintactica
+        run: python -m compileall -q tools/remesas_reconcile.py tools/remesas_reconcile_ci.py tools/remesas_repo_crosswalk.py
+      - name: Pruebas Python sin red ni credenciales
+        run: python -m unittest discover -s tests -p 'test_remesas_*.py' -v
